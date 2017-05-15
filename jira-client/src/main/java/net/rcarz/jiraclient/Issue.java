@@ -555,7 +555,7 @@ public class Issue extends Resource {
             this.startAt = startAt;
         }
         
-        @Override
+        
         public boolean hasNext() {
             if (nextIssue != null) {
                 return true;
@@ -568,7 +568,6 @@ public class Issue extends Resource {
             return nextIssue != null;
         }
 
-        @Override
         public Issue next() {
             if (! hasNext()) {
                 throw new NoSuchElementException();
@@ -578,7 +577,6 @@ public class Issue extends Resource {
             return result;
         }
 
-        @Override
         public void remove() {
             throw new UnsupportedOperationException("Method remove() not support for class " +
                                                     this.getClass().getName());
