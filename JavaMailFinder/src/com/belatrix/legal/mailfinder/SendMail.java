@@ -1,4 +1,4 @@
-package com.mail.util;
+package com.belatrix.legal.mailfinder;
 
 import java.util.Properties;
 
