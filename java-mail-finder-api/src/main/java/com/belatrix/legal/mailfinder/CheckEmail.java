@@ -15,12 +15,12 @@ import org.apache.log4j.Logger;
 
 public class CheckEmail {
 
-	final static Logger logger = Logger.getLogger(CheckEmail.class);
+	private final static Logger LOGGER = Logger.getLogger(CheckEmail.class);
 
 	public static void check(String host, String storeType, String user, String password) {
 		try {
 			
-			logger.info("---*** Starting Application ***---");
+			LOGGER.info("Starting Application");
 
 			// //create properties field
 			// Properties properties = new Properties();
@@ -48,11 +48,11 @@ public class CheckEmail {
 			for (int i = 0, n = messages.length; i < n; i++) {
 				Message message = messages[i];
 				if (message.getSubject().contains("TEST")) {
-					System.out.println("---------------------------------");
-					System.out.println("Email Number " + (i + 1));
-					System.out.println("Subject: " + message.getSubject());
-					System.out.println("From: " + message.getFrom()[0]);
-					System.out.println("Text: " + message.getContent().toString());
+					LOGGER.info("---------------------------------");
+					LOGGER.info("Email Number " + (i + 1));
+					LOGGER.info("Subject: " + message.getSubject());
+					LOGGER.info("From: " + message.getFrom()[0]);
+					LOGGER.info("Text: " + message.getContent().toString());
 					// message.setFlags(new Flags(Flags.Flag.SEEN), false);
 				}
 			}
@@ -63,11 +63,11 @@ public class CheckEmail {
 			// store.close();
 
 		} catch (NoSuchProviderException e) {
-			e.printStackTrace();
+			LOGGER.error(e.getMessage(), e);
 		} catch (MessagingException e) {
-			e.printStackTrace();
+			LOGGER.error(e.getMessage(), e);
 		} catch (Exception e) {
-			e.printStackTrace();
+			LOGGER.error(e.getMessage(), e);
 		}
 	}
 
@@ -85,6 +85,9 @@ public class CheckEmail {
 
 	public static Message[] fetchMessages(String host, String user, String password, boolean read)
 			throws MessagingException {
+		
+		LOGGER.info("Fetching Messages");
+		
 		Properties properties = new Properties();
 		properties.put("mail.store.protocol", "imaps");
 

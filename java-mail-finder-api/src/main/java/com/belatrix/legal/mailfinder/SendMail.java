@@ -10,8 +10,14 @@ import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
+import org.apache.log4j.Logger;
+
 public class SendMail {
 
+//	private static final String url=LoadConfig.getInstance().getProperty(EPropertyMail.URL.getNameProperty());
+	
+	private final static Logger LOGGER = Logger.getLogger(SendMail.class);
+	
 	public static void main(String[] args) {
 
 		final String username = "wseminario.belatrix@gmail.com";
@@ -42,9 +48,10 @@ public class SendMail {
 
 			Transport.send(message);
 
-			System.out.println("Done");
+			LOGGER.info("Done");
 
 		} catch (MessagingException e) {
+			LOGGER.error(e.getMessage(), e);
 			throw new RuntimeException(e);
 		}
 	}
