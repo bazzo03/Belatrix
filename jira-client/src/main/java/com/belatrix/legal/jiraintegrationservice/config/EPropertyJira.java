@@ -18,7 +18,12 @@ public enum EPropertyJira {
 	/**
 	 * Password
 	 */
-	PASSWORD("properties.jira.pwd"),;
+	PASSWORD("properties.jira.pwd"),
+	
+	/**
+	 * Project Name
+	 */
+	PROJECT("properties.jira.name.project"),;
 
 	/**
 	 * Name property

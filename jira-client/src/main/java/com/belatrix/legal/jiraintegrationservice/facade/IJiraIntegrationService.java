@@ -1,15 +1,33 @@
 package com.belatrix.legal.jiraintegrationservice.facade;
 
+import org.apache.log4j.Logger;
+
+import com.belatrix.legal.jiraintegrationservice.Exception.JiraIntegrationServiceException;
 import com.belatrix.legal.jiraintegrationservice.dto.JiraIssueDTO;
 import com.belatrix.legal.jiraintegrationservice.jiraclient.JiraException;
 import com.belatrix.legal.jiraintegrationservice.services.JiraIntegrationAPI;
 
+/**
+ * Implementation of JiraIntegrationService Interface. 
+ * @author cneira
+ *
+ */
 public class IJiraIntegrationService implements JiraIntegrationService {
+	
+	/**
+	 * log
+	 */
+	private final static Logger logger = Logger.getLogger(IJiraIntegrationService.class);
 
-	public void createIssue(JiraIssueDTO issue) throws JiraException {
+	/**
+	 * Method that receive the information of mails to create Jira Issues
+	 * @throws JiraIntegrationServiceException 
+	 */
+	public String createIssue(JiraIssueDTO issue) throws  JiraIntegrationServiceException {
 		
-		JiraIntegrationAPI.createIssue(issue);
-		
+		logger.info(String.format("Init createIssue. TxId : %s ",issue.getTransactionId()));
+		 return JiraIntegrationAPI.createIssue(issue);	
+	
 	}
 
 }
