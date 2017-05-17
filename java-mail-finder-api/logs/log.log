@@ -1,1 +1,11 @@
 2017-05-16 08:57:31 INFO  CheckEmail:23 - Starting Application
+2017-05-17 16:04:40 INFO  Main:16 - Sleeping Thread...
+2017-05-17 16:04:40 INFO  EmailService:123 - Fetching Messages
+2017-05-17 16:05:06 INFO  EmailService:141 - Messages were fetched
+2017-05-17 16:05:52 INFO  Main:16 - Sleeping Thread...
+2017-05-17 16:05:52 INFO  EmailService:123 - Fetching Messages
+2017-05-17 16:06:07 INFO  EmailService:141 - Messages were fetched
+2017-05-17 16:06:18 INFO  MailApplicationService:51 - Messages found in Inbox Folder and DTO's are ready to be created
+2017-05-17 16:06:18 INFO  MailApplicationService:55 - Issues were created and are ready to be sent via Email
+2017-05-17 16:06:18 ERROR MailApplicationService:71 - No Issue created for transaction id: 
+2017-05-17 16:06:21 INFO  SendEMailService:65 - Done

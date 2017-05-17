@@ -1,6 +1,5 @@
 package com.belatrix.legal.mailfinder.services;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
@@ -18,7 +17,6 @@ import javax.mail.search.FlagTerm;
 import org.apache.commons.lang.StringUtils;
 import org.apache.log4j.Logger;
 
-import com.belatrix.legal.jiraintegrationservice.Exception.JiraIntegrationServiceException;
 import com.belatrix.legal.jiraintegrationservice.dto.JiraIssueDTO;
 import com.belatrix.legal.jiraintegrationservice.facade.IJiraIntegrationService;
 import com.belatrix.legal.jiraintegrationservice.facade.JiraIntegrationService;
@@ -140,7 +138,11 @@ public class EmailService {
 		Flags seen = new Flags(Flags.Flag.SEEN);
 		FlagTerm unseenFlagTerm = new FlagTerm(seen, read);
 		
-		return emailFolder.search(unseenFlagTerm);
+		LOGGER.info("Messages were fetched");
+		
+		Message[] messages = emailFolder.search(unseenFlagTerm);
+		
+		return messages;
 	}
 
 	public static List<JiraIssueDTO> createIssues(Message[] messages) {
@@ -173,11 +175,7 @@ public class EmailService {
 						LOGGER.error(String.format("Error in Jira Client with transaction id: ", issue.getTransactionId()));
 					}
 				}
-			} catch (MessagingException e) {
-				LOGGER.error(String.format("Error with transaction id: ", issue.getTransactionId(), e));
-			} catch (IOException e) {
-				LOGGER.error(String.format("Error with transaction id: ", issue.getTransactionId(), e));
-			} catch (JiraIntegrationServiceException e) {
+			} catch (Exception e) {
 				LOGGER.error(String.format("Error with transaction id: ", issue.getTransactionId(), e));
 			}
 			finally {

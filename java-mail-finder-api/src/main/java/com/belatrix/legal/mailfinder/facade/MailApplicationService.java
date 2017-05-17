@@ -58,9 +58,6 @@ public class MailApplicationService implements IMailApplicationService {
 			LOGGER.error("There are no Issues to be sent");
 		}
 
-		// checkEmailService.checkUnreadMessages(host, mailStoreType, username,
-		// password);
-
 	}
 
 	private void sendEmailIssues(List<JiraIssueDTO> issues) {
@@ -71,7 +68,8 @@ public class MailApplicationService implements IMailApplicationService {
 			if (dto.getJiraId() != null && !dto.getJiraId().equals(StringUtils.EMPTY)) {
 				sendMailService.sendEmail(dto.getDescription() + " " + dto.getJiraId(), MAIL_RECIPIENT, MAIL_FROM, dto.getAction());
 			} else {
-				sendMailService.sendEmail("No se creó el issue en Jira", MAIL_RECIPIENT, MAIL_FROM, dto.getAction());
+				LOGGER.error(String.format("No Issue created for transaction id: ", dto.getTransactionId()));
+				sendMailService.sendEmail("No Issue created " , MAIL_RECIPIENT, MAIL_FROM, dto.getAction());
 			}
 		}
 	}
