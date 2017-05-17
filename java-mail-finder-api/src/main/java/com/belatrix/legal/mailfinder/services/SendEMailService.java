@@ -29,10 +29,14 @@ public class SendEMailService {
 	
 	private final static Logger LOGGER = Logger.getLogger(SendEMailService.class);
 	
-	public static void sendEmail() {
+	public static void sendEmail(String text, String recipient, String addressee, String subject) {
 
 		final String username = MAIL_USERNAME;
 		final String password = MAIL_PASSWORD;
+//		text = "Dear Mail Tester \n\n This is a test message.";
+//		addressee = "wseminario.belatrix@gmail.com";
+//		recipient = "wseminario.belatrix.jira@gmail.com";
+//		subject = "NDA - Company Willy";
 
 		Properties props = new Properties();
 		props.put(MAIL_SMTP_AUTH, TRUE);
@@ -50,12 +54,11 @@ public class SendEMailService {
 		try {
 
 			Message message = new MimeMessage(session);
-			message.setFrom(new InternetAddress("wseminario.belatrix@gmail.com"));
+			message.setFrom(new InternetAddress(addressee));
 			message.setRecipients(Message.RecipientType.TO,
-				InternetAddress.parse("wseminario.belatrix.jira@gmail.com"));
-			message.setSubject("NDA - Company Willy");
-			message.setText("Dear Mail Tester,"
-				+ "\n\n This is a test message.");
+				InternetAddress.parse(recipient));
+			message.setSubject(subject);
+			message.setText(text);
 
 			Transport.send(message);
 

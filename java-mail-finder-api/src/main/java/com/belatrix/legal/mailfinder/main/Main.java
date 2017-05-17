@@ -14,7 +14,7 @@ public class Main {
 		t.start();
 		try {
 			LOGGER.info("Sleeping Thread...");
-			Thread.sleep(1000);
+			Thread.sleep(30000);
 		} catch (InterruptedException e) {
 			LOGGER.error(e.getMessage(), e);
 		}

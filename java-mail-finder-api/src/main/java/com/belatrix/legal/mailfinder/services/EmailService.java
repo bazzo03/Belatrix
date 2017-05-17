@@ -1,6 +1,7 @@
 package com.belatrix.legal.mailfinder.services;
 
 import java.util.Properties;
+import java.util.UUID;
 
 import javax.mail.Flags;
 import javax.mail.Folder;
@@ -11,10 +12,16 @@ import javax.mail.Session;
 import javax.mail.Store;
 import javax.mail.search.FlagTerm;
 
+import org.apache.commons.lang.StringUtils;
 import org.apache.log4j.Logger;
 
+import com.belatrix.legal.jiraintegrationservice.dto.JiraIssueDTO;
+import com.belatrix.legal.jiraintegrationservice.facade.IJiraIntegrationService;
+import com.belatrix.legal.jiraintegrationservice.facade.JiraIntegrationService;
 import com.belatrix.legal.mailfinder.config.EPropertyMail;
 import com.belatrix.legal.mailfinder.config.LoadConfig;
+import com.belatrix.legal.mailfinder.facade.ISendMailService;
+import com.belatrix.legal.mailfinder.facade.SendMailService;
 
 public class EmailService {
 	
@@ -24,6 +31,7 @@ public class EmailService {
 	private static final String MAIL_STORE_PROTOCOL=LoadConfig.getInstance().getProperty(EPropertyMail.MAIL_STORE_PROTOCOL.getNameProperty());
 	private static final String MAIL_IMAPS=LoadConfig.getInstance().getProperty(EPropertyMail.MAIL_IMAPS.getNameProperty());
 	private static final String MAIL_INBOX_FOLDER=LoadConfig.getInstance().getProperty(EPropertyMail.MAIL_INBOX_FOLDER.getNameProperty());
+	private static final String MAIL_FROM=LoadConfig.getInstance().getProperty(EPropertyMail.MAIL_FROM.getNameProperty());
 
 	private final static Logger LOGGER = Logger.getLogger(EmailService.class);
 
@@ -63,6 +71,25 @@ public class EmailService {
 					LOGGER.info("From: " + message.getFrom()[0]);
 					LOGGER.info("Text: " + message.getContent().toString());
 					// message.setFlags(new Flags(Flags.Flag.SEEN), false);
+					
+					IJiraIntegrationService jiraIntegrationService = new JiraIntegrationService();
+					JiraIssueDTO issue = new JiraIssueDTO();
+					issue.setAction(message.getSubject());
+					issue.setDescription(message.getDescription());
+					issue.setTransactionId(UUID.randomUUID().toString());
+					
+					String generatedId = jiraIntegrationService.createIssue(issue);
+					
+					ISendMailService sendMailService = new SendMailService();
+					
+					if (generatedId == null || generatedId.equals(StringUtils.EMPTY)) {
+						LOGGER.info("El ticket se creó en Jira con id: " + generatedId + " Para el transaction Id: " + issue.getTransactionId());
+						sendMailService.sendEmail(issue.getDescription(), MAIL_RECIPIENT, MAIL_FROM, issue.getAction());
+					} else {
+						LOGGER.error("No se pudo crear ticket en Jira para el transaction Id: " + issue.getTransactionId());
+						sendMailService.sendEmail("", MAIL_RECIPIENT, MAIL_FROM, issue.getAction());
+					}
+					
 				}
 			}
 
