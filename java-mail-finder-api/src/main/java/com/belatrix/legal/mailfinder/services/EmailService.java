@@ -1,4 +1,4 @@
-package com.belatrix.legal.mailfinder;
+package com.belatrix.legal.mailfinder.services;
 
 import java.util.Properties;
 
@@ -13,14 +13,24 @@ import javax.mail.search.FlagTerm;
 
 import org.apache.log4j.Logger;
 
-public class CheckEmail {
+import com.belatrix.legal.mailfinder.config.EPropertyMail;
+import com.belatrix.legal.mailfinder.config.LoadConfig;
 
-	private final static Logger LOGGER = Logger.getLogger(CheckEmail.class);
+public class EmailService {
+	
+	private static final String MAIL_IMAP=LoadConfig.getInstance().getProperty(EPropertyMail.MAIL_IMAP.getNameProperty());
+	private static final String MAIL_RECIPIENT=LoadConfig.getInstance().getProperty(EPropertyMail.MAIL_RECIPIENT.getNameProperty());
+	private static final String MAIL_PASSWORD=LoadConfig.getInstance().getProperty(EPropertyMail.MAIL_PASSWORD.getNameProperty());
+	private static final String MAIL_STORE_PROTOCOL=LoadConfig.getInstance().getProperty(EPropertyMail.MAIL_STORE_PROTOCOL.getNameProperty());
+	private static final String MAIL_IMAPS=LoadConfig.getInstance().getProperty(EPropertyMail.MAIL_IMAPS.getNameProperty());
+	private static final String MAIL_INBOX_FOLDER=LoadConfig.getInstance().getProperty(EPropertyMail.MAIL_INBOX_FOLDER.getNameProperty());
+
+	private final static Logger LOGGER = Logger.getLogger(EmailService.class);
 
 	public static void check(String host, String storeType, String user, String password) {
 		try {
 			
-			LOGGER.info("Starting Application");
+			LOGGER.info("Check Email Account");
 
 			// //create properties field
 			// Properties properties = new Properties();
@@ -41,9 +51,8 @@ public class CheckEmail {
 
 			// retrieve the messages from the folder in an array and print it
 			// Message[] messages = emailFolder.getMessages();
-			Message[] messages = fetchMessages("imap.gmail.com", "wseminario.belatrix.jira@gmail.com", "Willyjhon88",
+			Message[] messages = fetchMessages(MAIL_IMAP, MAIL_RECIPIENT, MAIL_PASSWORD,
 					false);
-			System.out.println("messages.length---" + messages.length);
 
 			for (int i = 0, n = messages.length; i < n; i++) {
 				Message message = messages[i];
@@ -71,31 +80,19 @@ public class CheckEmail {
 		}
 	}
 
-	public static void main(String[] args) {
-
-		String host = "pop.gmail.com";// change accordingly
-		String mailStoreType = "pop3";
-		String username = "wseminario.belatrix.jira@gmail.com";// change
-																// accordingly
-		String password = "Willyjhon88";// change accordingly
-
-		check(host, mailStoreType, username, password);
-
-	}
-
 	public static Message[] fetchMessages(String host, String user, String password, boolean read)
 			throws MessagingException {
 		
 		LOGGER.info("Fetching Messages");
 		
 		Properties properties = new Properties();
-		properties.put("mail.store.protocol", "imaps");
+		properties.put(MAIL_STORE_PROTOCOL, MAIL_IMAPS);
 
 		Session emailSession = Session.getDefaultInstance(properties);
-		Store store = emailSession.getStore("imaps");
+		Store store = emailSession.getStore(MAIL_IMAPS);
 		store.connect(host, user, password);
 
-		Folder emailFolder = store.getFolder("INBOX");
+		Folder emailFolder = store.getFolder(MAIL_INBOX_FOLDER);
 		// use READ_ONLY if you don't wish the messages
 		// to be marked as read after retrieving its content
 		emailFolder.open(Folder.READ_WRITE);
