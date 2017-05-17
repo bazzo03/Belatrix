@@ -135,14 +135,13 @@ public class EmailService {
 		emailFolder.open(Folder.READ_WRITE);
 
 		// search for all "unseen" messages
-		Flags seen = new Flags(Flags.Flag.SEEN);
-		FlagTerm unseenFlagTerm = new FlagTerm(seen, read);
+       Flags seen = new Flags(Flags.Flag.SEEN);
+       FlagTerm unseenFlagTerm = new FlagTerm(seen, read);
+       LOGGER.info("Messages were fetched");
+		return emailFolder.search(unseenFlagTerm);
 		
-		LOGGER.info("Messages were fetched");
-		
-		Message[] messages = emailFolder.search(unseenFlagTerm);
-		
-		return messages;
+		//LOGGER.info("Messages were fetched");
+		//return messages;
 	}
 
 	public static List<JiraIssueDTO> createIssues(Message[] messages) {
@@ -153,7 +152,7 @@ public class EmailService {
 			Message message = messages[i];
 			JiraIssueDTO issue = new JiraIssueDTO();
 			try {
-				if (message.getSubject().contains("TEST")) {
+				if (message.getSubject().contains("NDA")) {
 					LOGGER.info("---------------------------------");
 					LOGGER.info("Email Number " + (i + 1));
 					LOGGER.info("Subject: " + message.getSubject());
@@ -176,6 +175,7 @@ public class EmailService {
 					}
 				}
 			} catch (Exception e) {
+				LOGGER.error(e.getMessage(), e);
 				LOGGER.error(String.format("Error with transaction id: ", issue.getTransactionId(), e));
 			}
 			finally {

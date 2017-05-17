@@ -10,10 +10,6 @@ import com.belatrix.legal.mailfinder.services.EmailService;
 
 public class CheckEmailService implements ICheckEmailService {
 
-	public void checkUnreadMessages(String host, String storeType, String user, String password) {
-		EmailService.check(host, storeType, user, password);
-	}
-
 	public Message[] fetchMessages(String host, String user, String password, boolean read) throws MessagingException {
 		return EmailService.fetchMessages(host, user, password, read);
 	}

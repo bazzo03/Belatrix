@@ -31,8 +31,8 @@ public class JiraIntegrationAPI {
 	 * Properties Configuration
 	 */
 	private static final String url = LoadConfig.getInstance().getProperty(EPropertyJira.URL.getNameProperty());
-	private static final String user = LoadConfig.getInstance().getProperty(EPropertyJira.URL.getNameProperty());
-	private static final String password = LoadConfig.getInstance().getProperty(EPropertyJira.URL.getNameProperty());
+	private static final String user = LoadConfig.getInstance().getProperty(EPropertyJira.USER.getNameProperty());
+	private static final String password = LoadConfig.getInstance().getProperty(EPropertyJira.PASSWORD.getNameProperty());
 	private static final String project = LoadConfig.getInstance().getProperty(EPropertyJira.PROJECT.getNameProperty());
 	private static final BasicCredentials creds = new BasicCredentials(user, password);
 

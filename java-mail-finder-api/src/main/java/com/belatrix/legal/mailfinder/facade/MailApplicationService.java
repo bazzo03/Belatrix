@@ -44,7 +44,7 @@ public class MailApplicationService implements IMailApplicationService {
 		List<JiraIssueDTO> issues = new ArrayList<>();
 		try {
 			messages = checkEmailService.fetchMessages(MAIL_IMAP, MAIL_RECIPIENT, MAIL_PASSWORD, false);
-		} catch (MessagingException e) {
+		} catch (Exception e) {
 			LOGGER.error(e.getMessage(), e);
 		}
 		if (messages != null && messages.length > 0) {
@@ -66,10 +66,10 @@ public class MailApplicationService implements IMailApplicationService {
 
 		for (JiraIssueDTO dto : issues) {
 			if (dto.getJiraId() != null && !dto.getJiraId().equals(StringUtils.EMPTY)) {
-				sendMailService.sendEmail(dto.getDescription() + " " + dto.getJiraId(), MAIL_RECIPIENT, MAIL_FROM, dto.getAction());
+				sendMailService.sendEmail(dto.getDescription() + " " + dto.getJiraId(), MAIL_FROM, MAIL_RECIPIENT, "FW:"+dto.getAction());
 			} else {
 				LOGGER.error(String.format("No Issue created for transaction id: ", dto.getTransactionId()));
-				sendMailService.sendEmail("No Issue created " , MAIL_RECIPIENT, MAIL_FROM, dto.getAction());
+				sendMailService.sendEmail("No Issue created ", MAIL_FROM, MAIL_RECIPIENT, "RE:" + dto.getAction());
 			}
 		}
 	}

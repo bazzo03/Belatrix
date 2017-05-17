@@ -10,12 +10,12 @@ public class Main {
 
 	public static void main(String... args) {
 		Thread t = new Thread(new MailApplicationService());
-		t.setDaemon(true);
-		t.start();
 		try {
 			LOGGER.info("Sleeping Thread...");
-			Thread.sleep(30000);
-		} catch (InterruptedException e) {
+			t.setDaemon(true);
+			t.start();
+			Thread.sleep(30000000);
+		} catch (Exception e) {
 			LOGGER.error(e.getMessage(), e);
 		}
 	}
