@@ -17,7 +17,7 @@ public enum EPropertyMail {
 	MAIL_POP3("mail.pop3"),
 	MAIL_SMTP_AUTH("mail.smpt.auth"),
 	MAIL_STORE_PROTOCOL("mail.store.protocol"),
-	MAIL_IMAPS("imaps"),
+	MAIL_IMAPS("mail.imaps"),
 	MAIL_INBOX_FOLDER("mail.inbox.folder"),
 	MAIL_START_TLS("mail.start.tls"),
 	MAIL_SMTP_HOST("mail.smtp.host"),

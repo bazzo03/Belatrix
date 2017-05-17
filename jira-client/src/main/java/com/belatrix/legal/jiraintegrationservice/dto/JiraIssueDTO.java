@@ -7,6 +7,7 @@ public class JiraIssueDTO {
 	private String issueType;
 	private String description;
 	private String transactionId;
+	private String issueId;
 	
 	public String getAction() {
 		return action;
@@ -37,6 +38,12 @@ public class JiraIssueDTO {
 	}
 	public void setTransactionId(String transactionId) {
 		this.transactionId = transactionId;
+	}
+	public String getJiraId() {
+		return issueId;
+	}
+	public void setJiraId(String jiraId) {
+		this.issueId = jiraId;
 	}
 	
 	
