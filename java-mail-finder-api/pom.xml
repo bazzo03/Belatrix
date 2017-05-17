@@ -4,6 +4,46 @@
 	<groupId>com.belatrix.legal</groupId>
 	<artifactId>java-mail-finder-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-dependency-plugin</artifactId>
+				<executions>
+					<execution>
+						<phase>install</phase>
+						<goals>
+							<goal>copy-dependencies</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>${project.build.directory}/lib</outputDirectory>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+					<archive>
+						<manifest>
+							<addClasspath>true</addClasspath>
+							<classpathPrefix>lib</classpathPrefix>
+							<mainClass>com.belatrix.legal.mailfinder.main.Main</mainClass>
+						</manifest>
+						<manifestEntries>
+							<Class-Path>lib/</Class-Path>
+						</manifestEntries>
+					</archive>
+				</configuration>
+			</plugin>
+			
+		
+		</plugins>
+	</build>
+
 
 	<dependencies>
 		<dependency>
@@ -11,13 +51,19 @@
 			<artifactId>javax.mail</artifactId>
 			<version>1.5.1</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
 			<version>1.2.17</version>
 		</dependency>
-		
+
+		<dependency>
+			<groupId>com.belatrix.legal</groupId>
+			<artifactId>jira-client</artifactId>
+			<version>0.6-SNAPSHOT</version>
+		</dependency>
+
 	</dependencies>
 
 </project>
