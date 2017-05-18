@@ -61,10 +61,10 @@ public class JiraIntegrationAPI {
 		if (!url.isEmpty() && creds != null) {
 			
 			String projectName = "";
-			if (issue.getIssueType() == null || issue.getIssueType().isEmpty()) {
+			if (issue.getProject() == null || issue.getProject().isEmpty()) {
 				projectName = project;
 			} else {
-				projectName = issue.getIssueType();
+				projectName = issue.getProject();
 			}
 
 			try {
