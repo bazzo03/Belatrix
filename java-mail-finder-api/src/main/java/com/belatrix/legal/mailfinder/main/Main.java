@@ -15,7 +15,7 @@ public class Main {
 			t.setDaemon(true);
 			t.start();
 			t.join();
-			Thread.sleep(30000000);
+			Thread.sleep(5000);
 		} catch (Exception e) {
 			LOGGER.error(e.getMessage(), e);
 		}

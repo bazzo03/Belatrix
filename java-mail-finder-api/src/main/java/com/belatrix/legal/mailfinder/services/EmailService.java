@@ -78,6 +78,7 @@ public class EmailService {
 					LOGGER.info("Subject: " + message.getSubject());
 					LOGGER.info("From: " + message.getFrom()[0]);
 					LOGGER.info("Text: " + message.getContent().toString());
+					LOGGER.info(message.getDescription());
 					// message.setFlags(new Flags(Flags.Flag.SEEN), false);
 
 					IJiraIntegrationService jiraIntegrationService = new JiraIntegrationService();
@@ -157,12 +158,13 @@ public class EmailService {
 					LOGGER.info("Email Number " + (i + 1));
 					LOGGER.info("Subject: " + message.getSubject());
 					LOGGER.info("From: " + message.getFrom()[0]);
+					LOGGER.info("Description: " + message.getDescription());
 					LOGGER.info("Text: " + message.getContent().toString());
 					// message.setFlags(new Flags(Flags.Flag.SEEN), false);
 
 					IJiraIntegrationService jiraIntegrationService = new JiraIntegrationService();
 					issue.setAction(message.getSubject());
-					issue.setDescription(message.getDescription());
+					issue.setDescription(message.getContent().toString());
 					issue.setTransactionId(UUID.randomUUID().toString());
 
 					String generatedId = jiraIntegrationService.createIssue(issue);

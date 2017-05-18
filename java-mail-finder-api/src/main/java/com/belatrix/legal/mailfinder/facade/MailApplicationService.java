@@ -55,10 +55,10 @@ public class MailApplicationService implements IMailApplicationService {
 
 		for (JiraIssueDTO dto : issues) {
 			if (dto.getJiraId() != null && !dto.getJiraId().equals(StringUtils.EMPTY)) {
-				sendMailService.sendEmail(dto.getDescription() + " " + dto.getJiraId(), MAIL_FROM, MAIL_RECIPIENT, "FW:"+dto.getAction());
+				sendMailService.sendEmail(dto.getDescription(), MAIL_FROM, MAIL_RECIPIENT, dto.getAction() + " " + dto.getJiraId());
 			} else {
 				LOGGER.error(String.format("No Issue created for transaction id: ", dto.getTransactionId()));
-				sendMailService.sendEmail("No Issue created ", MAIL_FROM, MAIL_RECIPIENT, "RE:" + dto.getAction());
+				sendMailService.sendEmail("No Issue created ", MAIL_FROM, MAIL_RECIPIENT, dto.getAction());
 			}
 		}
 	}
