@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import javax.mail.Message;
-import javax.mail.MessagingException;
 
 import org.apache.commons.lang.StringUtils;
 import org.apache.log4j.Logger;
@@ -21,22 +20,12 @@ public class MailApplicationService implements IMailApplicationService {
 			.getProperty(EPropertyMail.MAIL_RECIPIENT.getNameProperty());
 	private static final String MAIL_PASSWORD = LoadConfig.getInstance()
 			.getProperty(EPropertyMail.MAIL_PASSWORD.getNameProperty());
-	private static final String MAIL_POP_GMAIL = LoadConfig.getInstance()
-			.getProperty(EPropertyMail.MAIL_POP_GMAIL.getNameProperty());
-	private static final String MAIL_POP3 = LoadConfig.getInstance()
-			.getProperty(EPropertyMail.MAIL_POP3.getNameProperty());
 	private static final String MAIL_IMAP = LoadConfig.getInstance()
 			.getProperty(EPropertyMail.MAIL_IMAP.getNameProperty());
 	private static final String MAIL_FROM = LoadConfig.getInstance()
 			.getProperty(EPropertyMail.MAIL_FROM.getNameProperty());
 
 	public void run() {
-
-		String host = MAIL_POP_GMAIL;// change accordingly
-		String mailStoreType = MAIL_POP3;
-		String username = MAIL_RECIPIENT;// change
-											// accordingly
-		String password = MAIL_PASSWORD;// change accordingly
 
 		ICheckEmailService checkEmailService = new CheckEmailService();
 
@@ -48,14 +37,14 @@ public class MailApplicationService implements IMailApplicationService {
 			LOGGER.error(e.getMessage(), e);
 		}
 		if (messages != null && messages.length > 0) {
-			LOGGER.info("Messages found in Inbox Folder and DTO's are ready to be created");
+			LOGGER.info(messages.length + " Messages found in Inbox Folder");
 			issues = checkEmailService.createIssues(messages);
 		}
 		if (issues != null && issues.size() > 0) {
-			LOGGER.info("Issues were created and are ready to be sent via Email");
+			LOGGER.info(issues.size() + " Issues were created and are ready to be sent via Email");
 			sendEmailIssues(issues);
 		} else {
-			LOGGER.error("There are no Issues to be sent");
+			LOGGER.error("0 Issues created. There are no Issues to be sent");
 		}
 
 	}

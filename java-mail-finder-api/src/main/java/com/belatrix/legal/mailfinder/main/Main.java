@@ -14,6 +14,7 @@ public class Main {
 			LOGGER.info("Sleeping Thread...");
 			t.setDaemon(true);
 			t.start();
+			t.join();
 			Thread.sleep(30000000);
 		} catch (Exception e) {
 			LOGGER.error(e.getMessage(), e);

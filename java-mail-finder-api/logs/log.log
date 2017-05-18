@@ -7,3 +7,47 @@
 2017-05-17 16:50:49 INFO  EmailService:123 - Fetching Messages
 2017-05-17 16:51:15 INFO  EmailService:140 - Messages were fetched
 2017-05-17 16:51:15 ERROR MailApplicationService:58 - There are no Issues to be sent
+2017-05-17 16:51:54 INFO  Main:14 - Sleeping Thread...
+2017-05-17 16:51:54 INFO  EmailService:123 - Fetching Messages
+2017-05-17 16:52:13 INFO  EmailService:140 - Messages were fetched
+2017-05-17 16:52:35 INFO  MailApplicationService:51 - Messages found in Inbox Folder and DTO's are ready to be created
+2017-05-17 16:52:42 INFO  EmailService:156 - ---------------------------------
+2017-05-17 16:52:43 INFO  EmailService:157 - Email Number 1
+2017-05-17 16:52:44 INFO  EmailService:158 - Subject: NDA - Company Willy
+2017-05-17 16:52:45 INFO  EmailService:159 - From: wseminario.belatrix@gmail.com
+2017-05-17 16:52:46 INFO  EmailService:160 - Text: Dear Mail Tester,
+
+ This is a test message.
+
+2017-05-17 16:52:52 INFO  JiraIntegrationService:28 - Init createIssue. TxId : 3d3366d5-0573-43f8-b147-c182d25c1990 
+2017-05-17 16:52:52 INFO  JiraIntegrationAPI:58 -  Start createIssue. Object receive : {"action":"NDA - Company Willy","transactionId":"3d3366d5-0573-43f8-b147-c182d25c1990"} 
+2017-05-17 16:52:55 INFO  JiraIntegrationAPI:75 - Issue No. 56779 was create .Txid : 3d3366d5-0573-43f8-b147-c182d25c1990
+2017-05-17 16:53:06 INFO  EmailService:172 - Jira Ticket Created
+2017-05-17 16:53:14 INFO  EmailService:156 - ---------------------------------
+2017-05-17 16:53:15 INFO  EmailService:157 - Email Number 2
+2017-05-17 16:53:15 INFO  EmailService:158 - Subject: NDA - Company Willy
+2017-05-17 16:53:16 INFO  EmailService:159 - From: wseminario.belatrix@gmail.com
+2017-05-17 16:53:18 INFO  EmailService:160 - Text: Dear Mail Tester,
+
+ This is a test message.
+
+2017-05-17 16:53:24 INFO  JiraIntegrationService:28 - Init createIssue. TxId : fa222303-67a1-4d9b-b8df-c4dcf0b848ff 
+2017-05-17 16:53:24 INFO  JiraIntegrationAPI:58 -  Start createIssue. Object receive : {"action":"NDA - Company Willy","transactionId":"fa222303-67a1-4d9b-b8df-c4dcf0b848ff"} 
+2017-05-17 16:53:26 INFO  JiraIntegrationAPI:75 - Issue No. 56780 was create .Txid : fa222303-67a1-4d9b-b8df-c4dcf0b848ff
+2017-05-17 16:53:28 INFO  EmailService:172 - Jira Ticket Created
+2017-05-17 16:53:32 INFO  EmailService:156 - ---------------------------------
+2017-05-17 16:53:32 INFO  EmailService:157 - Email Number 3
+2017-05-17 16:53:33 INFO  EmailService:158 - Subject: NDA - Company Willy
+2017-05-17 16:53:34 INFO  EmailService:159 - From: wseminario.belatrix@gmail.com
+2017-05-17 16:53:35 INFO  EmailService:160 - Text: Dear Mail Tester,
+
+ This is a test message.
+
+2017-05-17 16:53:40 INFO  JiraIntegrationService:28 - Init createIssue. TxId : c4ebb78f-5eb5-48b0-944e-a65210043952 
+2017-05-17 16:53:40 INFO  JiraIntegrationAPI:58 -  Start createIssue. Object receive : {"action":"NDA - Company Willy","transactionId":"c4ebb78f-5eb5-48b0-944e-a65210043952"} 
+2017-05-17 16:53:42 INFO  JiraIntegrationAPI:75 - Issue No. 56781 was create .Txid : c4ebb78f-5eb5-48b0-944e-a65210043952
+2017-05-17 16:53:43 INFO  EmailService:172 - Jira Ticket Created
+2017-05-17 16:53:50 INFO  MailApplicationService:55 - Issues were created and are ready to be sent via Email
+2017-05-17 16:53:58 INFO  SendEMailService:65 - Done
+2017-05-17 16:54:03 INFO  SendEMailService:65 - Done
+2017-05-17 16:54:08 INFO  SendEMailService:65 - Done
