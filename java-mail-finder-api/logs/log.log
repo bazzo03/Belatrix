@@ -202,3 +202,450 @@
 2017-05-18 10:35:49 INFO  EmailService:174 - Jira Ticket Created
 2017-05-18 10:35:49 INFO  MailApplicationService:44 - 1 Issues were created and are ready to be sent via Email
 2017-05-18 10:35:52 INFO  SendEMailService:65 - Done
+2017-05-18 16:34:52 INFO  Main:14 - Sleeping Thread...
+2017-05-18 16:34:52 INFO  EmailService:124 - Fetching Messages
+2017-05-18 16:34:55 INFO  EmailService:141 - Messages were fetched
+2017-05-18 16:34:56 INFO  MailApplicationService:40 - 1 Messages found in Inbox Folder
+2017-05-18 16:34:56 INFO  EmailService:157 - ---------------------------------
+2017-05-18 16:34:56 INFO  EmailService:158 - Email Number 1
+2017-05-18 16:34:56 INFO  EmailService:159 - Subject: NDA - Company Willy
+2017-05-18 16:34:56 INFO  EmailService:160 - From: wseminario.belatrix@gmail.com
+2017-05-18 16:34:57 INFO  EmailService:161 - Description: null
+2017-05-18 16:34:57 INFO  EmailService:162 - Text: Dear Mail Tester,
+
+ This is a test message.
+
+2017-05-18 16:34:57 INFO  JiraIntegrationService:28 - Init createIssue. TxId : a6b3e4ca-04b4-4f39-bacf-9c70e7280ea0 
+2017-05-18 16:34:58 INFO  JiraIntegrationAPI:58 -  Start createIssue. Object receive : {"action":"NDA - Company Willy","description":"Dear Mail Tester,\r\n\r\n This is a test message.\r\n","transactionId":"a6b3e4ca-04b4-4f39-bacf-9c70e7280ea0"} 
+2017-05-18 16:35:00 INFO  JiraIntegrationAPI:75 - Issue No. 56807 was create .Txid : a6b3e4ca-04b4-4f39-bacf-9c70e7280ea0
+2017-05-18 16:35:00 INFO  EmailService:174 - Jira Ticket Created
+2017-05-18 16:35:00 INFO  MailApplicationService:44 - 1 Issues were created and are ready to be sent via Email
+2017-05-18 16:35:03 INFO  SendEMailService:65 - Done
+2017-05-18 16:48:55 INFO  MailApplicationService:38 - Num process : 0
+2017-05-18 16:48:55 INFO  EmailService:124 - Fetching Messages
+2017-05-18 16:48:58 INFO  EmailService:141 - Messages were fetched
+2017-05-18 16:48:59 INFO  MailApplicationService:50 - 1 Messages found in Inbox Folder
+2017-05-18 16:48:59 INFO  EmailService:157 - ---------------------------------
+2017-05-18 16:48:59 INFO  EmailService:158 - Email Number 1
+2017-05-18 16:48:59 INFO  EmailService:159 - Subject: NDA - Company Willy
+2017-05-18 16:48:59 INFO  EmailService:160 - From: wseminario.belatrix@gmail.com
+2017-05-18 16:48:59 INFO  EmailService:161 - Description: null
+2017-05-18 16:48:59 INFO  EmailService:162 - Text: Dear Mail Tester,
+
+ This is a test message.
+
+2017-05-18 16:49:00 INFO  JiraIntegrationService:28 - Init createIssue. TxId : da337c04-5954-4977-9b09-2ea555aa663a 
+2017-05-18 16:49:00 INFO  JiraIntegrationAPI:58 -  Start createIssue. Object receive : {"action":"NDA - Company Willy","description":"Dear Mail Tester,\r\n\r\n This is a test message.\r\n","transactionId":"da337c04-5954-4977-9b09-2ea555aa663a"} 
+2017-05-18 16:49:02 INFO  JiraIntegrationAPI:75 - Issue No. 56809 was create .Txid : da337c04-5954-4977-9b09-2ea555aa663a
+2017-05-18 16:49:02 INFO  EmailService:174 - Jira Ticket Created
+2017-05-18 16:49:02 INFO  MailApplicationService:54 - 1 Issues were created and are ready to be sent via Email
+2017-05-18 16:50:13 INFO  MailApplicationService:38 - Num process : 0
+2017-05-18 16:50:13 INFO  EmailService:124 - Fetching Messages
+2017-05-18 16:50:15 INFO  EmailService:141 - Messages were fetched
+2017-05-18 16:50:15 INFO  MailApplicationService:57 - 0 Issues created. There are no Issues to be sent
+2017-05-18 16:50:20 INFO  MailApplicationService:38 - Num process : 0
+2017-05-18 16:50:20 INFO  EmailService:124 - Fetching Messages
+2017-05-18 16:51:20 INFO  MailApplicationService:38 - Num process : 0
+2017-05-18 16:51:20 INFO  EmailService:124 - Fetching Messages
+2017-05-18 16:51:22 INFO  EmailService:141 - Messages were fetched
+2017-05-18 16:51:22 INFO  MailApplicationService:57 - 0 Issues created. There are no Issues to be sent
+2017-05-18 16:51:27 INFO  MailApplicationService:38 - Num process : 0
+2017-05-18 16:51:27 INFO  EmailService:124 - Fetching Messages
+2017-05-18 16:52:05 INFO  MailApplicationService:38 - Num process : 0
+2017-05-18 16:52:05 INFO  EmailService:124 - Fetching Messages
+2017-05-18 16:52:07 INFO  EmailService:141 - Messages were fetched
+2017-05-18 16:52:07 INFO  MailApplicationService:57 - 0 Issues created. There are no Issues to be sent
+2017-05-18 16:52:12 INFO  MailApplicationService:38 - Num process : 0
+2017-05-18 16:52:12 INFO  EmailService:124 - Fetching Messages
+2017-05-18 16:56:53 INFO  MailApplicationService:34 - In run Method: currentThread() isThread[Thread-0,5,main]
+2017-05-18 16:56:53 INFO  EmailService:124 - Fetching Messages
+2017-05-18 16:56:55 INFO  EmailService:141 - Messages were fetched
+2017-05-18 16:56:55 INFO  MailApplicationService:57 - 0 Issues created. There are no Issues to be sent
+2017-05-18 16:57:20 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-0,5,main]
+2017-05-18 16:57:20 INFO  EmailService:124 - Fetching Messages
+2017-05-18 16:57:22 INFO  EmailService:141 - Messages were fetched
+2017-05-18 16:57:22 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 16:58:22 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-0,5,main]
+2017-05-18 16:58:22 INFO  EmailService:124 - Fetching Messages
+2017-05-18 16:58:24 INFO  EmailService:141 - Messages were fetched
+2017-05-18 16:58:24 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 16:58:29 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 16:58:29 INFO  EmailService:124 - Fetching Messages
+2017-05-18 16:58:31 INFO  EmailService:141 - Messages were fetched
+2017-05-18 16:58:31 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 16:59:14 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-0,5,main]
+2017-05-18 16:59:14 INFO  EmailService:124 - Fetching Messages
+2017-05-18 16:59:16 INFO  EmailService:141 - Messages were fetched
+2017-05-18 16:59:16 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 16:59:21 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 16:59:21 INFO  EmailService:124 - Fetching Messages
+2017-05-18 16:59:23 INFO  EmailService:141 - Messages were fetched
+2017-05-18 16:59:23 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 16:59:28 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 16:59:28 INFO  EmailService:124 - Fetching Messages
+2017-05-18 16:59:30 INFO  EmailService:141 - Messages were fetched
+2017-05-18 16:59:30 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 16:59:35 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 16:59:35 INFO  EmailService:124 - Fetching Messages
+2017-05-18 16:59:36 INFO  EmailService:141 - Messages were fetched
+2017-05-18 16:59:37 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 16:59:42 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 16:59:42 INFO  EmailService:124 - Fetching Messages
+2017-05-18 16:59:43 INFO  EmailService:141 - Messages were fetched
+2017-05-18 16:59:43 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 16:59:48 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 16:59:48 INFO  EmailService:124 - Fetching Messages
+2017-05-18 16:59:50 INFO  EmailService:141 - Messages were fetched
+2017-05-18 16:59:50 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 16:59:55 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 16:59:55 INFO  EmailService:124 - Fetching Messages
+2017-05-18 16:59:56 INFO  EmailService:141 - Messages were fetched
+2017-05-18 16:59:57 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:00:13 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-0,5,main]
+2017-05-18 17:00:13 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:00:15 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:00:15 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:00:30 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-0,5,main]
+2017-05-18 17:00:30 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:00:32 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:00:32 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:00:37 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:00:37 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:00:38 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:00:39 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:01:50 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-0,5,main]
+2017-05-18 17:01:50 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:01:52 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:01:52 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:01:52 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:01:52 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:01:54 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:01:54 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:01:54 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:01:54 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:01:56 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:01:56 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:01:56 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:01:56 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:01:58 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:01:58 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:01:59 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:01:59 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:03:15 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-0,5,main]
+2017-05-18 17:03:15 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:03:17 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:03:17 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:03:18 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:03:18 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:03:19 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:03:19 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:03:20 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:03:20 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:03:21 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:03:21 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:03:22 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:03:22 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:03:23 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:03:23 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:03:24 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:03:24 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:03:25 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:03:25 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:03:26 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:03:26 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:03:27 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:03:28 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:03:28 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:03:28 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:03:30 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:03:30 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:03:30 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:03:30 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:03:32 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:03:32 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:03:32 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:03:32 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:03:34 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:03:34 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:03:34 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:03:34 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:03:36 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:03:36 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:03:37 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:03:37 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:03:38 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:03:38 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:03:39 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:03:39 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:03:40 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:03:41 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:03:41 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:03:41 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:03:42 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:03:43 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:03:43 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:03:43 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:03:44 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:03:45 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:03:45 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:03:45 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:03:47 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:03:47 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:03:47 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:03:47 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:03:48 ERROR MailApplicationService:43 - [ALERT] Too many simultaneous connections. (Failure)
+javax.mail.AuthenticationFailedException: [ALERT] Too many simultaneous connections. (Failure)
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:131)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:41)
+2017-05-18 17:03:48 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:03:49 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:03:49 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:03:50 ERROR MailApplicationService:43 - [ALERT] Too many simultaneous connections. (Failure)
+javax.mail.AuthenticationFailedException: [ALERT] Too many simultaneous connections. (Failure)
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:131)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:41)
+2017-05-18 17:03:50 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:03:50 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:03:50 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:03:51 ERROR MailApplicationService:43 - [ALERT] Too many simultaneous connections. (Failure)
+javax.mail.AuthenticationFailedException: [ALERT] Too many simultaneous connections. (Failure)
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:131)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:41)
+2017-05-18 17:03:51 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:03:52 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:03:52 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:03:53 ERROR MailApplicationService:43 - [ALERT] Too many simultaneous connections. (Failure)
+javax.mail.AuthenticationFailedException: [ALERT] Too many simultaneous connections. (Failure)
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:131)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:41)
+2017-05-18 17:03:53 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:03:53 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:03:53 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:03:54 ERROR MailApplicationService:43 - [ALERT] Too many simultaneous connections. (Failure)
+javax.mail.AuthenticationFailedException: [ALERT] Too many simultaneous connections. (Failure)
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:131)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:41)
+2017-05-18 17:03:54 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:03:55 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:03:55 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:03:56 ERROR MailApplicationService:43 - [ALERT] Too many simultaneous connections. (Failure)
+javax.mail.AuthenticationFailedException: [ALERT] Too many simultaneous connections. (Failure)
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:131)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:41)
+2017-05-18 17:03:56 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:03:56 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:03:56 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:03:57 ERROR MailApplicationService:43 - [ALERT] Too many simultaneous connections. (Failure)
+javax.mail.AuthenticationFailedException: [ALERT] Too many simultaneous connections. (Failure)
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:131)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:41)
+2017-05-18 17:03:57 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:03:58 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:03:58 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:03:59 ERROR MailApplicationService:43 - [ALERT] Too many simultaneous connections. (Failure)
+javax.mail.AuthenticationFailedException: [ALERT] Too many simultaneous connections. (Failure)
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:131)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:41)
+2017-05-18 17:03:59 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:03:59 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:03:59 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:04:00 ERROR MailApplicationService:43 - [ALERT] Too many simultaneous connections. (Failure)
+javax.mail.AuthenticationFailedException: [ALERT] Too many simultaneous connections. (Failure)
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:131)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:41)
+2017-05-18 17:04:00 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:04:01 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:04:01 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:04:01 ERROR MailApplicationService:43 - [ALERT] Too many simultaneous connections. (Failure)
+javax.mail.AuthenticationFailedException: [ALERT] Too many simultaneous connections. (Failure)
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:131)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:41)
+2017-05-18 17:04:01 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:04:02 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:04:02 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:04:03 ERROR MailApplicationService:43 - [ALERT] Too many simultaneous connections. (Failure)
+javax.mail.AuthenticationFailedException: [ALERT] Too many simultaneous connections. (Failure)
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:131)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:41)
+2017-05-18 17:04:03 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:04:03 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:04:03 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:04:04 ERROR MailApplicationService:43 - [ALERT] Too many simultaneous connections. (Failure)
+javax.mail.AuthenticationFailedException: [ALERT] Too many simultaneous connections. (Failure)
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:131)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:41)
+2017-05-18 17:04:04 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:04:05 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:04:05 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:04:06 ERROR MailApplicationService:43 - [ALERT] Too many simultaneous connections. (Failure)
+javax.mail.AuthenticationFailedException: [ALERT] Too many simultaneous connections. (Failure)
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:131)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:41)
+2017-05-18 17:04:06 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:04:06 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:04:06 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:04:08 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:04:08 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:04:08 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:04:08 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:04:10 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:04:10 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:04:11 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:04:11 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:04:12 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:04:12 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:04:13 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:04:13 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:04:14 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:04:14 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:04:15 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:04:15 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:04:16 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:04:16 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:04:17 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:04:17 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:04:40 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-0,5,main]
+2017-05-18 17:04:40 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:04:42 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:04:42 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:04:43 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:04:43 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:04:44 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:04:44 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:04:45 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:04:45 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:04:46 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:04:46 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:04:47 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:04:47 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:04:48 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:04:49 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:04:49 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:04:49 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:04:51 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:04:51 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:04:51 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:04:51 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:04:53 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:04:53 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:04:54 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:04:54 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:04:55 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:04:55 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:04:56 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:04:56 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:04:57 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:04:57 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:04:58 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:04:58 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:04:59 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:04:59 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:05:00 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:05:00 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:05:01 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:05:02 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:05:02 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:05:02 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:05:03 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:05:04 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:05:04 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:05:04 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:05:06 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:05:06 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:05:06 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:05:06 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:05:08 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:05:08 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:05:09 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:05:09 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:05:10 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:05:11 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:05:11 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:05:11 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:05:12 INFO  EmailService:141 - Messages were fetched
+2017-05-18 17:05:13 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:05:13 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:05:13 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:05:15 ERROR MailApplicationService:43 - [ALERT] Too many simultaneous connections. (Failure)
+javax.mail.AuthenticationFailedException: [ALERT] Too many simultaneous connections. (Failure)
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:131)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:41)
+2017-05-18 17:05:15 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:05:15 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:05:15 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:05:16 ERROR MailApplicationService:43 - [ALERT] Too many simultaneous connections. (Failure)
+javax.mail.AuthenticationFailedException: [ALERT] Too many simultaneous connections. (Failure)
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:131)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:41)
+2017-05-18 17:05:16 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent
+2017-05-18 17:05:17 INFO  MailApplicationService:61 - Leaving run Method
+2017-05-18 17:05:17 INFO  EmailService:124 - Fetching Messages
+2017-05-18 17:05:18 ERROR MailApplicationService:43 - [ALERT] Too many simultaneous connections. (Failure)
+javax.mail.AuthenticationFailedException: [ALERT] Too many simultaneous connections. (Failure)
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:131)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:41)
+2017-05-18 17:05:18 INFO  MailApplicationService:53 - 0 Issues created. There are no Issues to be sent

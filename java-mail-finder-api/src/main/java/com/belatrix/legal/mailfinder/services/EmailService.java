@@ -173,7 +173,7 @@ public class EmailService {
 						issue.setJiraId(generatedId);
 						LOGGER.info("Jira Ticket Created");
 					} else {
-						LOGGER.error(String.format("Error in Jira Client with transaction id: ", issue.getTransactionId()));
+						LOGGER.error(String.format("Error in Jira Client with Txid: ", issue.getTransactionId()));
 					}
 				}
 			} catch (Exception e) {
