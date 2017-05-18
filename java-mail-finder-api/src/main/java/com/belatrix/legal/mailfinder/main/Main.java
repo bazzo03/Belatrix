@@ -1,5 +1,7 @@
 package com.belatrix.legal.mailfinder.main;
 
+import java.util.Timer;
+
 import org.apache.log4j.Logger;
 
 import com.belatrix.legal.mailfinder.facade.MailApplicationService;
@@ -10,21 +12,22 @@ public class Main {
 
 	public static void main(String... args) {
 
+		TimerThread timerThread = new TimerThread();
 		
+	    Timer timer = new Timer();
 
-		MailApplicationService t = new MailApplicationService();
-	        t.setDaemon(false);
-	        t.start();
-
+	    /*
+	     * Set an initial delay of 1 second, then repeat every half second.
+	     */
+	    timer.schedule(timerThread, 10000, 8000);
+		
 	        try {
-	            Thread.sleep(3000);
-	        } catch (InterruptedException x) {}
+	            Thread.sleep(300);
+	        } catch (Exception x) {
+	        	  timer.cancel();
+	        }
 
-		/*
-		 * try { LOGGER.info("Sleeping Thread..."); t.setDaemon(true);
-		 * t.start(); t.join(); Thread.sleep(5000); } catch (Exception e) {
-		 * LOGGER.error(e.getMessage(), e); }
-		 */
+	      
 	}
 
 }

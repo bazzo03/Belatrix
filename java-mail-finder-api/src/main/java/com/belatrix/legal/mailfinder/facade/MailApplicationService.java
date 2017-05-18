@@ -29,9 +29,6 @@ public class MailApplicationService extends Thread {
 
 		LOGGER.info("In run Method: currentThread() is" + Thread.currentThread());
 
-		while (true) {
-
-			
 
 			ICheckEmailService checkEmailService = new CheckEmailService();
 
@@ -53,15 +50,7 @@ public class MailApplicationService extends Thread {
 				LOGGER.info("0 Issues created. There are no Issues to be sent");
 			}
 
-			try {
-				sleep(500);
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-			}finally{
-				LOGGER.info("Leaving run Method");
-			}
-
-		}
+		
 
 	}
 
