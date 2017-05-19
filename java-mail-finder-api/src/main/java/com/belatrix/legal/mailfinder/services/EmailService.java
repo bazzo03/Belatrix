@@ -33,12 +33,8 @@ public class EmailService {
 			.getProperty(EPropertyMail.MAIL_RECIPIENT.getNameProperty());
 	private static final String MAIL_PASSWORD = LoadConfig.getInstance()
 			.getProperty(EPropertyMail.MAIL_PASSWORD.getNameProperty());
-	private static final String MAIL_STORE_PROTOCOL = LoadConfig.getInstance()
-			.getProperty(EPropertyMail.MAIL_STORE_PROTOCOL.getNameProperty());
-	private static final String MAIL_IMAPS = LoadConfig.getInstance()
-			.getProperty(EPropertyMail.MAIL_IMAPS.getNameProperty());
-	private static final String MAIL_INBOX_FOLDER = LoadConfig.getInstance()
-			.getProperty(EPropertyMail.MAIL_INBOX_FOLDER.getNameProperty());
+
+
 	private static final String MAIL_FROM = LoadConfig.getInstance()
 			.getProperty(EPropertyMail.MAIL_FROM.getNameProperty());
 
@@ -123,26 +119,14 @@ public class EmailService {
 
 		LOGGER.info("Fetching Messages");
 
-		Properties properties = new Properties();
-		properties.put(MAIL_STORE_PROTOCOL, MAIL_IMAPS);
-
-		Session emailSession = Session.getDefaultInstance(properties);
-		Store store = emailSession.getStore(MAIL_IMAPS);
-		store.connect(host, user, password);
-
-		Folder emailFolder = store.getFolder(MAIL_INBOX_FOLDER);
-		// use READ_ONLY if you don't wish the messages
-		// to be marked as read after retrieving its content
-		emailFolder.open(Folder.READ_WRITE);
-
-		// search for all "unseen" messages
-       Flags seen = new Flags(Flags.Flag.SEEN);
-       FlagTerm unseenFlagTerm = new FlagTerm(seen, read);
-       LOGGER.info("Messages were fetched");
-		return emailFolder.search(unseenFlagTerm);
+		EmailConnection.getInstance().getConnectionStore(host, user, password);
+		Folder emailFolder= EmailConnection.getInstance().getFolder() ;
 		
-		//LOGGER.info("Messages were fetched");
-		//return messages;
+		Flags seen = new Flags(Flags.Flag.SEEN);
+		FlagTerm unseenFlagTerm = new FlagTerm(seen, read);
+		LOGGER.info("Messages were fetched");
+		return emailFolder.search(unseenFlagTerm);
+
 	}
 
 	public static List<JiraIssueDTO> createIssues(Message[] messages) {
@@ -168,7 +152,7 @@ public class EmailService {
 					issue.setTransactionId(UUID.randomUUID().toString());
 
 					String generatedId = jiraIntegrationService.createIssue(issue);
-					
+
 					if (generatedId != null && !generatedId.equals(StringUtils.EMPTY)) {
 						issue.setJiraId(generatedId);
 						LOGGER.info("Jira Ticket Created");
@@ -179,8 +163,7 @@ public class EmailService {
 			} catch (Exception e) {
 				LOGGER.error(e.getMessage(), e);
 				LOGGER.error(String.format("Error with transaction id: ", issue.getTransactionId(), e));
-			}
-			finally {
+			} finally {
 				issuesList.add(issue);
 			}
 		}

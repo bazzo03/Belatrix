@@ -4,7 +4,6 @@ import java.util.Timer;
 
 import org.apache.log4j.Logger;
 
-import com.belatrix.legal.mailfinder.facade.MailApplicationService;
 
 public class Main {
 
@@ -19,7 +18,7 @@ public class Main {
 	    /*
 	     * Set an initial delay of 1 second, then repeat every half second.
 	     */
-	    timer.schedule(timerThread, 10000, 8000);
+	    timer.schedule(timerThread, 2000, 1000);
 		
 	        try {
 	            Thread.sleep(300);

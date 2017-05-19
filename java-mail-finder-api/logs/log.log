@@ -3277,3 +3277,1982 @@ javax.mail.AuthenticationFailedException: [ALERT] Too many simultaneous connecti
 2017-05-18 17:26:21 INFO  EmailService:124 - Fetching Messages
 2017-05-18 17:26:22 INFO  EmailService:141 - Messages were fetched
 2017-05-18 17:26:22 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:18:49 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-1,5,main]
+2017-05-19 08:18:49 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:18:51 INFO  EmailService:141 - Messages were fetched
+2017-05-19 08:18:51 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:18:57 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-3,5,main]
+2017-05-19 08:18:57 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:18:58 INFO  EmailService:141 - Messages were fetched
+2017-05-19 08:18:59 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:19:05 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-4,5,main]
+2017-05-19 08:19:05 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:19:06 INFO  EmailService:141 - Messages were fetched
+2017-05-19 08:19:06 INFO  MailApplicationService:43 - 1 Messages found in Inbox Folder
+2017-05-19 08:19:07 INFO  EmailService:157 - ---------------------------------
+2017-05-19 08:19:07 INFO  EmailService:158 - Email Number 1
+2017-05-19 08:19:07 INFO  EmailService:159 - Subject: NDA - Company Willy
+2017-05-19 08:19:07 INFO  EmailService:160 - From: wseminario.belatrix@gmail.com
+2017-05-19 08:19:07 INFO  EmailService:161 - Description: null
+2017-05-19 08:19:07 INFO  EmailService:162 - Text: Dear Mail Tester,
+
+ This is a test message.
+
+2017-05-19 08:19:08 INFO  JiraIntegrationService:28 - Init createIssue. TxId : 20ef09f7-b3dc-4b5d-a2b9-846db6c19f5a 
+2017-05-19 08:19:08 INFO  JiraIntegrationAPI:58 -  Start createIssue. Object receive : {"action":"NDA - Company Willy","description":"Dear Mail Tester,\r\n\r\n This is a test message.\r\n","transactionId":"20ef09f7-b3dc-4b5d-a2b9-846db6c19f5a"} 
+2017-05-19 08:19:10 INFO  JiraIntegrationAPI:75 - Issue No. 56813 was create .Txid : 20ef09f7-b3dc-4b5d-a2b9-846db6c19f5a
+2017-05-19 08:19:10 INFO  EmailService:174 - Jira Ticket Created
+2017-05-19 08:19:10 INFO  MailApplicationService:47 - 1 Issues were created and are ready to be sent via Email
+2017-05-19 08:19:13 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-5,5,main]
+2017-05-19 08:19:13 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:19:14 INFO  EmailService:141 - Messages were fetched
+2017-05-19 08:19:14 INFO  SendEMailService:65 - Done
+2017-05-19 08:19:15 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:19:21 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-6,5,main]
+2017-05-19 08:19:21 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:19:22 INFO  EmailService:141 - Messages were fetched
+2017-05-19 08:19:22 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:19:29 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-7,5,main]
+2017-05-19 08:19:29 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:19:30 INFO  EmailService:141 - Messages were fetched
+2017-05-19 08:19:31 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:19:37 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-8,5,main]
+2017-05-19 08:19:37 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:19:38 INFO  EmailService:141 - Messages were fetched
+2017-05-19 08:19:39 INFO  MailApplicationService:43 - 2 Messages found in Inbox Folder
+2017-05-19 08:19:39 INFO  EmailService:157 - ---------------------------------
+2017-05-19 08:19:39 INFO  EmailService:158 - Email Number 1
+2017-05-19 08:19:39 INFO  EmailService:159 - Subject: NDA - Company Willy
+2017-05-19 08:19:39 INFO  EmailService:160 - From: wseminario.belatrix@gmail.com
+2017-05-19 08:19:39 INFO  EmailService:161 - Description: null
+2017-05-19 08:19:39 INFO  EmailService:162 - Text: Dear Mail Tester,
+
+ This is a test message.
+
+2017-05-19 08:19:40 INFO  JiraIntegrationService:28 - Init createIssue. TxId : eb2a15a9-43af-41f4-a7a0-7677912165a4 
+2017-05-19 08:19:40 INFO  JiraIntegrationAPI:58 -  Start createIssue. Object receive : {"action":"NDA - Company Willy","description":"Dear Mail Tester,\r\n\r\n This is a test message.\r\n","transactionId":"eb2a15a9-43af-41f4-a7a0-7677912165a4"} 
+2017-05-19 08:19:41 INFO  JiraIntegrationAPI:75 - Issue No. 56814 was create .Txid : eb2a15a9-43af-41f4-a7a0-7677912165a4
+2017-05-19 08:19:41 INFO  EmailService:174 - Jira Ticket Created
+2017-05-19 08:19:41 INFO  EmailService:157 - ---------------------------------
+2017-05-19 08:19:41 INFO  EmailService:158 - Email Number 2
+2017-05-19 08:19:41 INFO  EmailService:159 - Subject: NDA - Company Willy
+2017-05-19 08:19:41 INFO  EmailService:160 - From: wseminario.belatrix@gmail.com
+2017-05-19 08:19:41 INFO  EmailService:161 - Description: null
+2017-05-19 08:19:42 INFO  EmailService:162 - Text: Dear Mail Tester,
+
+ This is a test message.
+
+2017-05-19 08:19:42 INFO  JiraIntegrationService:28 - Init createIssue. TxId : 0f9ec111-66dd-4759-ad73-555a41edf09f 
+2017-05-19 08:19:42 INFO  JiraIntegrationAPI:58 -  Start createIssue. Object receive : {"action":"NDA - Company Willy","description":"Dear Mail Tester,\r\n\r\n This is a test message.\r\n","transactionId":"0f9ec111-66dd-4759-ad73-555a41edf09f"} 
+2017-05-19 08:19:43 INFO  JiraIntegrationAPI:75 - Issue No. 56815 was create .Txid : 0f9ec111-66dd-4759-ad73-555a41edf09f
+2017-05-19 08:19:43 INFO  EmailService:174 - Jira Ticket Created
+2017-05-19 08:19:43 INFO  MailApplicationService:47 - 2 Issues were created and are ready to be sent via Email
+2017-05-19 08:19:45 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-9,5,main]
+2017-05-19 08:19:45 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:19:46 INFO  SendEMailService:65 - Done
+2017-05-19 08:19:46 INFO  EmailService:141 - Messages were fetched
+2017-05-19 08:19:46 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:19:49 INFO  SendEMailService:65 - Done
+2017-05-19 08:19:53 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-10,5,main]
+2017-05-19 08:19:53 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:19:54 INFO  EmailService:141 - Messages were fetched
+2017-05-19 08:19:54 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:20:01 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-11,5,main]
+2017-05-19 08:20:01 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:20:02 INFO  EmailService:141 - Messages were fetched
+2017-05-19 08:20:03 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:20:09 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-12,5,main]
+2017-05-19 08:20:09 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:20:10 INFO  EmailService:141 - Messages were fetched
+2017-05-19 08:20:10 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:20:17 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-13,5,main]
+2017-05-19 08:20:17 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:20:18 INFO  EmailService:141 - Messages were fetched
+2017-05-19 08:20:18 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:20:25 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-14,5,main]
+2017-05-19 08:20:25 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:20:26 INFO  EmailService:141 - Messages were fetched
+2017-05-19 08:20:26 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:20:33 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-15,5,main]
+2017-05-19 08:20:33 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:20:34 INFO  EmailService:141 - Messages were fetched
+2017-05-19 08:20:35 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:20:41 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-16,5,main]
+2017-05-19 08:20:41 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:20:43 INFO  EmailService:141 - Messages were fetched
+2017-05-19 08:20:43 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:20:49 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-17,5,main]
+2017-05-19 08:20:49 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:20:50 INFO  EmailService:141 - Messages were fetched
+2017-05-19 08:20:51 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:20:57 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-18,5,main]
+2017-05-19 08:20:57 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:20:58 INFO  EmailService:141 - Messages were fetched
+2017-05-19 08:20:59 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:21:05 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-19,5,main]
+2017-05-19 08:21:05 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:21:06 ERROR MailApplicationService:40 - [ALERT] Too many simultaneous connections. (Failure)
+javax.mail.AuthenticationFailedException: [ALERT] Too many simultaneous connections. (Failure)
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:131)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:21:06 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:21:13 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-20,5,main]
+2017-05-19 08:21:13 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:21:14 INFO  EmailService:141 - Messages were fetched
+2017-05-19 08:21:15 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:21:21 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-21,5,main]
+2017-05-19 08:21:21 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:21:22 INFO  EmailService:141 - Messages were fetched
+2017-05-19 08:21:22 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:21:29 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-22,5,main]
+2017-05-19 08:21:29 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:21:30 INFO  EmailService:141 - Messages were fetched
+2017-05-19 08:21:30 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:21:37 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-23,5,main]
+2017-05-19 08:21:37 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:21:38 INFO  EmailService:141 - Messages were fetched
+2017-05-19 08:21:39 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:21:45 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-24,5,main]
+2017-05-19 08:21:45 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:21:47 INFO  EmailService:141 - Messages were fetched
+2017-05-19 08:21:47 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:21:53 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-25,5,main]
+2017-05-19 08:21:53 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:21:54 INFO  EmailService:141 - Messages were fetched
+2017-05-19 08:21:55 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:22:01 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-26,5,main]
+2017-05-19 08:22:01 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:22:03 INFO  EmailService:141 - Messages were fetched
+2017-05-19 08:22:03 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:22:09 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-27,5,main]
+2017-05-19 08:22:09 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:22:10 INFO  EmailService:141 - Messages were fetched
+2017-05-19 08:22:11 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:22:17 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-28,5,main]
+2017-05-19 08:22:17 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:22:18 INFO  EmailService:141 - Messages were fetched
+2017-05-19 08:22:18 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:22:25 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-29,5,main]
+2017-05-19 08:22:25 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:22:27 INFO  EmailService:141 - Messages were fetched
+2017-05-19 08:22:27 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:22:33 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-30,5,main]
+2017-05-19 08:22:33 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:22:34 INFO  EmailService:141 - Messages were fetched
+2017-05-19 08:22:35 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:22:41 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-31,5,main]
+2017-05-19 08:22:41 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:22:43 INFO  EmailService:141 - Messages were fetched
+2017-05-19 08:22:43 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:22:49 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-32,5,main]
+2017-05-19 08:22:49 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:22:50 INFO  EmailService:141 - Messages were fetched
+2017-05-19 08:22:51 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:22:57 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-33,5,main]
+2017-05-19 08:22:57 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:22:58 INFO  EmailService:141 - Messages were fetched
+2017-05-19 08:22:59 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:23:05 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-34,5,main]
+2017-05-19 08:23:05 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:23:06 INFO  EmailService:141 - Messages were fetched
+2017-05-19 08:23:07 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:23:13 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-35,5,main]
+2017-05-19 08:23:13 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:23:14 ERROR MailApplicationService:40 - [ALERT] Too many simultaneous connections. (Failure)
+javax.mail.AuthenticationFailedException: [ALERT] Too many simultaneous connections. (Failure)
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:131)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:23:14 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:23:21 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-36,5,main]
+2017-05-19 08:23:21 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:23:22 ERROR MailApplicationService:40 - [ALERT] Too many simultaneous connections. (Failure)
+javax.mail.AuthenticationFailedException: [ALERT] Too many simultaneous connections. (Failure)
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:131)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:23:22 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:23:29 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-37,5,main]
+2017-05-19 08:23:29 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:23:30 ERROR MailApplicationService:40 - [ALERT] Too many simultaneous connections. (Failure)
+javax.mail.AuthenticationFailedException: [ALERT] Too many simultaneous connections. (Failure)
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:131)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:23:30 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:23:37 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-38,5,main]
+2017-05-19 08:23:37 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:23:38 ERROR MailApplicationService:40 - [ALERT] Too many simultaneous connections. (Failure)
+javax.mail.AuthenticationFailedException: [ALERT] Too many simultaneous connections. (Failure)
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:131)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:23:38 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:23:45 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-39,5,main]
+2017-05-19 08:23:45 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:23:46 ERROR MailApplicationService:40 - [ALERT] Too many simultaneous connections. (Failure)
+javax.mail.AuthenticationFailedException: [ALERT] Too many simultaneous connections. (Failure)
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:131)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:23:46 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:23:53 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-40,5,main]
+2017-05-19 08:23:53 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:23:54 ERROR MailApplicationService:40 - [ALERT] Too many simultaneous connections. (Failure)
+javax.mail.AuthenticationFailedException: [ALERT] Too many simultaneous connections. (Failure)
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:131)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:23:54 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:24:01 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-41,5,main]
+2017-05-19 08:24:01 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:24:02 ERROR MailApplicationService:40 - [ALERT] Too many simultaneous connections. (Failure)
+javax.mail.AuthenticationFailedException: [ALERT] Too many simultaneous connections. (Failure)
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:131)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:24:02 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:24:09 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-42,5,main]
+2017-05-19 08:24:09 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:24:11 ERROR MailApplicationService:40 - [ALERT] Too many simultaneous connections. (Failure)
+javax.mail.AuthenticationFailedException: [ALERT] Too many simultaneous connections. (Failure)
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:131)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:24:11 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:24:17 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-43,5,main]
+2017-05-19 08:24:17 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:24:18 ERROR MailApplicationService:40 - [ALERT] Too many simultaneous connections. (Failure)
+javax.mail.AuthenticationFailedException: [ALERT] Too many simultaneous connections. (Failure)
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:131)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:24:18 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:24:25 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-44,5,main]
+2017-05-19 08:24:25 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:24:26 ERROR MailApplicationService:40 - [ALERT] Too many simultaneous connections. (Failure)
+javax.mail.AuthenticationFailedException: [ALERT] Too many simultaneous connections. (Failure)
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:131)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:24:26 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:24:33 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-45,5,main]
+2017-05-19 08:24:33 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:24:34 ERROR MailApplicationService:40 - [ALERT] Too many simultaneous connections. (Failure)
+javax.mail.AuthenticationFailedException: [ALERT] Too many simultaneous connections. (Failure)
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:131)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:24:34 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:24:41 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-46,5,main]
+2017-05-19 08:24:41 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:24:42 ERROR MailApplicationService:40 - [ALERT] Too many simultaneous connections. (Failure)
+javax.mail.AuthenticationFailedException: [ALERT] Too many simultaneous connections. (Failure)
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:131)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:24:42 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:24:49 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-47,5,main]
+2017-05-19 08:24:49 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:24:50 ERROR MailApplicationService:40 - [ALERT] Too many simultaneous connections. (Failure)
+javax.mail.AuthenticationFailedException: [ALERT] Too many simultaneous connections. (Failure)
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:131)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:24:50 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:24:57 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-48,5,main]
+2017-05-19 08:24:57 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:24:58 ERROR MailApplicationService:40 - [ALERT] Too many simultaneous connections. (Failure)
+javax.mail.AuthenticationFailedException: [ALERT] Too many simultaneous connections. (Failure)
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:131)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:24:58 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:25:05 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-49,5,main]
+2017-05-19 08:25:05 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:25:06 ERROR MailApplicationService:40 - [ALERT] Too many simultaneous connections. (Failure)
+javax.mail.AuthenticationFailedException: [ALERT] Too many simultaneous connections. (Failure)
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:131)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:25:06 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:25:13 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-50,5,main]
+2017-05-19 08:25:13 INFO  EmailService:124 - Fetching Messages
+2017-05-19 08:25:14 ERROR MailApplicationService:40 - [ALERT] Too many simultaneous connections. (Failure)
+javax.mail.AuthenticationFailedException: [ALERT] Too many simultaneous connections. (Failure)
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:131)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:25:14 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:44:03 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-1,5,main]
+2017-05-19 08:44:03 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:44:05 ERROR MailApplicationService:40 - 
+java.lang.NullPointerException
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:125)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:44:05 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:44:11 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-3,5,main]
+2017-05-19 08:44:11 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:44:13 ERROR MailApplicationService:40 - 
+java.lang.NullPointerException
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:125)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:44:13 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:44:19 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-4,5,main]
+2017-05-19 08:44:19 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:44:20 ERROR MailApplicationService:40 - 
+java.lang.NullPointerException
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:125)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:44:20 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:44:27 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-5,5,main]
+2017-05-19 08:44:27 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:44:28 ERROR MailApplicationService:40 - 
+java.lang.NullPointerException
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:125)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:44:28 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:44:35 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-6,5,main]
+2017-05-19 08:44:35 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:44:36 ERROR MailApplicationService:40 - 
+java.lang.NullPointerException
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:125)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:44:36 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:44:43 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-7,5,main]
+2017-05-19 08:44:43 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:44:44 ERROR MailApplicationService:40 - 
+java.lang.NullPointerException
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:125)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:44:44 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:44:51 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-8,5,main]
+2017-05-19 08:44:51 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:44:53 ERROR MailApplicationService:40 - 
+java.lang.NullPointerException
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:125)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:44:53 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:44:59 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-9,5,main]
+2017-05-19 08:44:59 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:45:00 ERROR MailApplicationService:40 - 
+java.lang.NullPointerException
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:125)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:45:00 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:45:07 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-10,5,main]
+2017-05-19 08:45:07 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:45:08 ERROR MailApplicationService:40 - 
+java.lang.NullPointerException
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:125)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:45:08 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:45:15 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-11,5,main]
+2017-05-19 08:45:15 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:45:16 ERROR MailApplicationService:40 - 
+java.lang.NullPointerException
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:125)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:45:16 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:45:23 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-12,5,main]
+2017-05-19 08:45:23 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:45:24 ERROR MailApplicationService:40 - 
+java.lang.NullPointerException
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:125)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:45:24 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:45:31 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-13,5,main]
+2017-05-19 08:45:31 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:45:32 ERROR MailApplicationService:40 - 
+java.lang.NullPointerException
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:125)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:45:32 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:45:39 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-14,5,main]
+2017-05-19 08:45:39 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:45:40 ERROR MailApplicationService:40 - 
+java.lang.NullPointerException
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:125)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:45:40 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:45:47 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-15,5,main]
+2017-05-19 08:45:47 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:45:48 ERROR MailApplicationService:40 - 
+java.lang.NullPointerException
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:125)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:45:48 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:45:55 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-16,5,main]
+2017-05-19 08:45:55 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:45:56 ERROR MailApplicationService:40 - 
+java.lang.NullPointerException
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:125)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:45:56 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:46:03 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-17,5,main]
+2017-05-19 08:46:03 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:46:04 ERROR MailApplicationService:40 - 
+java.lang.NullPointerException
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:125)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:46:04 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:46:11 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-18,5,main]
+2017-05-19 08:46:11 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:46:13 ERROR MailApplicationService:40 - 
+java.lang.NullPointerException
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:125)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:46:13 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:46:19 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-19,5,main]
+2017-05-19 08:46:19 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:46:20 ERROR MailApplicationService:40 - 
+java.lang.NullPointerException
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:125)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:46:20 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:46:27 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-20,5,main]
+2017-05-19 08:46:27 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:46:28 ERROR MailApplicationService:40 - 
+java.lang.NullPointerException
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:125)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:46:28 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:46:35 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-21,5,main]
+2017-05-19 08:46:35 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:46:36 ERROR MailApplicationService:40 - 
+java.lang.NullPointerException
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:125)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:46:36 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:46:43 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-22,5,main]
+2017-05-19 08:46:43 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:46:44 ERROR MailApplicationService:40 - 
+java.lang.NullPointerException
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:125)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:46:44 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:46:51 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-23,5,main]
+2017-05-19 08:46:51 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:46:52 ERROR MailApplicationService:40 - 
+java.lang.NullPointerException
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:125)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:46:52 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:46:59 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-24,5,main]
+2017-05-19 08:46:59 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:47:00 ERROR MailApplicationService:40 - 
+java.lang.NullPointerException
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:125)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:47:00 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:47:07 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-25,5,main]
+2017-05-19 08:47:07 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:47:08 ERROR MailApplicationService:40 - 
+java.lang.NullPointerException
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:125)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:47:08 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:47:15 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-26,5,main]
+2017-05-19 08:47:15 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:47:16 ERROR MailApplicationService:40 - 
+java.lang.NullPointerException
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:125)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:47:16 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:47:23 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-27,5,main]
+2017-05-19 08:47:23 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:47:24 ERROR MailApplicationService:40 - 
+java.lang.NullPointerException
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:125)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:47:24 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:47:31 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-28,5,main]
+2017-05-19 08:47:31 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:47:32 ERROR MailApplicationService:40 - 
+java.lang.NullPointerException
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:125)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:47:32 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:47:39 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-29,5,main]
+2017-05-19 08:47:39 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:47:40 ERROR MailApplicationService:40 - 
+java.lang.NullPointerException
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:125)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:47:40 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:47:47 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-30,5,main]
+2017-05-19 08:47:47 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:47:48 ERROR MailApplicationService:40 - [ALERT] Too many simultaneous connections. (Failure)
+javax.mail.AuthenticationFailedException: [ALERT] Too many simultaneous connections. (Failure)
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailConnection.getConnection(EmailConnection.java:40)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:123)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:47:48 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:47:55 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-31,5,main]
+2017-05-19 08:47:55 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:47:56 ERROR MailApplicationService:40 - [ALERT] Too many simultaneous connections. (Failure)
+javax.mail.AuthenticationFailedException: [ALERT] Too many simultaneous connections. (Failure)
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailConnection.getConnection(EmailConnection.java:40)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:123)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:47:56 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:48:14 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-1,5,main]
+2017-05-19 08:48:14 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:48:16 ERROR MailApplicationService:40 - 
+java.lang.NullPointerException
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:125)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:48:16 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:48:22 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-3,5,main]
+2017-05-19 08:48:22 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:48:23 ERROR MailApplicationService:40 - 
+java.lang.NullPointerException
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:125)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:48:23 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:48:44 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-1,5,main]
+2017-05-19 08:48:44 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:48:52 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-3,5,main]
+2017-05-19 08:48:52 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:49:27 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-1,5,main]
+2017-05-19 08:49:27 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:49:35 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-2,5,main]
+2017-05-19 08:49:35 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:49:43 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-3,5,main]
+2017-05-19 08:49:43 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:49:51 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-5,5,main]
+2017-05-19 08:49:51 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:50:20 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-1,5,main]
+2017-05-19 08:50:20 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:50:22 INFO  EmailService:130 - Messages were fetched
+2017-05-19 08:50:22 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:50:28 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-3,5,main]
+2017-05-19 08:50:28 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:50:29 INFO  EmailService:130 - Messages were fetched
+2017-05-19 08:50:29 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:50:36 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-4,5,main]
+2017-05-19 08:50:36 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:50:37 INFO  EmailService:130 - Messages were fetched
+2017-05-19 08:50:37 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:50:44 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-5,5,main]
+2017-05-19 08:50:44 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:50:45 INFO  EmailService:130 - Messages were fetched
+2017-05-19 08:50:45 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:50:52 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-6,5,main]
+2017-05-19 08:50:52 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:50:53 INFO  EmailService:130 - Messages were fetched
+2017-05-19 08:50:53 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:51:00 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-7,5,main]
+2017-05-19 08:51:00 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:51:01 INFO  EmailService:130 - Messages were fetched
+2017-05-19 08:51:01 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:51:08 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-8,5,main]
+2017-05-19 08:51:08 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:51:09 INFO  EmailService:130 - Messages were fetched
+2017-05-19 08:51:09 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:51:16 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-9,5,main]
+2017-05-19 08:51:16 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:51:17 INFO  EmailService:130 - Messages were fetched
+2017-05-19 08:51:17 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:51:24 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-10,5,main]
+2017-05-19 08:51:24 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:51:25 INFO  EmailService:130 - Messages were fetched
+2017-05-19 08:51:25 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:51:32 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-11,5,main]
+2017-05-19 08:51:32 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:51:33 INFO  EmailService:130 - Messages were fetched
+2017-05-19 08:51:33 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:51:40 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-12,5,main]
+2017-05-19 08:51:40 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:51:41 INFO  EmailService:130 - Messages were fetched
+2017-05-19 08:51:41 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:51:48 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-13,5,main]
+2017-05-19 08:51:48 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:51:49 INFO  EmailService:130 - Messages were fetched
+2017-05-19 08:51:49 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:51:56 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-14,5,main]
+2017-05-19 08:51:56 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:51:57 INFO  EmailService:130 - Messages were fetched
+2017-05-19 08:51:57 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:52:04 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-15,5,main]
+2017-05-19 08:52:04 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:52:05 INFO  EmailService:130 - Messages were fetched
+2017-05-19 08:52:05 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:52:12 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-16,5,main]
+2017-05-19 08:52:12 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:52:13 INFO  EmailService:130 - Messages were fetched
+2017-05-19 08:52:13 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:52:20 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-17,5,main]
+2017-05-19 08:52:20 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:52:21 ERROR MailApplicationService:40 - connection failure
+javax.mail.MessagingException: connection failure
+	at com.sun.mail.imap.IMAPStore.getProtocol(IMAPStore.java:897)
+	at com.sun.mail.imap.IMAPFolder.open(IMAPFolder.java:938)
+	at com.sun.mail.imap.IMAPFolder.open(IMAPFolder.java:919)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:127)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:52:21 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:52:28 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-18,5,main]
+2017-05-19 08:52:28 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:52:29 ERROR MailApplicationService:40 - connection failure
+javax.mail.MessagingException: connection failure
+	at com.sun.mail.imap.IMAPStore.getProtocol(IMAPStore.java:897)
+	at com.sun.mail.imap.IMAPFolder.open(IMAPFolder.java:938)
+	at com.sun.mail.imap.IMAPFolder.open(IMAPFolder.java:919)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:127)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:52:29 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:52:36 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-19,5,main]
+2017-05-19 08:52:36 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:52:37 ERROR MailApplicationService:40 - connection failure
+javax.mail.MessagingException: connection failure
+	at com.sun.mail.imap.IMAPStore.getProtocol(IMAPStore.java:897)
+	at com.sun.mail.imap.IMAPFolder.open(IMAPFolder.java:938)
+	at com.sun.mail.imap.IMAPFolder.open(IMAPFolder.java:919)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:127)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:52:37 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:52:44 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-20,5,main]
+2017-05-19 08:52:44 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:52:45 ERROR MailApplicationService:40 - connection failure
+javax.mail.MessagingException: connection failure
+	at com.sun.mail.imap.IMAPStore.getProtocol(IMAPStore.java:897)
+	at com.sun.mail.imap.IMAPFolder.open(IMAPFolder.java:938)
+	at com.sun.mail.imap.IMAPFolder.open(IMAPFolder.java:919)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:127)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:52:45 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:52:52 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-21,5,main]
+2017-05-19 08:52:52 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:52:53 ERROR MailApplicationService:40 - connection failure
+javax.mail.MessagingException: connection failure
+	at com.sun.mail.imap.IMAPStore.getProtocol(IMAPStore.java:897)
+	at com.sun.mail.imap.IMAPFolder.open(IMAPFolder.java:938)
+	at com.sun.mail.imap.IMAPFolder.open(IMAPFolder.java:919)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:127)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:52:53 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:53:00 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-22,5,main]
+2017-05-19 08:53:00 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:53:01 ERROR MailApplicationService:40 - connection failure
+javax.mail.MessagingException: connection failure
+	at com.sun.mail.imap.IMAPStore.getProtocol(IMAPStore.java:897)
+	at com.sun.mail.imap.IMAPFolder.open(IMAPFolder.java:938)
+	at com.sun.mail.imap.IMAPFolder.open(IMAPFolder.java:919)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:127)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:53:01 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:53:08 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-23,5,main]
+2017-05-19 08:53:08 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:53:09 ERROR MailApplicationService:40 - connection failure
+javax.mail.MessagingException: connection failure
+	at com.sun.mail.imap.IMAPStore.getProtocol(IMAPStore.java:897)
+	at com.sun.mail.imap.IMAPFolder.open(IMAPFolder.java:938)
+	at com.sun.mail.imap.IMAPFolder.open(IMAPFolder.java:919)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:127)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:53:09 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:53:16 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-24,5,main]
+2017-05-19 08:53:16 INFO  EmailService:121 - Fetching Messages
+2017-05-19 08:53:17 ERROR MailApplicationService:40 - connection failure
+javax.mail.MessagingException: connection failure
+	at com.sun.mail.imap.IMAPStore.getProtocol(IMAPStore.java:897)
+	at com.sun.mail.imap.IMAPFolder.open(IMAPFolder.java:938)
+	at com.sun.mail.imap.IMAPFolder.open(IMAPFolder.java:919)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:127)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:53:17 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:59:43 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-1,5,main]
+2017-05-19 08:59:43 INFO  EmailService:120 - Fetching Messages
+2017-05-19 08:59:45 INFO  EmailService:127 - Messages were fetched
+2017-05-19 08:59:45 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:59:51 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-3,5,main]
+2017-05-19 08:59:51 INFO  EmailService:120 - Fetching Messages
+2017-05-19 08:59:51 ERROR MailApplicationService:40 - This operation is not allowed on an open folder
+java.lang.IllegalStateException: This operation is not allowed on an open folder
+	at com.sun.mail.imap.IMAPFolder.checkClosed(IMAPFolder.java:408)
+	at com.sun.mail.imap.IMAPFolder.open(IMAPFolder.java:934)
+	at com.sun.mail.imap.IMAPFolder.open(IMAPFolder.java:919)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:124)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:59:51 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 08:59:59 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-4,5,main]
+2017-05-19 08:59:59 INFO  EmailService:120 - Fetching Messages
+2017-05-19 08:59:59 ERROR MailApplicationService:40 - This operation is not allowed on an open folder
+java.lang.IllegalStateException: This operation is not allowed on an open folder
+	at com.sun.mail.imap.IMAPFolder.checkClosed(IMAPFolder.java:408)
+	at com.sun.mail.imap.IMAPFolder.open(IMAPFolder.java:934)
+	at com.sun.mail.imap.IMAPFolder.open(IMAPFolder.java:919)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:124)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 08:59:59 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:00:07 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-5,5,main]
+2017-05-19 09:00:07 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:00:07 ERROR MailApplicationService:40 - This operation is not allowed on an open folder
+java.lang.IllegalStateException: This operation is not allowed on an open folder
+	at com.sun.mail.imap.IMAPFolder.checkClosed(IMAPFolder.java:408)
+	at com.sun.mail.imap.IMAPFolder.open(IMAPFolder.java:934)
+	at com.sun.mail.imap.IMAPFolder.open(IMAPFolder.java:919)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:124)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:38)
+2017-05-19 09:00:07 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:02:33 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-1,5,main]
+2017-05-19 09:02:33 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:02:34 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-3,5,main]
+2017-05-19 09:02:34 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:02:35 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-4,5,main]
+2017-05-19 09:02:35 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:02:35 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:02:35 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:02:36 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-5,5,main]
+2017-05-19 09:02:36 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:02:36 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:02:37 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:02:37 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:02:37 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:02:37 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-6,5,main]
+2017-05-19 09:02:37 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:02:37 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:02:37 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:02:38 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:02:38 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:02:38 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-7,5,main]
+2017-05-19 09:02:38 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:02:38 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:02:38 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:02:39 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-8,5,main]
+2017-05-19 09:02:39 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:02:39 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:02:39 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:02:40 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-9,5,main]
+2017-05-19 09:02:40 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:02:40 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:02:40 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:02:41 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-10,5,main]
+2017-05-19 09:02:41 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:02:41 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:02:41 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:02:42 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-11,5,main]
+2017-05-19 09:02:42 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:02:42 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:02:42 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:02:43 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-12,5,main]
+2017-05-19 09:02:43 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:02:43 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:02:43 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:02:44 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-13,5,main]
+2017-05-19 09:02:44 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:02:44 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:02:44 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:02:45 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-14,5,main]
+2017-05-19 09:02:45 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:02:45 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:02:45 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:02:46 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-15,5,main]
+2017-05-19 09:02:46 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:02:46 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:02:46 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:02:47 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-16,5,main]
+2017-05-19 09:02:47 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:02:47 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:02:47 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:02:48 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-17,5,main]
+2017-05-19 09:02:48 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:02:48 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:02:48 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:02:49 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-18,5,main]
+2017-05-19 09:02:49 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:02:49 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:02:49 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:02:50 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-19,5,main]
+2017-05-19 09:02:50 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:02:50 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:02:50 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:02:51 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-20,5,main]
+2017-05-19 09:02:51 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:02:51 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:02:51 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:02:52 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-21,5,main]
+2017-05-19 09:02:52 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:02:52 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:02:52 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:02:53 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-22,5,main]
+2017-05-19 09:02:53 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:02:53 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:02:53 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:02:54 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-23,5,main]
+2017-05-19 09:02:54 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:02:54 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:02:54 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:02:55 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-24,5,main]
+2017-05-19 09:02:55 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:02:55 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:02:55 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:02:56 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-25,5,main]
+2017-05-19 09:02:56 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:02:56 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:02:56 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:02:57 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-26,5,main]
+2017-05-19 09:02:57 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:02:57 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:02:57 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:02:58 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-27,5,main]
+2017-05-19 09:02:58 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:02:58 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:02:59 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:02:59 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-28,5,main]
+2017-05-19 09:02:59 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:02:59 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:02:59 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:00 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-29,5,main]
+2017-05-19 09:03:00 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:00 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:00 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:01 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-30,5,main]
+2017-05-19 09:03:01 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:01 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:01 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:02 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-31,5,main]
+2017-05-19 09:03:02 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:02 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:02 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:03 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-32,5,main]
+2017-05-19 09:03:03 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:03 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:03 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:04 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-33,5,main]
+2017-05-19 09:03:04 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:04 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:05 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:05 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-34,5,main]
+2017-05-19 09:03:05 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:05 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:05 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:06 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-35,5,main]
+2017-05-19 09:03:06 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:06 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:06 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:07 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-36,5,main]
+2017-05-19 09:03:07 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:07 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:07 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:08 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-37,5,main]
+2017-05-19 09:03:08 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:08 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:08 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:09 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-38,5,main]
+2017-05-19 09:03:09 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:09 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:09 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:10 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-39,5,main]
+2017-05-19 09:03:10 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:10 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:10 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:11 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-40,5,main]
+2017-05-19 09:03:11 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:11 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:11 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:12 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-41,5,main]
+2017-05-19 09:03:12 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:12 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:12 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:13 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-42,5,main]
+2017-05-19 09:03:13 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:13 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:14 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:14 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-43,5,main]
+2017-05-19 09:03:14 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:14 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:14 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:15 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-44,5,main]
+2017-05-19 09:03:15 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:15 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:15 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:16 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-45,5,main]
+2017-05-19 09:03:16 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:16 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:16 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:17 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-46,5,main]
+2017-05-19 09:03:17 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:17 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:17 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:18 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-47,5,main]
+2017-05-19 09:03:18 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:18 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:18 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:19 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-48,5,main]
+2017-05-19 09:03:19 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:19 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:19 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:20 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-49,5,main]
+2017-05-19 09:03:20 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:20 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:20 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:21 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-50,5,main]
+2017-05-19 09:03:21 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:21 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:21 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:22 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-51,5,main]
+2017-05-19 09:03:22 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:22 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:22 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:23 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-52,5,main]
+2017-05-19 09:03:23 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:23 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:23 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:24 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-53,5,main]
+2017-05-19 09:03:24 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:24 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:24 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:25 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-54,5,main]
+2017-05-19 09:03:25 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:25 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:25 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:26 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-55,5,main]
+2017-05-19 09:03:26 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:26 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:26 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:27 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-56,5,main]
+2017-05-19 09:03:27 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:27 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:28 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:28 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-57,5,main]
+2017-05-19 09:03:28 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:28 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:28 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:29 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-58,5,main]
+2017-05-19 09:03:29 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:29 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:29 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:30 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-59,5,main]
+2017-05-19 09:03:30 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:30 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:30 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:31 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-60,5,main]
+2017-05-19 09:03:31 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:31 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:31 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:32 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-61,5,main]
+2017-05-19 09:03:32 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:32 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:32 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:33 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-62,5,main]
+2017-05-19 09:03:33 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:33 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:33 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:34 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-63,5,main]
+2017-05-19 09:03:34 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:34 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:34 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:35 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-64,5,main]
+2017-05-19 09:03:35 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:35 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:35 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:36 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-65,5,main]
+2017-05-19 09:03:36 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:36 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:36 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:37 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-66,5,main]
+2017-05-19 09:03:37 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:37 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:38 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:38 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-67,5,main]
+2017-05-19 09:03:38 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:38 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:38 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:39 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-68,5,main]
+2017-05-19 09:03:39 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:39 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:39 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:40 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-69,5,main]
+2017-05-19 09:03:40 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:40 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:40 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:41 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-70,5,main]
+2017-05-19 09:03:41 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:41 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:41 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:42 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-71,5,main]
+2017-05-19 09:03:42 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:42 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:42 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:43 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-72,5,main]
+2017-05-19 09:03:43 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:43 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:43 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:44 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-73,5,main]
+2017-05-19 09:03:44 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:44 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:44 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:45 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-74,5,main]
+2017-05-19 09:03:45 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:45 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:45 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:46 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-75,5,main]
+2017-05-19 09:03:46 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:46 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:46 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:47 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-76,5,main]
+2017-05-19 09:03:47 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:47 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:47 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:48 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-77,5,main]
+2017-05-19 09:03:48 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:48 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:48 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:49 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-78,5,main]
+2017-05-19 09:03:49 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:49 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:49 INFO  MailApplicationService:43 - 1 Messages found in Inbox Folder
+2017-05-19 09:03:50 INFO  EmailService:141 - ---------------------------------
+2017-05-19 09:03:50 INFO  EmailService:142 - Email Number 1
+2017-05-19 09:03:50 INFO  EmailService:143 - Subject: NDA - Company Willy
+2017-05-19 09:03:50 INFO  EmailService:144 - From: wseminario.belatrix@gmail.com
+2017-05-19 09:03:50 INFO  EmailService:145 - Description: null
+2017-05-19 09:03:50 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-79,5,main]
+2017-05-19 09:03:50 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:50 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:51 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:51 INFO  EmailService:146 - Text: Dear Mail Tester,
+
+ This is a test message.
+
+2017-05-19 09:03:51 INFO  JiraIntegrationService:28 - Init createIssue. TxId : bfdb1ac1-bd5c-4d57-b858-8d9b8fa149a1 
+2017-05-19 09:03:51 INFO  JiraIntegrationAPI:58 -  Start createIssue. Object receive : {"action":"NDA - Company Willy","description":"Dear Mail Tester,\r\n\r\n This is a test message.\r\n","transactionId":"bfdb1ac1-bd5c-4d57-b858-8d9b8fa149a1"} 
+2017-05-19 09:03:51 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-80,5,main]
+2017-05-19 09:03:51 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:51 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:52 INFO  MailApplicationService:43 - 1 Messages found in Inbox Folder
+2017-05-19 09:03:52 INFO  EmailService:141 - ---------------------------------
+2017-05-19 09:03:52 INFO  EmailService:142 - Email Number 1
+2017-05-19 09:03:52 INFO  EmailService:143 - Subject: NDA - Company Willy
+2017-05-19 09:03:52 INFO  EmailService:144 - From: wseminario.belatrix@gmail.com
+2017-05-19 09:03:52 INFO  EmailService:145 - Description: null
+2017-05-19 09:03:52 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-81,5,main]
+2017-05-19 09:03:52 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:52 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:53 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:53 INFO  EmailService:146 - Text: Dear Mail Tester,
+
+ This is a test message.
+
+2017-05-19 09:03:53 INFO  JiraIntegrationAPI:75 - Issue No. 56817 was create .Txid : bfdb1ac1-bd5c-4d57-b858-8d9b8fa149a1
+2017-05-19 09:03:53 INFO  EmailService:158 - Jira Ticket Created
+2017-05-19 09:03:53 INFO  MailApplicationService:47 - 1 Issues were created and are ready to be sent via Email
+2017-05-19 09:03:53 INFO  JiraIntegrationService:28 - Init createIssue. TxId : da7a9794-be54-4266-9da3-0ad608b79693 
+2017-05-19 09:03:53 INFO  JiraIntegrationAPI:58 -  Start createIssue. Object receive : {"action":"NDA - Company Willy","description":"Dear Mail Tester,\r\n\r\n This is a test message.\r\n","transactionId":"da7a9794-be54-4266-9da3-0ad608b79693"} 
+2017-05-19 09:03:53 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-82,5,main]
+2017-05-19 09:03:53 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:53 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:53 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:54 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-83,5,main]
+2017-05-19 09:03:54 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:54 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:54 INFO  JiraIntegrationAPI:75 - Issue No. 56818 was create .Txid : da7a9794-be54-4266-9da3-0ad608b79693
+2017-05-19 09:03:54 INFO  EmailService:158 - Jira Ticket Created
+2017-05-19 09:03:54 INFO  MailApplicationService:47 - 1 Issues were created and are ready to be sent via Email
+2017-05-19 09:03:54 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:55 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-84,5,main]
+2017-05-19 09:03:55 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:55 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:55 INFO  MailApplicationService:43 - 1 Messages found in Inbox Folder
+2017-05-19 09:03:56 INFO  EmailService:141 - ---------------------------------
+2017-05-19 09:03:56 INFO  EmailService:142 - Email Number 1
+2017-05-19 09:03:56 INFO  EmailService:143 - Subject: NDA - Company Willy
+2017-05-19 09:03:56 INFO  EmailService:144 - From: wseminario.belatrix@gmail.com
+2017-05-19 09:03:56 INFO  EmailService:145 - Description: null
+2017-05-19 09:03:56 INFO  SendEMailService:65 - Done
+2017-05-19 09:03:56 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-85,5,main]
+2017-05-19 09:03:56 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:56 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:57 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:57 INFO  EmailService:146 - Text: Dear Mail Tester,
+
+ This is a test message.
+
+2017-05-19 09:03:57 INFO  JiraIntegrationService:28 - Init createIssue. TxId : 1856d816-fb5b-46d0-b7c6-2cf45dbac15f 
+2017-05-19 09:03:57 INFO  JiraIntegrationAPI:58 -  Start createIssue. Object receive : {"action":"NDA - Company Willy","description":"Dear Mail Tester,\r\n\r\n This is a test message.\r\n","transactionId":"1856d816-fb5b-46d0-b7c6-2cf45dbac15f"} 
+2017-05-19 09:03:57 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-86,5,main]
+2017-05-19 09:03:57 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:57 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:57 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:58 INFO  SendEMailService:65 - Done
+2017-05-19 09:03:58 INFO  JiraIntegrationAPI:75 - Issue No. 56819 was create .Txid : 1856d816-fb5b-46d0-b7c6-2cf45dbac15f
+2017-05-19 09:03:58 INFO  EmailService:158 - Jira Ticket Created
+2017-05-19 09:03:58 INFO  MailApplicationService:47 - 1 Issues were created and are ready to be sent via Email
+2017-05-19 09:03:58 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-87,5,main]
+2017-05-19 09:03:58 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:58 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:58 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:03:59 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-88,5,main]
+2017-05-19 09:03:59 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:03:59 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:03:59 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:00 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-89,5,main]
+2017-05-19 09:04:00 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:00 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:00 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:01 INFO  SendEMailService:65 - Done
+2017-05-19 09:04:01 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-90,5,main]
+2017-05-19 09:04:01 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:01 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:01 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:02 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-91,5,main]
+2017-05-19 09:04:02 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:02 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:02 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:03 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-92,5,main]
+2017-05-19 09:04:03 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:03 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:03 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:04 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-93,5,main]
+2017-05-19 09:04:04 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:04 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:04 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:05 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-94,5,main]
+2017-05-19 09:04:05 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:05 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:05 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:06 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-95,5,main]
+2017-05-19 09:04:06 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:06 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:06 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:07 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-96,5,main]
+2017-05-19 09:04:07 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:07 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:07 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:08 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-97,5,main]
+2017-05-19 09:04:08 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:08 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:08 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:09 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-98,5,main]
+2017-05-19 09:04:09 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:09 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:09 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:10 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-99,5,main]
+2017-05-19 09:04:10 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:10 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:11 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:11 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-100,5,main]
+2017-05-19 09:04:11 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:11 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:11 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:12 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-101,5,main]
+2017-05-19 09:04:12 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:12 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:12 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:13 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-102,5,main]
+2017-05-19 09:04:13 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:13 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:13 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:14 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-103,5,main]
+2017-05-19 09:04:14 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:14 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:14 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:15 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-104,5,main]
+2017-05-19 09:04:15 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:15 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:15 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:16 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-105,5,main]
+2017-05-19 09:04:16 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:16 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:16 INFO  MailApplicationService:43 - 1 Messages found in Inbox Folder
+2017-05-19 09:04:16 INFO  EmailService:141 - ---------------------------------
+2017-05-19 09:04:16 INFO  EmailService:142 - Email Number 1
+2017-05-19 09:04:16 INFO  EmailService:143 - Subject: NDA - Company Willy
+2017-05-19 09:04:16 INFO  EmailService:144 - From: wseminario.belatrix@gmail.com
+2017-05-19 09:04:16 INFO  EmailService:145 - Description: null
+2017-05-19 09:04:17 INFO  EmailService:146 - Text: Dear Mail Tester,
+
+ This is a test message.
+
+2017-05-19 09:04:17 INFO  JiraIntegrationService:28 - Init createIssue. TxId : 0df5965a-e010-4d91-a7fc-e5f7f1fb7235 
+2017-05-19 09:04:17 INFO  JiraIntegrationAPI:58 -  Start createIssue. Object receive : {"action":"NDA - Company Willy","description":"Dear Mail Tester,\r\n\r\n This is a test message.\r\n","transactionId":"0df5965a-e010-4d91-a7fc-e5f7f1fb7235"} 
+2017-05-19 09:04:17 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-106,5,main]
+2017-05-19 09:04:17 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:17 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:17 INFO  MailApplicationService:43 - 1 Messages found in Inbox Folder
+2017-05-19 09:04:17 INFO  EmailService:141 - ---------------------------------
+2017-05-19 09:04:17 INFO  EmailService:142 - Email Number 1
+2017-05-19 09:04:17 INFO  EmailService:143 - Subject: NDA - Company Willy
+2017-05-19 09:04:17 INFO  EmailService:144 - From: wseminario.belatrix@gmail.com
+2017-05-19 09:04:17 INFO  EmailService:145 - Description: null
+2017-05-19 09:04:18 INFO  EmailService:146 - Text: Dear Mail Tester,
+
+ This is a test message.
+
+2017-05-19 09:04:18 INFO  JiraIntegrationService:28 - Init createIssue. TxId : 10d88ac4-dc74-4c39-9fda-239d9277f9dd 
+2017-05-19 09:04:18 INFO  JiraIntegrationAPI:58 -  Start createIssue. Object receive : {"action":"NDA - Company Willy","description":"Dear Mail Tester,\r\n\r\n This is a test message.\r\n","transactionId":"10d88ac4-dc74-4c39-9fda-239d9277f9dd"} 
+2017-05-19 09:04:18 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-107,5,main]
+2017-05-19 09:04:18 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:18 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:19 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:19 INFO  JiraIntegrationAPI:75 - Issue No. 56820 was create .Txid : 0df5965a-e010-4d91-a7fc-e5f7f1fb7235
+2017-05-19 09:04:19 INFO  EmailService:158 - Jira Ticket Created
+2017-05-19 09:04:19 INFO  MailApplicationService:47 - 1 Issues were created and are ready to be sent via Email
+2017-05-19 09:04:19 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-108,5,main]
+2017-05-19 09:04:19 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:19 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:19 INFO  MailApplicationService:43 - 1 Messages found in Inbox Folder
+2017-05-19 09:04:19 INFO  EmailService:141 - ---------------------------------
+2017-05-19 09:04:19 INFO  EmailService:142 - Email Number 1
+2017-05-19 09:04:19 INFO  EmailService:143 - Subject: NDA - Company Willy
+2017-05-19 09:04:19 INFO  EmailService:144 - From: wseminario.belatrix@gmail.com
+2017-05-19 09:04:19 INFO  EmailService:145 - Description: null
+2017-05-19 09:04:20 INFO  EmailService:146 - Text: Dear Mail Tester,
+
+ This is a test message.
+
+2017-05-19 09:04:20 INFO  JiraIntegrationService:28 - Init createIssue. TxId : 9bcae5d9-0386-4e51-b8a1-e6ab918d6fbc 
+2017-05-19 09:04:20 INFO  JiraIntegrationAPI:58 -  Start createIssue. Object receive : {"action":"NDA - Company Willy","description":"Dear Mail Tester,\r\n\r\n This is a test message.\r\n","transactionId":"9bcae5d9-0386-4e51-b8a1-e6ab918d6fbc"} 
+2017-05-19 09:04:20 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-109,5,main]
+2017-05-19 09:04:20 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:20 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:20 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:21 INFO  JiraIntegrationAPI:75 - Issue No. 56821 was create .Txid : 10d88ac4-dc74-4c39-9fda-239d9277f9dd
+2017-05-19 09:04:21 INFO  EmailService:158 - Jira Ticket Created
+2017-05-19 09:04:21 INFO  MailApplicationService:47 - 1 Issues were created and are ready to be sent via Email
+2017-05-19 09:04:21 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-110,5,main]
+2017-05-19 09:04:21 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:21 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:21 INFO  JiraIntegrationAPI:75 - Issue No. 56822 was create .Txid : 9bcae5d9-0386-4e51-b8a1-e6ab918d6fbc
+2017-05-19 09:04:21 INFO  EmailService:158 - Jira Ticket Created
+2017-05-19 09:04:21 INFO  MailApplicationService:47 - 1 Issues were created and are ready to be sent via Email
+2017-05-19 09:04:21 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:22 INFO  SendEMailService:65 - Done
+2017-05-19 09:04:22 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-111,5,main]
+2017-05-19 09:04:22 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:22 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:22 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:23 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-112,5,main]
+2017-05-19 09:04:23 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:23 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:23 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:23 INFO  SendEMailService:65 - Done
+2017-05-19 09:04:24 INFO  SendEMailService:65 - Done
+2017-05-19 09:04:24 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-113,5,main]
+2017-05-19 09:04:24 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:24 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:24 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:25 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-114,5,main]
+2017-05-19 09:04:25 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:25 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:25 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:26 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-115,5,main]
+2017-05-19 09:04:26 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:26 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:26 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:27 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-116,5,main]
+2017-05-19 09:04:27 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:27 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:27 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:28 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-117,5,main]
+2017-05-19 09:04:28 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:28 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:28 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:29 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-118,5,main]
+2017-05-19 09:04:29 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:29 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:29 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:30 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-119,5,main]
+2017-05-19 09:04:30 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:30 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:30 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:31 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-120,5,main]
+2017-05-19 09:04:31 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:31 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:31 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:32 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-121,5,main]
+2017-05-19 09:04:32 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:32 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:32 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:33 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-122,5,main]
+2017-05-19 09:04:33 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:33 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:33 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:34 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-123,5,main]
+2017-05-19 09:04:34 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:34 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:34 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:35 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-124,5,main]
+2017-05-19 09:04:35 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:35 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:35 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:36 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-125,5,main]
+2017-05-19 09:04:36 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:36 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:36 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:37 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-126,5,main]
+2017-05-19 09:04:37 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:37 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:37 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:38 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-127,5,main]
+2017-05-19 09:04:38 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:38 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:38 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:39 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-128,5,main]
+2017-05-19 09:04:39 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:39 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:39 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:40 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-129,5,main]
+2017-05-19 09:04:40 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:40 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:40 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:41 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-130,5,main]
+2017-05-19 09:04:41 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:41 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:41 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:42 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-131,5,main]
+2017-05-19 09:04:42 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:42 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:42 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:43 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-132,5,main]
+2017-05-19 09:04:43 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:43 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:43 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:44 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-133,5,main]
+2017-05-19 09:04:44 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:44 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:44 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:45 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-134,5,main]
+2017-05-19 09:04:45 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:45 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:45 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:46 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-135,5,main]
+2017-05-19 09:04:46 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:46 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:46 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:47 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-136,5,main]
+2017-05-19 09:04:47 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:47 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:47 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:48 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-137,5,main]
+2017-05-19 09:04:48 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:48 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:48 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:49 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-138,5,main]
+2017-05-19 09:04:49 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:49 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:49 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:50 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-139,5,main]
+2017-05-19 09:04:50 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:50 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:50 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:51 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-140,5,main]
+2017-05-19 09:04:51 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:51 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:51 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:52 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-141,5,main]
+2017-05-19 09:04:52 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:52 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:52 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:53 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-142,5,main]
+2017-05-19 09:04:53 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:53 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:53 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:54 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-143,5,main]
+2017-05-19 09:04:54 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:54 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:54 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:55 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-144,5,main]
+2017-05-19 09:04:55 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:55 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:55 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:56 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-145,5,main]
+2017-05-19 09:04:56 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:56 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:56 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:57 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-146,5,main]
+2017-05-19 09:04:57 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:57 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:57 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:58 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-147,5,main]
+2017-05-19 09:04:58 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:58 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:58 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:04:59 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-148,5,main]
+2017-05-19 09:04:59 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:04:59 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:04:59 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:00 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-149,5,main]
+2017-05-19 09:05:00 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:00 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:00 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:01 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-150,5,main]
+2017-05-19 09:05:01 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:01 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:01 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:02 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-151,5,main]
+2017-05-19 09:05:02 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:02 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:02 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:03 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-152,5,main]
+2017-05-19 09:05:03 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:03 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:03 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:04 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-153,5,main]
+2017-05-19 09:05:04 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:04 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:04 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:05 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-154,5,main]
+2017-05-19 09:05:05 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:05 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:05 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:06 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-155,5,main]
+2017-05-19 09:05:06 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:06 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:06 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:07 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-156,5,main]
+2017-05-19 09:05:07 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:07 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:07 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:08 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-157,5,main]
+2017-05-19 09:05:08 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:08 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:08 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:09 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-158,5,main]
+2017-05-19 09:05:09 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:09 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:09 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:10 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-159,5,main]
+2017-05-19 09:05:10 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:10 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:10 INFO  MailApplicationService:43 - 1 Messages found in Inbox Folder
+2017-05-19 09:05:10 INFO  EmailService:141 - ---------------------------------
+2017-05-19 09:05:10 INFO  EmailService:142 - Email Number 1
+2017-05-19 09:05:10 INFO  EmailService:143 - Subject: NDA - Company Willy
+2017-05-19 09:05:10 INFO  EmailService:144 - From: wseminario.belatrix@gmail.com
+2017-05-19 09:05:10 INFO  EmailService:145 - Description: null
+2017-05-19 09:05:11 INFO  EmailService:146 - Text: Dear Mail Tester,
+
+ This is a test message.
+
+2017-05-19 09:05:11 INFO  JiraIntegrationService:28 - Init createIssue. TxId : b8e12faa-88e1-4b49-811c-bd2e3390a004 
+2017-05-19 09:05:11 INFO  JiraIntegrationAPI:58 -  Start createIssue. Object receive : {"action":"NDA - Company Willy","description":"Dear Mail Tester,\r\n\r\n This is a test message.\r\n","transactionId":"b8e12faa-88e1-4b49-811c-bd2e3390a004"} 
+2017-05-19 09:05:11 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-160,5,main]
+2017-05-19 09:05:11 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:11 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:11 INFO  MailApplicationService:43 - 1 Messages found in Inbox Folder
+2017-05-19 09:05:11 INFO  EmailService:141 - ---------------------------------
+2017-05-19 09:05:11 INFO  EmailService:142 - Email Number 1
+2017-05-19 09:05:11 INFO  EmailService:143 - Subject: NDA - Company Willy
+2017-05-19 09:05:11 INFO  EmailService:144 - From: wseminario.belatrix@gmail.com
+2017-05-19 09:05:11 INFO  EmailService:145 - Description: null
+2017-05-19 09:05:12 INFO  EmailService:146 - Text: Dear Mail Tester,
+
+ This is a test message.
+
+2017-05-19 09:05:12 INFO  JiraIntegrationService:28 - Init createIssue. TxId : 2282c112-714b-4b40-a378-c0bed9abf774 
+2017-05-19 09:05:12 INFO  JiraIntegrationAPI:58 -  Start createIssue. Object receive : {"action":"NDA - Company Willy","description":"Dear Mail Tester,\r\n\r\n This is a test message.\r\n","transactionId":"2282c112-714b-4b40-a378-c0bed9abf774"} 
+2017-05-19 09:05:12 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-161,5,main]
+2017-05-19 09:05:12 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:12 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:12 INFO  JiraIntegrationAPI:75 - Issue No. 56823 was create .Txid : b8e12faa-88e1-4b49-811c-bd2e3390a004
+2017-05-19 09:05:12 INFO  EmailService:158 - Jira Ticket Created
+2017-05-19 09:05:12 INFO  MailApplicationService:47 - 1 Issues were created and are ready to be sent via Email
+2017-05-19 09:05:12 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:13 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-162,5,main]
+2017-05-19 09:05:13 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:13 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:13 INFO  JiraIntegrationAPI:75 - Issue No. 56824 was create .Txid : 2282c112-714b-4b40-a378-c0bed9abf774
+2017-05-19 09:05:13 INFO  EmailService:158 - Jira Ticket Created
+2017-05-19 09:05:13 INFO  MailApplicationService:47 - 1 Issues were created and are ready to be sent via Email
+2017-05-19 09:05:13 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:14 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-163,5,main]
+2017-05-19 09:05:14 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:14 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:14 INFO  MailApplicationService:43 - 1 Messages found in Inbox Folder
+2017-05-19 09:05:14 INFO  EmailService:141 - ---------------------------------
+2017-05-19 09:05:14 INFO  EmailService:142 - Email Number 1
+2017-05-19 09:05:14 INFO  EmailService:143 - Subject: NDA - Company Willy
+2017-05-19 09:05:14 INFO  EmailService:144 - From: wseminario.belatrix@gmail.com
+2017-05-19 09:05:14 INFO  EmailService:145 - Description: null
+2017-05-19 09:05:15 INFO  EmailService:146 - Text: Dear Mail Tester,
+
+ This is a test message.
+
+2017-05-19 09:05:15 INFO  JiraIntegrationService:28 - Init createIssue. TxId : 16e3ddd6-b542-40bc-994a-fd3b14462d60 
+2017-05-19 09:05:15 INFO  JiraIntegrationAPI:58 -  Start createIssue. Object receive : {"action":"NDA - Company Willy","description":"Dear Mail Tester,\r\n\r\n This is a test message.\r\n","transactionId":"16e3ddd6-b542-40bc-994a-fd3b14462d60"} 
+2017-05-19 09:05:15 INFO  SendEMailService:65 - Done
+2017-05-19 09:05:15 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-164,5,main]
+2017-05-19 09:05:15 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:15 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:15 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:16 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-165,5,main]
+2017-05-19 09:05:16 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:16 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:17 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:17 INFO  SendEMailService:65 - Done
+2017-05-19 09:05:17 INFO  JiraIntegrationAPI:75 - Issue No. 56825 was create .Txid : 16e3ddd6-b542-40bc-994a-fd3b14462d60
+2017-05-19 09:05:17 INFO  EmailService:158 - Jira Ticket Created
+2017-05-19 09:05:17 INFO  MailApplicationService:47 - 1 Issues were created and are ready to be sent via Email
+2017-05-19 09:05:17 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-166,5,main]
+2017-05-19 09:05:17 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:17 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:18 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:18 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-167,5,main]
+2017-05-19 09:05:18 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:18 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:18 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:19 INFO  SendEMailService:65 - Done
+2017-05-19 09:05:19 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-168,5,main]
+2017-05-19 09:05:19 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:19 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:20 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:20 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-169,5,main]
+2017-05-19 09:05:20 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:20 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:20 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:21 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-170,5,main]
+2017-05-19 09:05:21 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:21 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:21 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:22 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-171,5,main]
+2017-05-19 09:05:22 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:22 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:22 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:23 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-172,5,main]
+2017-05-19 09:05:23 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:23 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:23 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:24 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-173,5,main]
+2017-05-19 09:05:24 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:24 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:24 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:25 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-174,5,main]
+2017-05-19 09:05:25 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:25 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:26 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:26 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-175,5,main]
+2017-05-19 09:05:26 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:26 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:26 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:27 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-176,5,main]
+2017-05-19 09:05:27 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:27 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:27 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:28 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-177,5,main]
+2017-05-19 09:05:28 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:28 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:28 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:29 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-178,5,main]
+2017-05-19 09:05:29 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:29 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:29 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:30 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-179,5,main]
+2017-05-19 09:05:30 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:30 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:30 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:31 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-180,5,main]
+2017-05-19 09:05:31 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:31 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:31 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:32 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-181,5,main]
+2017-05-19 09:05:32 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:32 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:32 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:33 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-182,5,main]
+2017-05-19 09:05:33 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:33 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:33 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:34 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-183,5,main]
+2017-05-19 09:05:34 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:34 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:34 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:35 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-184,5,main]
+2017-05-19 09:05:35 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:35 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:35 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:36 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-185,5,main]
+2017-05-19 09:05:36 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:36 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:36 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:37 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-186,5,main]
+2017-05-19 09:05:37 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:37 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:37 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:38 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-187,5,main]
+2017-05-19 09:05:38 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:38 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:38 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:39 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-188,5,main]
+2017-05-19 09:05:39 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:39 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:39 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:40 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-189,5,main]
+2017-05-19 09:05:40 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:40 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:41 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:41 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-190,5,main]
+2017-05-19 09:05:41 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:41 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:42 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:42 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-191,5,main]
+2017-05-19 09:05:42 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:42 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:43 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:43 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-192,5,main]
+2017-05-19 09:05:43 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:43 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:43 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:44 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-193,5,main]
+2017-05-19 09:05:44 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:44 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:44 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:45 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-194,5,main]
+2017-05-19 09:05:45 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:45 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:46 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:46 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-195,5,main]
+2017-05-19 09:05:46 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:46 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:47 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:47 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-196,5,main]
+2017-05-19 09:05:47 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:47 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:47 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:48 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-197,5,main]
+2017-05-19 09:05:48 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:48 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:48 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:49 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-198,5,main]
+2017-05-19 09:05:49 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:49 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:49 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:50 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-199,5,main]
+2017-05-19 09:05:50 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:50 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:51 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:51 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-200,5,main]
+2017-05-19 09:05:51 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:51 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:51 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:52 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-201,5,main]
+2017-05-19 09:05:52 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:52 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:52 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:53 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-202,5,main]
+2017-05-19 09:05:53 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:53 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:54 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:54 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-203,5,main]
+2017-05-19 09:05:54 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:54 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:54 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:55 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-204,5,main]
+2017-05-19 09:05:55 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:55 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:56 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:56 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-205,5,main]
+2017-05-19 09:05:56 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:56 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:56 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:57 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-206,5,main]
+2017-05-19 09:05:57 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:57 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:58 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:58 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-207,5,main]
+2017-05-19 09:05:58 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:58 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:58 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:05:59 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-208,5,main]
+2017-05-19 09:05:59 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:05:59 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:05:59 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:00 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-209,5,main]
+2017-05-19 09:06:00 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:00 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:00 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:01 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-210,5,main]
+2017-05-19 09:06:01 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:01 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:01 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:02 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-211,5,main]
+2017-05-19 09:06:02 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:02 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:03 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:03 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-212,5,main]
+2017-05-19 09:06:03 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:03 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:03 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:04 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-213,5,main]
+2017-05-19 09:06:04 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:04 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:04 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:05 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-214,5,main]
+2017-05-19 09:06:05 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:05 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:05 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:06 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-215,5,main]
+2017-05-19 09:06:06 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:06 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:07 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:07 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-216,5,main]
+2017-05-19 09:06:07 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:07 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:07 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:08 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-217,5,main]
+2017-05-19 09:06:08 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:08 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:08 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:09 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-218,5,main]
+2017-05-19 09:06:09 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:09 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:09 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:10 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-219,5,main]
+2017-05-19 09:06:10 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:10 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:10 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:11 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-220,5,main]
+2017-05-19 09:06:11 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:11 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:12 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:12 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-221,5,main]
+2017-05-19 09:06:12 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:12 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:12 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:13 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-222,5,main]
+2017-05-19 09:06:13 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:13 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:14 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:14 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-223,5,main]
+2017-05-19 09:06:14 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:14 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:14 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:15 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-224,5,main]
+2017-05-19 09:06:15 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:15 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:15 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:16 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-225,5,main]
+2017-05-19 09:06:16 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:16 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:17 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:17 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-226,5,main]
+2017-05-19 09:06:17 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:17 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:17 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:18 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-227,5,main]
+2017-05-19 09:06:18 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:18 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:18 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:19 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-228,5,main]
+2017-05-19 09:06:19 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:19 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:20 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:20 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-229,5,main]
+2017-05-19 09:06:20 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:20 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:20 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:21 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-230,5,main]
+2017-05-19 09:06:21 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:21 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:22 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:22 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-231,5,main]
+2017-05-19 09:06:22 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:22 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:23 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:23 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-232,5,main]
+2017-05-19 09:06:23 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:23 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:24 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:24 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-233,5,main]
+2017-05-19 09:06:24 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:24 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:24 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:25 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-234,5,main]
+2017-05-19 09:06:25 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:25 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:26 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:26 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-235,5,main]
+2017-05-19 09:06:26 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:26 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:26 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:27 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-236,5,main]
+2017-05-19 09:06:27 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:27 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:27 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:28 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-237,5,main]
+2017-05-19 09:06:28 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:28 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:28 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:29 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-238,5,main]
+2017-05-19 09:06:29 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:29 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:30 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:30 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-239,5,main]
+2017-05-19 09:06:30 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:30 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:31 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:31 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-240,5,main]
+2017-05-19 09:06:31 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:31 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:32 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:32 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-241,5,main]
+2017-05-19 09:06:32 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:32 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:33 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:33 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-242,5,main]
+2017-05-19 09:06:33 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:33 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:34 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:34 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-243,5,main]
+2017-05-19 09:06:34 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:34 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:35 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:35 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-244,5,main]
+2017-05-19 09:06:35 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:35 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:36 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:36 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-245,5,main]
+2017-05-19 09:06:36 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:36 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:36 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:37 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-246,5,main]
+2017-05-19 09:06:37 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:37 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:38 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:38 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-247,5,main]
+2017-05-19 09:06:38 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:38 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:38 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:39 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-248,5,main]
+2017-05-19 09:06:39 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:39 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:40 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:40 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-249,5,main]
+2017-05-19 09:06:40 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:40 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:41 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:41 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-250,5,main]
+2017-05-19 09:06:41 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:41 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:42 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:42 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-251,5,main]
+2017-05-19 09:06:42 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:42 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:43 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:43 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-252,5,main]
+2017-05-19 09:06:43 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:43 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:44 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:44 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-253,5,main]
+2017-05-19 09:06:44 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:44 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:45 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:45 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-254,5,main]
+2017-05-19 09:06:45 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:45 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:46 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:46 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-255,5,main]
+2017-05-19 09:06:46 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:46 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:47 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:47 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-256,5,main]
+2017-05-19 09:06:47 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:47 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:48 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 09:06:48 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-257,5,main]
+2017-05-19 09:06:48 INFO  EmailService:120 - Fetching Messages
+2017-05-19 09:06:48 INFO  EmailService:127 - Messages were fetched
+2017-05-19 09:06:49 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
