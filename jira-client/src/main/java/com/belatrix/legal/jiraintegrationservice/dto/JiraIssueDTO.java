@@ -8,6 +8,7 @@ public class JiraIssueDTO {
 	private String description;
 	private String transactionId;
 	private String issueId;
+	private String email;
 	
 	public String getAction() {
 		return action;
@@ -39,11 +40,17 @@ public class JiraIssueDTO {
 	public void setTransactionId(String transactionId) {
 		this.transactionId = transactionId;
 	}
-	public String getJiraId() {
+	public String getIssueId() {
 		return issueId;
 	}
-	public void setJiraId(String jiraId) {
-		this.issueId = jiraId;
+	public void setIssueId(String issueId) {
+		this.issueId = issueId;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
 	}
 	
 	
