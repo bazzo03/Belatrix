@@ -10,6 +10,8 @@ public class Main {
 
 	public static void main(String... args) {
 
+		LOGGER.info("...Starting application...");
+		
 		TimerThread timerThread = new TimerThread();
 		
 	    Timer timer = new Timer();
@@ -18,6 +20,7 @@ public class Main {
 	     * Set an initial delay of 1 second, then repeat every half second.
 	     */
 	    timer.schedule(timerThread, 2000, 1000);
+	    LOGGER.info("Timer started");
 		
 	        try {
 	            Thread.sleep(300);

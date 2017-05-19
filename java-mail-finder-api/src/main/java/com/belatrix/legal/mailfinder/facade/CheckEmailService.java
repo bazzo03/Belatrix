@@ -16,7 +16,6 @@ public class CheckEmailService implements ICheckEmailService {
 
 	public List<JiraIssueDTO> createIssues(Message[] messages) {
 		return EmailService.createIssues(messages);
-		
 	}
 
 }
