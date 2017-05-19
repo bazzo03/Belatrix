@@ -5256,3 +5256,219 @@ java.lang.IllegalStateException: This operation is not allowed on an open folder
 2017-05-19 09:06:48 INFO  EmailService:120 - Fetching Messages
 2017-05-19 09:06:48 INFO  EmailService:127 - Messages were fetched
 2017-05-19 09:06:49 INFO  MailApplicationService:50 - 0 Issues created. There are no Issues to be sent
+2017-05-19 10:56:23 INFO  Main:23 - ...Starting application...
+2017-05-19 10:57:04 INFO  Main:23 - ...Starting application...
+2017-05-19 10:58:22 INFO  Main:23 - ...Starting application...
+2017-05-19 10:59:15 INFO  Main:23 - ...Starting application...
+2017-05-19 11:00:00 INFO  Main:23 - ...Starting application...
+2017-05-19 11:03:54 INFO  Main:23 - ...Starting application...
+2017-05-19 11:04:00 INFO  Main:23 - ...Starting application...
+2017-05-19 11:05:04 INFO  Main:23 - ...Starting application...
+2017-05-19 11:05:04 INFO  Main:30 - Timer started
+2017-05-19 11:05:06 INFO  TimerThread:16 - Thread started
+2017-05-19 11:05:06 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-1,5,main]
+2017-05-19 11:05:06 INFO  EmailService:27 - Fetching Messages
+2017-05-19 11:05:07 INFO  TimerThread:16 - Thread started
+2017-05-19 11:05:07 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-3,5,main]
+2017-05-19 11:05:07 INFO  EmailService:27 - Fetching Messages
+2017-05-19 11:05:08 INFO  TimerThread:16 - Thread started
+2017-05-19 11:05:08 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-4,5,main]
+2017-05-19 11:05:08 INFO  EmailService:27 - Fetching Messages
+2017-05-19 11:05:09 INFO  EmailService:35 - Messages were fetched
+2017-05-19 11:05:09 INFO  TimerThread:16 - Thread started
+2017-05-19 11:05:09 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-5,5,main]
+2017-05-19 11:05:09 INFO  EmailService:27 - Fetching Messages
+2017-05-19 11:05:09 INFO  EmailService:35 - Messages were fetched
+2017-05-19 11:05:10 INFO  EmailService:35 - Messages were fetched
+2017-05-19 11:05:10 INFO  TimerThread:16 - Thread started
+2017-05-19 11:05:10 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-6,5,main]
+2017-05-19 11:05:10 INFO  EmailService:27 - Fetching Messages
+2017-05-19 11:05:10 INFO  EmailService:35 - Messages were fetched
+2017-05-19 11:05:11 INFO  TimerThread:16 - Thread started
+2017-05-19 11:05:11 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-7,5,main]
+2017-05-19 11:05:11 INFO  EmailService:27 - Fetching Messages
+2017-05-19 11:05:11 INFO  EmailService:35 - Messages were fetched
+2017-05-19 11:05:11 INFO  EmailService:35 - Messages were fetched
+2017-05-19 11:05:12 INFO  MailApplicationService:42 - 1 Messages found in Inbox Folder
+2017-05-19 11:05:12 INFO  MailApplicationService:42 - 1 Messages found in Inbox Folder
+2017-05-19 11:05:12 INFO  MailApplicationService:42 - 1 Messages found in Inbox Folder
+2017-05-19 11:05:12 INFO  TimerThread:16 - Thread started
+2017-05-19 11:05:12 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-8,5,main]
+2017-05-19 11:05:12 INFO  EmailService:27 - Fetching Messages
+2017-05-19 11:05:12 INFO  EmailService:35 - Messages were fetched
+2017-05-19 11:05:13 INFO  EmailService:50 - ---------------------------------
+2017-05-19 11:05:13 INFO  EmailService:50 - ---------------------------------
+2017-05-19 11:05:13 INFO  EmailService:50 - ---------------------------------
+2017-05-19 11:05:13 INFO  EmailService:51 - Email Number 1
+2017-05-19 11:05:13 INFO  EmailService:52 - Subject: NDA - Company Willy
+2017-05-19 11:05:13 INFO  EmailService:51 - Email Number 1
+2017-05-19 11:05:13 INFO  EmailService:53 - From: wseminario.belatrix@gmail.com
+2017-05-19 11:05:13 INFO  EmailService:51 - Email Number 1
+2017-05-19 11:05:13 INFO  EmailService:52 - Subject: NDA - Company Willy
+2017-05-19 11:05:13 INFO  EmailService:52 - Subject: NDA - Company Willy
+2017-05-19 11:05:13 INFO  MailApplicationService:42 - 1 Messages found in Inbox Folder
+2017-05-19 11:05:13 INFO  EmailService:50 - ---------------------------------
+2017-05-19 11:05:13 INFO  EmailService:51 - Email Number 1
+2017-05-19 11:05:13 INFO  EmailService:52 - Subject: NDA - Company Willy
+2017-05-19 11:05:13 INFO  TimerThread:16 - Thread started
+2017-05-19 11:05:13 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-9,5,main]
+2017-05-19 11:05:13 INFO  EmailService:27 - Fetching Messages
+2017-05-19 11:05:13 INFO  EmailService:35 - Messages were fetched
+2017-05-19 11:05:13 INFO  EmailService:54 - Description: null
+2017-05-19 11:05:13 INFO  EmailService:53 - From: wseminario.belatrix@gmail.com
+2017-05-19 11:05:13 INFO  EmailService:53 - From: wseminario.belatrix@gmail.com
+2017-05-19 11:05:13 INFO  EmailService:53 - From: wseminario.belatrix@gmail.com
+2017-05-19 11:05:13 INFO  EmailService:54 - Description: null
+2017-05-19 11:05:13 INFO  EmailService:54 - Description: null
+2017-05-19 11:05:13 INFO  EmailService:54 - Description: null
+2017-05-19 11:05:14 INFO  MailApplicationService:42 - 1 Messages found in Inbox Folder
+2017-05-19 11:05:14 INFO  EmailService:50 - ---------------------------------
+2017-05-19 11:05:14 INFO  EmailService:51 - Email Number 1
+2017-05-19 11:05:14 INFO  EmailService:52 - Subject: NDA - Company Willy
+2017-05-19 11:05:14 INFO  EmailService:53 - From: wseminario.belatrix@gmail.com
+2017-05-19 11:05:14 INFO  EmailService:54 - Description: null
+2017-05-19 11:05:14 INFO  MailApplicationService:42 - 1 Messages found in Inbox Folder
+2017-05-19 11:05:14 INFO  EmailService:50 - ---------------------------------
+2017-05-19 11:05:14 INFO  EmailService:51 - Email Number 1
+2017-05-19 11:05:14 INFO  EmailService:52 - Subject: NDA - Company Willy
+2017-05-19 11:05:14 INFO  EmailService:53 - From: wseminario.belatrix@gmail.com
+2017-05-19 11:05:14 INFO  EmailService:54 - Description: null
+2017-05-19 11:05:14 INFO  TimerThread:16 - Thread started
+2017-05-19 11:05:14 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-10,5,main]
+2017-05-19 11:05:14 INFO  EmailService:27 - Fetching Messages
+2017-05-19 11:05:14 INFO  EmailService:35 - Messages were fetched
+2017-05-19 11:05:15 INFO  TimerThread:16 - Thread started
+2017-05-19 11:05:15 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-11,5,main]
+2017-05-19 11:05:15 INFO  EmailService:27 - Fetching Messages
+2017-05-19 11:05:15 INFO  EmailService:35 - Messages were fetched
+2017-05-19 11:05:16 INFO  MailApplicationService:49 - 0 Issues created. There are no Issues to be sent
+2017-05-19 11:05:16 INFO  TimerThread:16 - Thread started
+2017-05-19 11:05:16 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-12,5,main]
+2017-05-19 11:05:16 INFO  EmailService:27 - Fetching Messages
+2017-05-19 11:05:16 INFO  EmailService:35 - Messages were fetched
+2017-05-19 11:05:16 INFO  MailApplicationService:49 - 0 Issues created. There are no Issues to be sent
+2017-05-19 11:05:16 INFO  MailApplicationService:49 - 0 Issues created. There are no Issues to be sent
+2017-05-19 11:05:16 INFO  EmailService:55 - Text: Dear Mail Tester,
+
+ This is a test message.
+
+2017-05-19 11:05:16 INFO  EmailService:55 - Text: Dear Mail Tester,
+
+ This is a test message.
+
+2017-05-19 11:05:16 INFO  EmailService:55 - Text: Dear Mail Tester,
+
+ This is a test message.
+
+2017-05-19 11:05:17 INFO  MailApplicationService:49 - 0 Issues created. There are no Issues to be sent
+2017-05-19 11:05:17 INFO  EmailService:55 - Text: Dear Mail Tester,
+
+ This is a test message.
+
+2017-05-19 11:05:17 INFO  EmailService:55 - Text: Dear Mail Tester,
+
+ This is a test message.
+
+2017-05-19 11:05:17 INFO  EmailService:55 - Text: Dear Mail Tester,
+
+ This is a test message.
+
+2017-05-19 11:05:17 INFO  TimerThread:16 - Thread started
+2017-05-19 11:05:17 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-13,5,main]
+2017-05-19 11:05:17 INFO  EmailService:27 - Fetching Messages
+2017-05-19 11:05:17 INFO  EmailService:35 - Messages were fetched
+2017-05-19 11:05:17 INFO  MailApplicationService:49 - 0 Issues created. There are no Issues to be sent
+2017-05-19 11:05:18 INFO  EmailService:65 - Obtaining IssueId for TxId:fa6634fa-ef6b-4818-a337-23ec4510dfc8
+2017-05-19 11:05:18 INFO  JiraIntegrationService:28 - Init createIssue. TxId : fa6634fa-ef6b-4818-a337-23ec4510dfc8 
+2017-05-19 11:05:18 INFO  JiraIntegrationAPI:58 -  CreateIssue. Object received : {"action":"NDA - Company Willy","description":"Dear Mail Tester,\r\n\r\n This is a test message.\r\n","transactionId":"fa6634fa-ef6b-4818-a337-23ec4510dfc8","email":"wseminario.belatrix@gmail.com"} 
+2017-05-19 11:05:18 INFO  TimerThread:16 - Thread started
+2017-05-19 11:05:18 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-14,5,main]
+2017-05-19 11:05:18 INFO  EmailService:27 - Fetching Messages
+2017-05-19 11:05:18 INFO  EmailService:35 - Messages were fetched
+2017-05-19 11:05:19 INFO  MailApplicationService:49 - 0 Issues created. There are no Issues to be sent
+2017-05-19 11:05:19 INFO  EmailService:65 - Obtaining IssueId for TxId:1e442640-5070-4e21-9fcc-d78dcda8c030
+2017-05-19 11:05:19 INFO  EmailService:65 - Obtaining IssueId for TxId:37dc0679-64c0-40ce-8b7a-d3d698580394
+2017-05-19 11:05:19 INFO  EmailService:65 - Obtaining IssueId for TxId:3ff2220b-2482-4edf-a7aa-d16a10fa448e
+2017-05-19 11:05:19 INFO  JiraIntegrationService:28 - Init createIssue. TxId : 37dc0679-64c0-40ce-8b7a-d3d698580394 
+2017-05-19 11:05:19 INFO  JiraIntegrationService:28 - Init createIssue. TxId : 1e442640-5070-4e21-9fcc-d78dcda8c030 
+2017-05-19 11:05:19 INFO  JiraIntegrationService:28 - Init createIssue. TxId : 3ff2220b-2482-4edf-a7aa-d16a10fa448e 
+2017-05-19 11:05:19 INFO  JiraIntegrationAPI:58 -  CreateIssue. Object received : {"action":"NDA - Company Willy","description":"Dear Mail Tester,\r\n\r\n This is a test message.\r\n","transactionId":"37dc0679-64c0-40ce-8b7a-d3d698580394","email":"wseminario.belatrix@gmail.com"} 
+2017-05-19 11:05:19 INFO  JiraIntegrationAPI:58 -  CreateIssue. Object received : {"action":"NDA - Company Willy","description":"Dear Mail Tester,\r\n\r\n This is a test message.\r\n","transactionId":"3ff2220b-2482-4edf-a7aa-d16a10fa448e","email":"wseminario.belatrix@gmail.com"} 
+2017-05-19 11:05:19 INFO  JiraIntegrationAPI:58 -  CreateIssue. Object received : {"action":"NDA - Company Willy","description":"Dear Mail Tester,\r\n\r\n This is a test message.\r\n","transactionId":"1e442640-5070-4e21-9fcc-d78dcda8c030","email":"wseminario.belatrix@gmail.com"} 
+2017-05-19 11:05:19 INFO  MailApplicationService:49 - 0 Issues created. There are no Issues to be sent
+2017-05-19 11:05:19 INFO  EmailService:65 - Obtaining IssueId for TxId:88656dc5-381b-4fe3-b8e3-6dba2b5f0cd3
+2017-05-19 11:05:19 INFO  EmailService:65 - Obtaining IssueId for TxId:a74ee090-de68-472f-88e8-972e7c73e160
+2017-05-19 11:05:19 INFO  JiraIntegrationService:28 - Init createIssue. TxId : 88656dc5-381b-4fe3-b8e3-6dba2b5f0cd3 
+2017-05-19 11:05:19 INFO  JiraIntegrationService:28 - Init createIssue. TxId : a74ee090-de68-472f-88e8-972e7c73e160 
+2017-05-19 11:05:19 INFO  JiraIntegrationAPI:58 -  CreateIssue. Object received : {"action":"NDA - Company Willy","description":"Dear Mail Tester,\r\n\r\n This is a test message.\r\n","transactionId":"88656dc5-381b-4fe3-b8e3-6dba2b5f0cd3","email":"wseminario.belatrix@gmail.com"} 
+2017-05-19 11:05:19 INFO  JiraIntegrationAPI:58 -  CreateIssue. Object received : {"action":"NDA - Company Willy","description":"Dear Mail Tester,\r\n\r\n This is a test message.\r\n","transactionId":"a74ee090-de68-472f-88e8-972e7c73e160","email":"wseminario.belatrix@gmail.com"} 
+2017-05-19 11:05:19 INFO  TimerThread:16 - Thread started
+2017-05-19 11:05:19 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-15,5,main]
+2017-05-19 11:05:19 INFO  EmailService:27 - Fetching Messages
+2017-05-19 11:05:19 INFO  EmailService:35 - Messages were fetched
+2017-05-19 11:05:19 INFO  MailApplicationService:49 - 0 Issues created. There are no Issues to be sent
+2017-05-19 11:05:20 INFO  JiraIntegrationAPI:76 - Issue No. 56850 was create .Txid : fa6634fa-ef6b-4818-a337-23ec4510dfc8
+2017-05-19 11:05:20 INFO  EmailService:67 - GeneratedId id: 56850
+2017-05-19 11:05:20 INFO  EmailService:71 - Jira Ticket Created - Id: 56850
+2017-05-19 11:05:20 INFO  MailApplicationService:46 - 1 Issues were created and are ready to be sent via Email
+2017-05-19 11:05:20 INFO  TimerThread:16 - Thread started
+2017-05-19 11:05:20 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-16,5,main]
+2017-05-19 11:05:20 INFO  EmailService:27 - Fetching Messages
+2017-05-19 11:05:20 INFO  EmailService:35 - Messages were fetched
+2017-05-19 11:05:20 INFO  JiraIntegrationAPI:76 - Issue No. 56851 was create .Txid : 3ff2220b-2482-4edf-a7aa-d16a10fa448e
+2017-05-19 11:05:20 INFO  EmailService:67 - GeneratedId id: 56851
+2017-05-19 11:05:20 INFO  EmailService:71 - Jira Ticket Created - Id: 56851
+2017-05-19 11:05:20 INFO  MailApplicationService:46 - 1 Issues were created and are ready to be sent via Email
+2017-05-19 11:05:20 INFO  MailApplicationService:49 - 0 Issues created. There are no Issues to be sent
+2017-05-19 11:05:20 INFO  JiraIntegrationAPI:76 - Issue No. 56853 was create .Txid : 1e442640-5070-4e21-9fcc-d78dcda8c030
+2017-05-19 11:05:20 INFO  EmailService:67 - GeneratedId id: 56853
+2017-05-19 11:05:20 INFO  EmailService:71 - Jira Ticket Created - Id: 56853
+2017-05-19 11:05:20 INFO  MailApplicationService:46 - 1 Issues were created and are ready to be sent via Email
+2017-05-19 11:05:20 INFO  JiraIntegrationAPI:76 - Issue No. 56852 was create .Txid : 37dc0679-64c0-40ce-8b7a-d3d698580394
+2017-05-19 11:05:20 INFO  EmailService:67 - GeneratedId id: 56852
+2017-05-19 11:05:20 INFO  EmailService:71 - Jira Ticket Created - Id: 56852
+2017-05-19 11:05:20 INFO  MailApplicationService:46 - 1 Issues were created and are ready to be sent via Email
+2017-05-19 11:05:20 INFO  JiraIntegrationAPI:76 - Issue No. 56854 was create .Txid : 88656dc5-381b-4fe3-b8e3-6dba2b5f0cd3
+2017-05-19 11:05:20 INFO  EmailService:67 - GeneratedId id: 56854
+2017-05-19 11:05:20 INFO  EmailService:71 - Jira Ticket Created - Id: 56854
+2017-05-19 11:05:20 INFO  MailApplicationService:46 - 1 Issues were created and are ready to be sent via Email
+2017-05-19 11:05:21 INFO  JiraIntegrationAPI:76 - Issue No. 56855 was create .Txid : a74ee090-de68-472f-88e8-972e7c73e160
+2017-05-19 11:05:21 INFO  EmailService:67 - GeneratedId id: 56855
+2017-05-19 11:05:21 INFO  EmailService:71 - Jira Ticket Created - Id: 56855
+2017-05-19 11:05:21 INFO  MailApplicationService:46 - 1 Issues were created and are ready to be sent via Email
+2017-05-19 11:05:21 INFO  TimerThread:16 - Thread started
+2017-05-19 11:05:21 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-17,5,main]
+2017-05-19 11:05:21 INFO  EmailService:27 - Fetching Messages
+2017-05-19 11:05:21 INFO  EmailService:35 - Messages were fetched
+2017-05-19 11:05:21 INFO  MailApplicationService:49 - 0 Issues created. There are no Issues to be sent
+2017-05-19 11:05:22 INFO  TimerThread:16 - Thread started
+2017-05-19 11:05:22 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-18,5,main]
+2017-05-19 11:05:22 INFO  EmailService:27 - Fetching Messages
+2017-05-19 11:05:22 INFO  EmailService:35 - Messages were fetched
+2017-05-19 11:05:22 INFO  MailApplicationService:49 - 0 Issues created. There are no Issues to be sent
+2017-05-19 11:05:23 INFO  TimerThread:16 - Thread started
+2017-05-19 11:05:23 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-19,5,main]
+2017-05-19 11:05:23 INFO  EmailService:27 - Fetching Messages
+2017-05-19 11:05:23 INFO  EmailService:35 - Messages were fetched
+2017-05-19 11:05:23 INFO  SendEMailService:65 - Done
+2017-05-19 11:05:23 INFO  MailApplicationService:49 - 0 Issues created. There are no Issues to be sent
+2017-05-19 11:05:24 INFO  SendEMailService:65 - Done
+2017-05-19 11:05:24 INFO  SendEMailService:65 - Done
+2017-05-19 11:05:24 INFO  TimerThread:16 - Thread started
+2017-05-19 11:05:24 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-20,5,main]
+2017-05-19 11:05:24 INFO  EmailService:27 - Fetching Messages
+2017-05-19 11:05:24 INFO  EmailService:35 - Messages were fetched
+2017-05-19 11:05:24 INFO  MailApplicationService:49 - 0 Issues created. There are no Issues to be sent
+2017-05-19 11:05:24 INFO  SendEMailService:65 - Done
+2017-05-19 11:05:25 INFO  SendEMailService:65 - Done
+2017-05-19 11:05:25 INFO  TimerThread:16 - Thread started
+2017-05-19 11:05:25 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-21,5,main]
+2017-05-19 11:05:25 INFO  EmailService:27 - Fetching Messages
+2017-05-19 11:05:25 INFO  EmailService:35 - Messages were fetched
+2017-05-19 11:05:25 INFO  SendEMailService:65 - Done
+2017-05-19 11:05:25 INFO  MailApplicationService:49 - 0 Issues created. There are no Issues to be sent
+2017-05-19 11:05:26 INFO  TimerThread:16 - Thread started
+2017-05-19 11:05:26 INFO  MailApplicationService:30 - In run Method: currentThread() isThread[Thread-22,5,main]
+2017-05-19 11:05:26 INFO  EmailService:27 - Fetching Messages
+2017-05-19 11:05:26 INFO  EmailService:35 - Messages were fetched
+2017-05-19 11:05:26 INFO  MailApplicationService:49 - 0 Issues created. There are no Issues to be sent

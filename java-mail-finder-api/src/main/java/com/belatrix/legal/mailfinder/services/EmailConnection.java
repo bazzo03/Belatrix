@@ -9,15 +9,15 @@ import javax.mail.Session;
 import javax.mail.Store;
 
 import com.belatrix.legal.mailfinder.config.EPropertyMail;
-import com.belatrix.legal.mailfinder.config.LoadConfig;
+import com.belatrix.legal.mailfinder.config.LoadMailConfig;
 
 public class EmailConnection {
 
-	private static final String MAIL_STORE_PROTOCOL = LoadConfig.getInstance()
+	private static final String MAIL_STORE_PROTOCOL = LoadMailConfig.getInstance()
 			.getProperty(EPropertyMail.MAIL_STORE_PROTOCOL.getNameProperty());
-	private static final String MAIL_IMAPS = LoadConfig.getInstance()
+	private static final String MAIL_IMAPS = LoadMailConfig.getInstance()
 			.getProperty(EPropertyMail.MAIL_IMAPS.getNameProperty());
-	private static final String MAIL_INBOX_FOLDER = LoadConfig.getInstance()
+	private static final String MAIL_INBOX_FOLDER = LoadMailConfig.getInstance()
 			.getProperty(EPropertyMail.MAIL_INBOX_FOLDER.getNameProperty());
 
 	private Store store;

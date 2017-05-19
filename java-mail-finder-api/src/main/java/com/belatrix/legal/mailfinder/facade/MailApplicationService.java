@@ -10,19 +10,19 @@ import org.apache.log4j.Logger;
 
 import com.belatrix.legal.jiraintegrationservice.dto.JiraIssueDTO;
 import com.belatrix.legal.mailfinder.config.EPropertyMail;
-import com.belatrix.legal.mailfinder.config.LoadConfig;
+import com.belatrix.legal.mailfinder.config.LoadMailConfig;
 
 public class MailApplicationService extends Thread {
 
 	private final static Logger LOGGER = Logger.getLogger(MailApplicationService.class);
 
-	private static final String MAIL_RECIPIENT = LoadConfig.getInstance()
+	private static final String MAIL_RECIPIENT = LoadMailConfig.getInstance()
 			.getProperty(EPropertyMail.MAIL_RECIPIENT.getNameProperty());
-	private static final String MAIL_PASSWORD = LoadConfig.getInstance()
+	private static final String MAIL_PASSWORD = LoadMailConfig.getInstance()
 			.getProperty(EPropertyMail.MAIL_PASSWORD.getNameProperty());
-	private static final String MAIL_IMAP = LoadConfig.getInstance()
+	private static final String MAIL_IMAP = LoadMailConfig.getInstance()
 			.getProperty(EPropertyMail.MAIL_IMAP.getNameProperty());
-	private static final String MAIL_FROM = LoadConfig.getInstance()
+	private static final String MAIL_FROM = LoadMailConfig.getInstance()
 			.getProperty(EPropertyMail.MAIL_FROM.getNameProperty());
 
 	public void run() {

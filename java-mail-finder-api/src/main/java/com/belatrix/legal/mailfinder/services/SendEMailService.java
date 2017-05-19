@@ -13,18 +13,18 @@ import javax.mail.internet.MimeMessage;
 import org.apache.log4j.Logger;
 
 import com.belatrix.legal.mailfinder.config.EPropertyMail;
-import com.belatrix.legal.mailfinder.config.LoadConfig;
+import com.belatrix.legal.mailfinder.config.LoadMailConfig;
 
 public class SendEMailService {
 
-	private static final String MAIL_USERNAME=LoadConfig.getInstance().getProperty(EPropertyMail.MAIL_USERNAME.getNameProperty());
-	private static final String MAIL_PASSWORD=LoadConfig.getInstance().getProperty(EPropertyMail.MAIL_PASSWORD.getNameProperty());
-	private static final String MAIL_SMTP_AUTH=LoadConfig.getInstance().getProperty(EPropertyMail.MAIL_SMTP_AUTH.getNameProperty());
-	private static final String MAIL_START_TLS=LoadConfig.getInstance().getProperty(EPropertyMail.MAIL_START_TLS.getNameProperty());
-	private static final String MAIL_SMTP_HOST=LoadConfig.getInstance().getProperty(EPropertyMail.MAIL_SMTP_HOST.getNameProperty());
-	private static final String MAIL_SMTP_GMAIL=LoadConfig.getInstance().getProperty(EPropertyMail.MAIL_SMTP_GMAIL.getNameProperty());
-	private static final String MAIL_SMTP_PORT=LoadConfig.getInstance().getProperty(EPropertyMail.MAIL_SMTP_PORT.getNameProperty());
-	private static final String MAIL_SMTP_PORT_NUMBER=LoadConfig.getInstance().getProperty(EPropertyMail.MAIL_SMTP_PORT_NUMBER.getNameProperty());
+	private static final String MAIL_USERNAME=LoadMailConfig.getInstance().getProperty(EPropertyMail.MAIL_USERNAME.getNameProperty());
+	private static final String MAIL_PASSWORD=LoadMailConfig.getInstance().getProperty(EPropertyMail.MAIL_PASSWORD.getNameProperty());
+	private static final String MAIL_SMTP_AUTH=LoadMailConfig.getInstance().getProperty(EPropertyMail.MAIL_SMTP_AUTH.getNameProperty());
+	private static final String MAIL_START_TLS=LoadMailConfig.getInstance().getProperty(EPropertyMail.MAIL_START_TLS.getNameProperty());
+	private static final String MAIL_SMTP_HOST=LoadMailConfig.getInstance().getProperty(EPropertyMail.MAIL_SMTP_HOST.getNameProperty());
+	private static final String MAIL_SMTP_GMAIL=LoadMailConfig.getInstance().getProperty(EPropertyMail.MAIL_SMTP_GMAIL.getNameProperty());
+	private static final String MAIL_SMTP_PORT=LoadMailConfig.getInstance().getProperty(EPropertyMail.MAIL_SMTP_PORT.getNameProperty());
+	private static final String MAIL_SMTP_PORT_NUMBER=LoadMailConfig.getInstance().getProperty(EPropertyMail.MAIL_SMTP_PORT_NUMBER.getNameProperty());
 	private static final String TRUE = "true";
 	
 	private final static Logger LOGGER = Logger.getLogger(SendEMailService.class);

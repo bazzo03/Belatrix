@@ -12,7 +12,7 @@ import java.util.Set;
  * @author dbernal
  * 
  */
-public class LoadConfig {
+public class LoadDaemonConfig {
 
 	/**
 	 * Property
@@ -22,9 +22,9 @@ public class LoadConfig {
 	/**
 	 * LoadConfig constructor
 	 */
-	private LoadConfig() {
+	private LoadDaemonConfig() {
 
-		InputStream in = this.getClass().getClassLoader().getResourceAsStream("mail.properties");
+		InputStream in = this.getClass().getClassLoader().getResourceAsStream("daemon.properties");
 		try {
 			configProp.load(in);
 		} catch (IOException e) {
@@ -34,7 +34,7 @@ public class LoadConfig {
 	}
 
 	private static class LoadConfigInner {
-		private static final LoadConfig INSTANCE = new LoadConfig();
+		private static final LoadDaemonConfig INSTANCE = new LoadDaemonConfig();
 	}
 
 	/**
@@ -42,7 +42,7 @@ public class LoadConfig {
 	 * 
 	 * @return
 	 */
-	public static LoadConfig getInstance() {
+	public static LoadDaemonConfig getInstance() {
 		return LoadConfigInner.INSTANCE;
 	}
 	
