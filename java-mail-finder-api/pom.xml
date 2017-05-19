@@ -3,10 +3,9 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.belatrix.legal</groupId>
 	<artifactId>java-mail-finder-api</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<build>
+		<build>
 		<plugins>
 			<plugin>
 				<artifactId>maven-dependency-plugin</artifactId>
@@ -18,10 +17,19 @@
 						</goals>
 						<configuration>
 							<outputDirectory>${project.build.directory}/lib</outputDirectory>
+							<resources>
+								<resource>
+									<filtering>true</filtering>
+									<directory>${project.basedir}/src/main/resources/</directory>
+								</resource>
+							</resources>
+
 						</configuration>
 					</execution>
 				</executions>
 			</plugin>
+
+
 
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -30,11 +38,11 @@
 					<archive>
 						<manifest>
 							<addClasspath>true</addClasspath>
-							<classpathPrefix>lib</classpathPrefix>
 							<mainClass>com.belatrix.legal.mailfinder.main.Main</mainClass>
 						</manifest>
 						<manifestEntries>
 							<Class-Path>lib/</Class-Path>
+							<Class-Path>./config/</Class-Path>
 						</manifestEntries>
 					</archive>
 				</configuration>
@@ -48,8 +56,6 @@
 					<target>1.8</target>
 				</configuration>
 			</plugin>
-
-
 		</plugins>
 	</build>
 
@@ -78,4 +84,10 @@
 
 	</dependencies>
 
+	<parent>
+		<groupId>com.belatrix.legal</groupId>
+		<artifactId>parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../parent/pom.xml</relativePath>
+	</parent>
 </project>
