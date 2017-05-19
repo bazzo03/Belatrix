@@ -92,7 +92,7 @@ public class EmailService {
 					ISendMailService sendMailService = new SendMailService();
 
 					if (generatedId == null || generatedId.equals(StringUtils.EMPTY)) {
-						LOGGER.info("El ticket se creó en Jira con id: " + generatedId + " Para el transaction Id: "
+						LOGGER.info("El ticket se creï¿½ en Jira con id: " + generatedId + " Para el transaction Id: "
 								+ issue.getTransactionId());
 						sendMailService.sendEmail(issue.getDescription(), MAIL_RECIPIENT, MAIL_FROM, issue.getAction());
 					} else {
@@ -166,11 +166,12 @@ public class EmailService {
 					issue.setAction(message.getSubject());
 					issue.setDescription(message.getContent().toString());
 					issue.setTransactionId(UUID.randomUUID().toString());
+					issue.setEmail(message.getFrom()[0].toString());
 
 					String generatedId = jiraIntegrationService.createIssue(issue);
 					
 					if (generatedId != null && !generatedId.equals(StringUtils.EMPTY)) {
-						issue.setJiraId(generatedId);
+						issue.setIssueId(generatedId);
 						LOGGER.info("Jira Ticket Created");
 					} else {
 						LOGGER.error(String.format("Error in Jira Client with Txid: ", issue.getTransactionId()));

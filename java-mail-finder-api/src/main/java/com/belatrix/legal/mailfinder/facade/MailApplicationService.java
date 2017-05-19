@@ -59,12 +59,12 @@ public class MailApplicationService extends Thread {
 		ISendMailService sendMailService = new SendMailService();
 
 		for (JiraIssueDTO dto : issues) {
-			if (dto.getJiraId() != null && !dto.getJiraId().equals(StringUtils.EMPTY)) {
-				sendMailService.sendEmail(dto.getDescription(), MAIL_FROM, MAIL_RECIPIENT,
-						dto.getAction() + " " + dto.getJiraId());
+			if (dto.getIssueId() != null && !dto.getIssueId().equals(StringUtils.EMPTY)) {
+				sendMailService.sendEmail(dto.getDescription(), /* dto.getEmail() */ MAIL_FROM, MAIL_RECIPIENT,
+						dto.getAction() + " " + dto.getIssueId());
 			} else {
-				LOGGER.error(String.format("No Issue created for Txid: ", dto.getTransactionId()));
-				sendMailService.sendEmail("No Issue created ", MAIL_FROM, MAIL_RECIPIENT, dto.getAction());
+				LOGGER.info(String.format("No Issue created for Txid: ", dto.getTransactionId()));
+				sendMailService.sendEmail("No Issue created", /* dto.getEmail() */ MAIL_FROM, MAIL_RECIPIENT, dto.getAction());
 			}
 		}
 	}

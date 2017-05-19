@@ -4,8 +4,6 @@ import java.util.Timer;
 
 import org.apache.log4j.Logger;
 
-import com.belatrix.legal.mailfinder.facade.MailApplicationService;
-
 public class Main {
 
 	private final static Logger LOGGER = Logger.getLogger(Main.class);
