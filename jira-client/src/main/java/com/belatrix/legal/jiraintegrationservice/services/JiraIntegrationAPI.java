@@ -55,7 +55,7 @@ public class JiraIntegrationAPI {
 	 */
 	public static String createIssue(JiraIssueDTO issue) throws JiraIntegrationServiceException {
 
-		logger.info(String.format(" Start createIssue. Object receive : %s ",
+		logger.info(String.format(" CreateIssue. Object received : %s ",
 				new Gson().toJson(issue, JiraIssueDTO.class)));
 
 		if (!url.isEmpty() && creds != null) {
@@ -69,6 +69,7 @@ public class JiraIntegrationAPI {
 
 			try {
 				jira = new JiraClient(url, creds);
+				logger.trace(String.format("Connect to Url : %s . TxId : %s",url,issue.getTransactionId()));
 				Issue newIssue = jira.createIssue(projectName, EIssueType.STORY.getNameProperty())
 						.field(Field.SUMMARY, issue.getAction()).field(Field.DESCRIPTION, issue.getDescription())
 						.field(Field.REPORTER, user).field(Field.ASSIGNEE, user).execute();
@@ -76,12 +77,12 @@ public class JiraIntegrationAPI {
 						issue.getTransactionId()));
 				return newIssue.getId();
 			} catch (JiraException e) {
-				logger.error("Error returned by Jira Client ", e);
+				logger.error("Error returned by Jira Client . TxId : "+ issue.getTransactionId(), e);
 				throw new JiraIntegrationServiceException("Error in Jira Client", e);
 			}
 
 		} else {
-			logger.error("Jira configuration not found.");
+			logger.error("Jira configuration not found. TxId "+issue.getTransactionId());
 			throw new JiraIntegrationServiceException(" Jira Configuration not found.");
 		}
 
