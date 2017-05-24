@@ -23,7 +23,12 @@ public enum EPropertyMail {
 	MAIL_SMTP_HOST("mail.smtp.host"),
 	MAIL_SMTP_GMAIL("mail.smtp.gmail"),
 	MAIL_SMTP_PORT("mail.smtp.port"),
-	MAIL_SMTP_PORT_NUMBER("mail.smtp.port.number");
+	MAIL_SMTP_PORT_NUMBER("mail.smtp.port.number"),
+	
+	MESSAGE_SUCCES("mail.message.success"),
+	MESSAGE_FAIL("mail.message.fail");
+
+
 	
 
 	/**

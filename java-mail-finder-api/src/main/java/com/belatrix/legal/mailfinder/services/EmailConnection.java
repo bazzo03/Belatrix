@@ -19,6 +19,8 @@ public class EmailConnection {
 			.getProperty(EPropertyMail.MAIL_IMAPS.getNameProperty());
 	private static final String MAIL_INBOX_FOLDER = LoadMailConfig.getInstance()
 			.getProperty(EPropertyMail.MAIL_INBOX_FOLDER.getNameProperty());
+	
+
 
 	private Store store;
 
@@ -52,9 +54,10 @@ public class EmailConnection {
 	public Folder getFolder() throws MessagingException {
 
 		if (folder == null) {
-			folder = store.getFolder(MAIL_INBOX_FOLDER);
+			folder = store.getFolder(MAIL_INBOX_FOLDER);	
 			folder.open(Folder.READ_WRITE);
 		}
+
 		return folder;
 	}
 

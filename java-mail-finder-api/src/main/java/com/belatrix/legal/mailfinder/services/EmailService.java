@@ -16,10 +16,15 @@ import org.apache.log4j.Logger;
 import com.belatrix.legal.jiraintegrationservice.dto.JiraIssueDTO;
 import com.belatrix.legal.jiraintegrationservice.facade.IJiraIntegrationService;
 import com.belatrix.legal.jiraintegrationservice.facade.JiraIntegrationService;
+import com.belatrix.legal.mailfinder.config.EPropertyMail;
+import com.belatrix.legal.mailfinder.config.LoadMailConfig;
 
 public class EmailService {
 
 	private final static Logger LOGGER = Logger.getLogger(EmailService.class);
+	
+	private static final String SUBJECT = LoadMailConfig.getInstance()
+			.getProperty(EPropertyMail.MAIL_SUBJECT.getNameProperty());
 
 	public static Message[] fetchMessages(String host, String user, String password, boolean read)
 			throws MessagingException {
@@ -46,14 +51,15 @@ public class EmailService {
 			Message message = messages[i];
 			JiraIssueDTO issue = new JiraIssueDTO();
 			try {
-				if (message.getSubject().contains("NDA")) {
+				LOGGER.info("**********"+SUBJECT);
+				if (message.getSubject().contains(SUBJECT)) {
 					LOGGER.info("---------------------------------");
 					LOGGER.info("Email Number " + (i + 1));
 					LOGGER.info("Subject: " + message.getSubject());
 					LOGGER.info("From: " + message.getFrom()[0]);
 					LOGGER.info("Description: " + message.getDescription());
 					LOGGER.info("Text: " + message.getContent().toString());
-					// message.setFlags(new Flags(Flags.Flag.SEEN), false);
+				    message.setFlags(new Flags(Flags.Flag.SEEN), true);
 					
 
 					IJiraIntegrationService jiraIntegrationService = new JiraIntegrationService();

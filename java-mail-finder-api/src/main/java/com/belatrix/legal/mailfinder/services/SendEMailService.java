@@ -33,10 +33,6 @@ public class SendEMailService {
 
 		final String username = MAIL_USERNAME;
 		final String password = MAIL_PASSWORD;
-//		text = "Dear Mail Tester \n\n This is a test message.";
-//		addressee = "wseminario.belatrix@gmail.com";
-//		recipient = "wseminario.belatrix.jira@gmail.com";
-//		subject = "NDA - Company Willy";
 
 		Properties props = new Properties();
 		props.put(MAIL_SMTP_AUTH, TRUE);

@@ -25,29 +25,39 @@ public class MailApplicationService extends Thread {
 	private static final String MAIL_FROM = LoadMailConfig.getInstance()
 			.getProperty(EPropertyMail.MAIL_FROM.getNameProperty());
 
+	private static final String MESSAGE_SUCCES = LoadMailConfig.getInstance()
+			.getProperty(EPropertyMail.MESSAGE_SUCCES.getNameProperty());
+
+	private static final String MESSAGE_FAIL = LoadMailConfig.getInstance()
+			.getProperty(EPropertyMail.MESSAGE_FAIL.getNameProperty());
+
+
+
 	public void run() {
+		
+		
+			LOGGER.info("In run Method: currentThread() is" + Thread.currentThread());
+			
+			ICheckEmailService checkEmailService = new CheckEmailService();
 
-		LOGGER.info("In run Method: currentThread() is" + Thread.currentThread());
-
-		ICheckEmailService checkEmailService = new CheckEmailService();
-
-		Message[] messages = null;
-		List<JiraIssueDTO> issues = new ArrayList<>();
-		try {
-			messages = checkEmailService.fetchMessages(MAIL_IMAP, MAIL_RECIPIENT, MAIL_PASSWORD, false);
-		} catch (Exception e) {
-			LOGGER.error(e.getMessage(), e);
-		}
-		if (messages != null && messages.length > 0) {
-			LOGGER.info(messages.length + " Messages found in Inbox Folder");
-			issues = checkEmailService.createIssues(messages);
-		}
-		if (issues != null && issues.size() > 0) {
-			LOGGER.info(issues.size() + " Issues were created and are ready to be sent via Email");
-			sendEmailIssues(issues);
-		} else {
-			LOGGER.info("0 Issues created. There are no Issues to be sent");
-		}
+			Message[] messages = null;
+			List<JiraIssueDTO> issues = new ArrayList<>();
+			try {
+				messages = checkEmailService.fetchMessages(MAIL_IMAP, MAIL_RECIPIENT, MAIL_PASSWORD, false);
+			} catch (Exception e) {
+				LOGGER.error(e.getMessage(), e);
+			}
+			if (messages != null && messages.length > 0) {
+				LOGGER.info(messages.length + " Messages found in Inbox Folder");
+				issues = checkEmailService.createIssues(messages);
+			}
+			if (issues != null && issues.size() > 0) {
+				LOGGER.info(issues.size() + " Issues were created and are ready to be sent via Email");
+				sendEmailIssues(issues);
+			} else {
+				LOGGER.info("0 Issues created. There are no Issues to be sent");
+			}
+	
 
 	}
 
@@ -57,13 +67,19 @@ public class MailApplicationService extends Thread {
 
 		for (JiraIssueDTO dto : issues) {
 			if (dto.getIssueId() != null && !dto.getIssueId().equals(StringUtils.EMPTY)) {
-				sendMailService.sendEmail(dto.getDescription(),
+				sendMailService.sendEmail(
+						String.format(MESSAGE_SUCCES, dto.getIssueId()),
 						/* dto.getEmail() */ MAIL_FROM, MAIL_RECIPIENT, dto.getAction() + " " + dto.getIssueId());
 			} else {
 				LOGGER.info(String.format("No Issue created for Txid: ", dto.getTransactionId()));
-				sendMailService.sendEmail("No Issue created",
+				sendMailService.sendEmail(MESSAGE_SUCCES,
 						/* dto.getEmail() */ MAIL_FROM, MAIL_RECIPIENT, dto.getAction());
 			}
 		}
 	}
+
+
+	
+		
+	
 }
