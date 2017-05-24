@@ -1,13 +1,17 @@
 package com.belatrix.legal.mailfinder.services;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
+import javax.activation.DataHandler;
+import javax.mail.BodyPart;
 import javax.mail.Flags;
 import javax.mail.Folder;
 import javax.mail.Message;
 import javax.mail.MessagingException;
+import javax.mail.Multipart;
 import javax.mail.search.FlagTerm;
 
 import org.apache.commons.lang.StringUtils;
@@ -22,7 +26,7 @@ import com.belatrix.legal.mailfinder.config.LoadMailConfig;
 public class EmailService {
 
 	private final static Logger LOGGER = Logger.getLogger(EmailService.class);
-	
+
 	private static final String SUBJECT = LoadMailConfig.getInstance()
 			.getProperty(EPropertyMail.MAIL_SUBJECT.getNameProperty());
 
@@ -32,13 +36,13 @@ public class EmailService {
 		LOGGER.info("Fetching Messages");
 
 		EmailConnection.getInstance().getConnectionStore(host, user, password);
-		Folder emailFolder= EmailConnection.getInstance().getFolder() ;
-		
+		Folder emailFolder = EmailConnection.getInstance().getFolder();
+
 		Flags seen = new Flags(Flags.Flag.SEEN);
 		FlagTerm unseenFlagTerm = new FlagTerm(seen, read);
-		
+
 		LOGGER.info("Messages were fetched");
-		
+
 		return emailFolder.search(unseenFlagTerm);
 
 	}
@@ -51,23 +55,21 @@ public class EmailService {
 			Message message = messages[i];
 			JiraIssueDTO issue = new JiraIssueDTO();
 			try {
-				LOGGER.info("**********"+SUBJECT);
+				message.setFlags(new Flags(Flags.Flag.SEEN), true);
+				IJiraIntegrationService jiraIntegrationService = new JiraIntegrationService();
+				issue.setAction(message.getSubject());
+				issue.setDescription(getContentFromEmail(message.getContent()));
+				issue.setTransactionId(UUID.randomUUID().toString());
+				issue.setEmail(message.getFrom()[0].toString());
+				
+				LOGGER.info("---------------------------------");
+				LOGGER.info("Email Number " + (i + 1));
+				LOGGER.info("Subject: " + message.getSubject());
+				LOGGER.info("From: " + message.getFrom()[0]);
+				LOGGER.info("Description: " + message.getDescription());
+				LOGGER.info("Text: " + getContentFromEmail(message.getContent()));
+				
 				if (message.getSubject().contains(SUBJECT)) {
-					LOGGER.info("---------------------------------");
-					LOGGER.info("Email Number " + (i + 1));
-					LOGGER.info("Subject: " + message.getSubject());
-					LOGGER.info("From: " + message.getFrom()[0]);
-					LOGGER.info("Description: " + message.getDescription());
-					LOGGER.info("Text: " + message.getContent().toString());
-				    message.setFlags(new Flags(Flags.Flag.SEEN), true);
-					
-
-					IJiraIntegrationService jiraIntegrationService = new JiraIntegrationService();
-					issue.setAction(message.getSubject());
-					issue.setDescription(message.getContent().toString());
-					issue.setTransactionId(UUID.randomUUID().toString());
-					issue.setEmail(message.getFrom()[0].toString());
-
 					LOGGER.info("Obtaining IssueId for TxId:" + issue.getTransactionId());
 					String generatedId = jiraIntegrationService.createIssue(issue);
 					LOGGER.info("GeneratedId id: " + generatedId);
@@ -78,7 +80,7 @@ public class EmailService {
 					} else {
 						LOGGER.warn(String.format("Error in Jira Client with Txid: ", issue.getTransactionId()));
 					}
-				}
+				} 
 			} catch (Exception e) {
 				LOGGER.error(String.format("Error with transaction id: ", issue.getTransactionId(), e));
 			} finally {
@@ -88,4 +90,31 @@ public class EmailService {
 
 		return issuesList;
 	}
+
+	private static String getContentFromEmail(Object msgContent) throws MessagingException, IOException {
+
+		String content = "";
+
+		if (msgContent instanceof Multipart) {
+			Multipart multipart = (Multipart) msgContent;
+			LOGGER.info("BodyPart" + "MultiPartCount: " + multipart.getCount());
+			for (int j = 0; j < multipart.getCount(); j++) {
+				BodyPart bodyPart = multipart.getBodyPart(0);
+				String disposition = bodyPart.getDisposition();
+				if (disposition != null && (disposition.equalsIgnoreCase("ATTACHMENT"))) {
+					LOGGER.info("Mail have some attachment");
+					DataHandler handler = bodyPart.getDataHandler();
+					LOGGER.info("file name : " + handler.getName());
+				} else {
+					content = (String) bodyPart.getContent(); // the F
+
+				}
+			}
+		} else {
+			content = msgContent.toString();
+		}
+
+		return content;
+	}
+
 }

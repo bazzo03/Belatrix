@@ -25,7 +25,7 @@ public class MailApplicationService extends Thread {
 	private static final String MAIL_FROM = LoadMailConfig.getInstance()
 			.getProperty(EPropertyMail.MAIL_FROM.getNameProperty());
 
-	private static final String MESSAGE_SUCCES = LoadMailConfig.getInstance()
+	private static final String MESSAGE_SUCCESS = LoadMailConfig.getInstance()
 			.getProperty(EPropertyMail.MESSAGE_SUCCES.getNameProperty());
 
 	private static final String MESSAGE_FAIL = LoadMailConfig.getInstance()
@@ -68,11 +68,11 @@ public class MailApplicationService extends Thread {
 		for (JiraIssueDTO dto : issues) {
 			if (dto.getIssueId() != null && !dto.getIssueId().equals(StringUtils.EMPTY)) {
 				sendMailService.sendEmail(
-						String.format(MESSAGE_SUCCES, dto.getIssueId()),
+						String.format(MESSAGE_SUCCESS, dto.getIssueId()),
 						/* dto.getEmail() */ MAIL_FROM, MAIL_RECIPIENT, dto.getAction() + " " + dto.getIssueId());
 			} else {
-				LOGGER.info(String.format("No Issue created for Txid: ", dto.getTransactionId()));
-				sendMailService.sendEmail(MESSAGE_SUCCES,
+				LOGGER.info("No Issue created ");
+				sendMailService.sendEmail(String.format(MESSAGE_FAIL),
 						/* dto.getEmail() */ MAIL_FROM, MAIL_RECIPIENT, dto.getAction());
 			}
 		}

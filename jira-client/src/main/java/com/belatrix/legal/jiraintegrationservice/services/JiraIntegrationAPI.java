@@ -75,7 +75,7 @@ public class JiraIntegrationAPI {
 						.field(Field.REPORTER, user).field(Field.ASSIGNEE, user).execute();
 				logger.info(String.format("Issue No. %s was create .Txid : %s", newIssue.getId(),
 						issue.getTransactionId()));
-				return newIssue.getId();
+				return newIssue.getKey();
 			} catch (JiraException e) {
 				logger.error("Error returned by Jira Client . TxId : "+ issue.getTransactionId(), e);
 				throw new JiraIntegrationServiceException("Error in Jira Client", e);
