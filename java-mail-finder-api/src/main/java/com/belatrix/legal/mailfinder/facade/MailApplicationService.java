@@ -69,11 +69,11 @@ public class MailApplicationService extends Thread {
 			if (dto.getIssueId() != null && !dto.getIssueId().equals(StringUtils.EMPTY)) {
 				sendMailService.sendEmail(
 						String.format(MESSAGE_SUCCESS, dto.getIssueId()),
-						/* dto.getEmail() */ MAIL_FROM, MAIL_RECIPIENT, dto.getAction() + " " + dto.getIssueId());
+						dto.getEmail() /* MAIL_FROM */, MAIL_RECIPIENT, dto.getAction() + " " + dto.getIssueId());
 			} else {
 				LOGGER.info("No Issue created ");
 				sendMailService.sendEmail(String.format(MESSAGE_FAIL),
-						/* dto.getEmail() */ MAIL_FROM, MAIL_RECIPIENT, dto.getAction());
+						dto.getEmail() /* MAIL_FROM */, MAIL_RECIPIENT, dto.getAction());
 			}
 		}
 	}

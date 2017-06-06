@@ -6965,3 +6965,1122 @@ Caused by: java.net.SocketException: Connection closed by remote host
 2017-05-24 13:04:27 INFO  EmailService:36 - Fetching Messages
 2017-05-24 13:04:27 INFO  EmailService:44 - Messages were fetched
 2017-05-24 13:04:28 INFO  MailApplicationService:58 - 0 Issues created. There are no Issues to be sent
+2017-06-06 09:42:23 INFO  Main:23 - ...Starting application...
+2017-06-06 09:42:23 INFO  Main:30 - Timer started
+2017-06-06 09:42:28 INFO  TimerThread:16 - Thread started
+2017-06-06 09:42:28 INFO  MailApplicationService:39 - In run Method: currentThread() isThread[Thread-1,5,main]
+2017-06-06 09:42:28 INFO  EmailService:36 - Fetching Messages
+2017-06-06 09:42:32 ERROR MailApplicationService:48 - [AUTHENTICATIONFAILED] Authentication failed.
+javax.mail.AuthenticationFailedException: [AUTHENTICATIONFAILED] Authentication failed.
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailConnection.getConnectionStore(EmailConnection.java:45)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:38)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:46)
+2017-06-06 09:42:32 INFO  MailApplicationService:58 - 0 Issues created. There are no Issues to be sent
+2017-06-06 09:54:16 INFO  Main:23 - ...Starting application...
+2017-06-06 09:54:16 INFO  Main:30 - Timer started
+2017-06-06 09:54:21 INFO  TimerThread:16 - Thread started
+2017-06-06 09:54:21 INFO  MailApplicationService:39 - In run Method: currentThread() isThread[Thread-1,5,main]
+2017-06-06 09:54:21 INFO  EmailService:36 - Fetching Messages
+2017-06-06 09:54:25 ERROR MailApplicationService:48 - [AUTHENTICATIONFAILED] Authentication failed.
+javax.mail.AuthenticationFailedException: [AUTHENTICATIONFAILED] Authentication failed.
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailConnection.getConnectionStore(EmailConnection.java:44)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:38)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:46)
+2017-06-06 09:54:25 INFO  MailApplicationService:58 - 0 Issues created. There are no Issues to be sent
+2017-06-06 09:55:30 INFO  Main:23 - ...Starting application...
+2017-06-06 09:55:30 INFO  Main:30 - Timer started
+2017-06-06 09:55:35 INFO  TimerThread:16 - Thread started
+2017-06-06 09:55:35 INFO  MailApplicationService:39 - In run Method: currentThread() isThread[Thread-1,5,main]
+2017-06-06 09:55:35 INFO  EmailService:36 - Fetching Messages
+2017-06-06 09:55:45 INFO  TimerThread:16 - Thread started
+2017-06-06 09:55:45 INFO  MailApplicationService:39 - In run Method: currentThread() isThread[Thread-2,5,main]
+2017-06-06 09:55:45 INFO  EmailService:36 - Fetching Messages
+2017-06-06 09:55:55 INFO  TimerThread:16 - Thread started
+2017-06-06 09:55:55 INFO  MailApplicationService:39 - In run Method: currentThread() isThread[Thread-3,5,main]
+2017-06-06 09:55:55 INFO  EmailService:36 - Fetching Messages
+2017-06-06 09:56:05 INFO  TimerThread:16 - Thread started
+2017-06-06 09:56:05 INFO  MailApplicationService:39 - In run Method: currentThread() isThread[Thread-4,5,main]
+2017-06-06 09:56:05 INFO  EmailService:36 - Fetching Messages
+2017-06-06 09:56:15 INFO  TimerThread:16 - Thread started
+2017-06-06 09:56:15 INFO  MailApplicationService:39 - In run Method: currentThread() isThread[Thread-5,5,main]
+2017-06-06 09:56:15 INFO  EmailService:36 - Fetching Messages
+2017-06-06 09:57:46 INFO  Main:23 - ...Starting application...
+2017-06-06 09:57:46 INFO  Main:30 - Timer started
+2017-06-06 09:57:51 INFO  TimerThread:16 - Thread started
+2017-06-06 09:57:51 INFO  MailApplicationService:39 - In run Method: currentThread() isThread[Thread-1,5,main]
+2017-06-06 09:57:51 INFO  EmailService:36 - Fetching Messages
+2017-06-06 09:57:55 ERROR MailApplicationService:48 - [AUTHENTICATIONFAILED] Authentication failed.
+javax.mail.AuthenticationFailedException: [AUTHENTICATIONFAILED] Authentication failed.
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailConnection.getConnectionStore(EmailConnection.java:44)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:38)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:46)
+2017-06-06 09:57:55 INFO  MailApplicationService:58 - 0 Issues created. There are no Issues to be sent
+2017-06-06 09:59:22 INFO  Main:23 - ...Starting application...
+2017-06-06 09:59:22 INFO  Main:30 - Timer started
+2017-06-06 09:59:27 INFO  TimerThread:16 - Thread started
+2017-06-06 09:59:27 INFO  MailApplicationService:39 - In run Method: currentThread() isThread[Thread-1,5,main]
+2017-06-06 09:59:27 INFO  EmailService:36 - Fetching Messages
+2017-06-06 09:59:37 INFO  TimerThread:16 - Thread started
+2017-06-06 09:59:37 INFO  MailApplicationService:39 - In run Method: currentThread() isThread[Thread-2,5,main]
+2017-06-06 09:59:37 INFO  EmailService:36 - Fetching Messages
+2017-06-06 09:59:47 INFO  TimerThread:16 - Thread started
+2017-06-06 09:59:47 INFO  MailApplicationService:39 - In run Method: currentThread() isThread[Thread-4,5,main]
+2017-06-06 09:59:47 INFO  EmailService:36 - Fetching Messages
+2017-06-06 09:59:52 ERROR MailApplicationService:48 - Not connected
+java.lang.IllegalStateException: Not connected
+	at com.sun.mail.imap.IMAPStore.checkConnected(IMAPStore.java:1824)
+	at com.sun.mail.imap.IMAPStore.getFolder(IMAPStore.java:1619)
+	at com.belatrix.legal.mailfinder.services.EmailConnection.getFolder(EmailConnection.java:56)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:39)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:46)
+2017-06-06 09:59:52 INFO  MailApplicationService:58 - 0 Issues created. There are no Issues to be sent
+2017-06-06 09:59:57 INFO  TimerThread:16 - Thread started
+2017-06-06 09:59:57 INFO  MailApplicationService:39 - In run Method: currentThread() isThread[Thread-5,5,main]
+2017-06-06 09:59:57 INFO  EmailService:36 - Fetching Messages
+2017-06-06 09:59:57 ERROR MailApplicationService:48 - Not connected
+java.lang.IllegalStateException: Not connected
+	at com.sun.mail.imap.IMAPStore.checkConnected(IMAPStore.java:1824)
+	at com.sun.mail.imap.IMAPStore.getFolder(IMAPStore.java:1619)
+	at com.belatrix.legal.mailfinder.services.EmailConnection.getFolder(EmailConnection.java:56)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:39)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:46)
+2017-06-06 09:59:57 INFO  MailApplicationService:58 - 0 Issues created. There are no Issues to be sent
+2017-06-06 10:01:06 INFO  Main:23 - ...Starting application...
+2017-06-06 10:01:06 INFO  Main:30 - Timer started
+2017-06-06 10:01:16 INFO  TimerThread:16 - Thread started
+2017-06-06 10:01:16 INFO  MailApplicationService:39 - In run Method: currentThread() isThread[Thread-1,5,main]
+2017-06-06 10:01:16 INFO  EmailService:36 - Fetching Messages
+2017-06-06 10:01:20 ERROR MailApplicationService:48 - [AUTHENTICATIONFAILED] Authentication failed.
+javax.mail.AuthenticationFailedException: [AUTHENTICATIONFAILED] Authentication failed.
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailConnection.getConnectionStore(EmailConnection.java:44)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:38)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:46)
+2017-06-06 10:01:20 INFO  MailApplicationService:58 - 0 Issues created. There are no Issues to be sent
+2017-06-06 10:19:32 INFO  Main:23 - ...Starting application...
+2017-06-06 10:19:32 INFO  Main:30 - Timer started
+2017-06-06 10:19:42 INFO  TimerThread:16 - Thread started
+2017-06-06 10:19:42 INFO  MailApplicationService:39 - In run Method: currentThread() isThread[Thread-1,5,main]
+2017-06-06 10:19:42 INFO  EmailService:36 - Fetching Messages
+2017-06-06 10:20:02 INFO  TimerThread:16 - Thread started
+2017-06-06 10:20:02 INFO  MailApplicationService:39 - In run Method: currentThread() isThread[Thread-2,5,main]
+2017-06-06 10:20:02 INFO  EmailService:36 - Fetching Messages
+2017-06-06 10:20:22 INFO  TimerThread:16 - Thread started
+2017-06-06 10:20:22 INFO  MailApplicationService:39 - In run Method: currentThread() isThread[Thread-3,5,main]
+2017-06-06 10:20:22 INFO  EmailService:36 - Fetching Messages
+2017-06-06 10:20:42 INFO  TimerThread:16 - Thread started
+2017-06-06 10:20:42 INFO  MailApplicationService:39 - In run Method: currentThread() isThread[Thread-5,5,main]
+2017-06-06 10:20:42 INFO  EmailService:36 - Fetching Messages
+2017-06-06 10:20:42 ERROR MailApplicationService:48 - Not connected
+java.lang.IllegalStateException: Not connected
+	at com.sun.mail.imap.IMAPStore.checkConnected(IMAPStore.java:1824)
+	at com.sun.mail.imap.IMAPStore.getFolder(IMAPStore.java:1619)
+	at com.belatrix.legal.mailfinder.services.EmailConnection.getFolder(EmailConnection.java:56)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:39)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:46)
+2017-06-06 10:20:42 INFO  MailApplicationService:58 - 0 Issues created. There are no Issues to be sent
+2017-06-06 10:21:02 INFO  TimerThread:16 - Thread started
+2017-06-06 10:21:02 INFO  MailApplicationService:39 - In run Method: currentThread() isThread[Thread-6,5,main]
+2017-06-06 10:21:02 INFO  EmailService:36 - Fetching Messages
+2017-06-06 10:21:02 ERROR MailApplicationService:48 - Not connected
+java.lang.IllegalStateException: Not connected
+	at com.sun.mail.imap.IMAPStore.checkConnected(IMAPStore.java:1824)
+	at com.sun.mail.imap.IMAPStore.getFolder(IMAPStore.java:1619)
+	at com.belatrix.legal.mailfinder.services.EmailConnection.getFolder(EmailConnection.java:56)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:39)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:46)
+2017-06-06 10:21:02 INFO  MailApplicationService:58 - 0 Issues created. There are no Issues to be sent
+2017-06-06 10:21:18 INFO  Main:23 - ...Starting application...
+2017-06-06 10:21:18 INFO  Main:30 - Timer started
+2017-06-06 10:21:28 INFO  TimerThread:16 - Thread started
+2017-06-06 10:21:28 INFO  MailApplicationService:39 - In run Method: currentThread() isThread[Thread-1,5,main]
+2017-06-06 10:21:28 INFO  EmailService:36 - Fetching Messages
+2017-06-06 10:21:33 ERROR MailApplicationService:48 - [AUTHENTICATIONFAILED] Authentication failed.
+javax.mail.AuthenticationFailedException: [AUTHENTICATIONFAILED] Authentication failed.
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:684)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at com.belatrix.legal.mailfinder.services.EmailConnection.getConnectionStore(EmailConnection.java:44)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:38)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:46)
+2017-06-06 10:21:33 INFO  MailApplicationService:58 - 0 Issues created. There are no Issues to be sent
+2017-06-06 10:21:48 INFO  TimerThread:16 - Thread started
+2017-06-06 10:21:48 INFO  MailApplicationService:39 - In run Method: currentThread() isThread[Thread-3,5,main]
+2017-06-06 10:21:48 INFO  EmailService:36 - Fetching Messages
+2017-06-06 10:21:48 ERROR MailApplicationService:48 - Not connected
+java.lang.IllegalStateException: Not connected
+	at com.sun.mail.imap.IMAPStore.checkConnected(IMAPStore.java:1824)
+	at com.sun.mail.imap.IMAPStore.getFolder(IMAPStore.java:1619)
+	at com.belatrix.legal.mailfinder.services.EmailConnection.getFolder(EmailConnection.java:56)
+	at com.belatrix.legal.mailfinder.services.EmailService.fetchMessages(EmailService.java:39)
+	at com.belatrix.legal.mailfinder.facade.CheckEmailService.fetchMessages(CheckEmailService.java:14)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:46)
+2017-06-06 10:21:48 INFO  MailApplicationService:58 - 0 Issues created. There are no Issues to be sent
+2017-06-06 10:24:27 INFO  Main:23 - ...Starting application...
+2017-06-06 10:24:27 INFO  Main:30 - Timer started
+2017-06-06 10:24:37 INFO  TimerThread:16 - Thread started
+2017-06-06 10:24:37 INFO  MailApplicationService:39 - In run Method: currentThread() isThread[Thread-1,5,main]
+2017-06-06 10:24:37 INFO  EmailService:36 - Fetching Messages
+2017-06-06 10:24:40 INFO  EmailService:44 - Messages were fetched
+2017-06-06 10:24:40 INFO  MailApplicationService:51 - 1 Messages found in Inbox Folder
+2017-06-06 10:24:41 INFO  EmailService:100 - BodyPartMultiPartCount: 2
+2017-06-06 10:24:41 INFO  EmailService:65 - ---------------------------------
+2017-06-06 10:24:41 INFO  EmailService:66 - Email Number 1
+2017-06-06 10:24:41 INFO  EmailService:67 - Subject: [JIRA] Account created
+2017-06-06 10:24:41 INFO  EmailService:68 - From: jira@belatrixsf.com
+2017-06-06 10:24:41 INFO  EmailService:69 - Description: null
+2017-06-06 10:24:41 INFO  EmailService:100 - BodyPartMultiPartCount: 2
+2017-06-06 10:24:42 INFO  EmailService:70 - Text: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+    <head> 
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" /> <base href="https://jira.belatrixsf.com" /> 
+        <title>Message Title</title> 
+    </head> 
+    <body class="jira" style="color: #333; font-family: Arial, sans-serif; font-size: 14px; line-height: 1.429"> 
+        <table id="background-table" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f5f5f5; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt"> 
+            <!-- header here --> 
+            <tr> 
+                <td id="header-pattern-container" style="padding: 0px; border-collapse: collapse; padding: 10px 20px"> 
+                    <table id="header-pattern" cellspacing="0" cellpadding="0" border="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt"> 
+                        <tr> 
+                            <td id="header-avatar-image-container" valign="top" style="padding: 0px; border-collapse: collapse; vertical-align: top; width: 32px; padding-right: 8px"> <img id="header-avatar-image" class="image_fix" src="cid:jira-generated-image-avatar-e5f728c4-9952-4821-8d00-788e99fd1ee1" height="32" width="32" border="0" style="border-radius: 3px; vertical-align: top" /> 
+                            </td> 
+                            <td id="header-text-container" valign="middle" style="padding: 0px; border-collapse: collapse; vertical-align: middle; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; mso-line-height-rule: exactly; mso-text-raise: 1px"> <a class="user-hover" rel="jbarrionuevo" id="email_jbarrionuevo" href="https://jira.belatrixsf.com/secure/ViewProfile.jspa?name=jbarrionuevo" style="color: #3b73af; text-decoration: none">Julieta Barrionuevo</a> <strong>created for you</strong> a JIRA account 
+                            </td> 
+                        </tr> 
+                    </table> 
+                </td> 
+            </tr> 
+            <tr> 
+                <td id="email-content-container" style="padding: 0px; border-collapse: collapse; padding: 0 20px"> 
+                    <table id="email-content-table" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0; border-collapse: separate"> 
+                        <tr> 
+                            <!-- there needs to be content in the cell for it to render in some clients --> 
+                            <td class="email-content-rounded-top mobile-expand" style="padding: 0px; border-collapse: collapse; color: #fff; padding: 0 15px 0 16px; height: 15px; background-color: #fff; border-left: 1px solid #ccc; border-top: 1px solid #ccc; border-right: 1px solid #ccc; border-bottom: 0; border-top-right-radius: 5px; border-top-left-radius: 5px; height: 10px; line-height: 10px; padding: 0 15px 0 16px; mso-line-height-rule: exactly">
+                                &nbsp;
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td class="email-content-main mobile-expand " style="padding: 0px; border-collapse: collapse; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 0; border-bottom: 0; padding: 0 15px 0 16px; background-color: #fff"> 
+                                <table class="page-title-pattern" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt"> 
+                                    <tr> 
+                                        <td style="vertical-align: top;; padding: 0px; border-collapse: collapse; padding-right: 5px; font-size: 20px; line-height: 30px; mso-line-height-rule: exactly" class="page-title-pattern-header-container"> <span class="page-title-pattern-header" style="font-family: Arial, sans-serif; padding: 0; font-size: 20px; line-height: 30px; mso-text-raise: 2px; mso-line-height-rule: exactly; vertical-align: middle"> <a href="https://jira.belatrixsf.com" style="color: #3b73af; text-decoration: none">Belatrix Software Factory</a> </span> 
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td class="email-content-main mobile-expand " style="padding: 0px; border-collapse: collapse; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 0; border-bottom: 0; padding: 0 15px 0 16px; background-color: #fff"> 
+                                <table class="text-paragraph-pattern" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; mso-line-height-rule: exactly; mso-text-raise: 2px"> 
+                                    <tr> 
+                                        <td class="text-paragraph-pattern-container mobile-resize-text " style="padding: 0px; border-collapse: collapse; padding: 0 0 10px 0">
+                                             JIRA is the project tracker for teams building great software. Log in now to track your issues and tasks, collaborate with your team, and stay on top of project activity. 
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td class="email-content-main mobile-expand " style="padding: 0px; border-collapse: collapse; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 0; border-bottom: 0; padding: 0 15px 0 16px; background-color: #fff"> 
+                                <table class="keyvalue-table" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt"> 
+                                    <tr> 
+                                        <th style="color: #707070; font: normal 14px/20px Arial, sans-serif; text-align: left; vertical-align: top; padding: 2px 0">
+                                            Username:
+                                        </th> 
+                                        <td style="padding: 0px; border-collapse: collapse; font: normal 14px/20px Arial, sans-serif; padding: 2px 0 2px 5px; vertical-align: top">
+                                            legalrequests
+                                        </td> 
+                                    </tr> 
+                                    <tr> 
+                                        <th style="color: #707070; font: normal 14px/20px Arial, sans-serif; text-align: left; vertical-align: top; padding: 2px 0">
+                                            Email:
+                                        </th> 
+                                        <td style="padding: 0px; border-collapse: collapse; font: normal 14px/20px Arial, sans-serif; padding: 2px 0 2px 5px; vertical-align: top">
+                                            legalrequests@belatrixsf.com
+                                        </td> 
+                                    </tr> 
+                                    <tr> 
+                                        <th style="color: #707070; font: normal 14px/20px Arial, sans-serif; text-align: left; vertical-align: top; padding: 2px 0">
+                                            Full Name:
+                                        </th> 
+                                        <td style="padding: 0px; border-collapse: collapse; font: normal 14px/20px Arial, sans-serif; padding: 2px 0 2px 5px; vertical-align: top">
+                                            legal requests
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td class="email-content-main mobile-expand " style="padding: 0px; border-collapse: collapse; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 0; border-bottom: 0; padding: 0 15px 0 16px; background-color: #fff"> 
+                                <table class="text-paragraph-pattern" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; mso-line-height-rule: exactly; mso-text-raise: 2px"> 
+                                    <tr> 
+                                        <td class="text-paragraph-pattern-container mobile-resize-text " style="padding: 0px; border-collapse: collapse; padding: 0 0 10px 0">
+                                             Get started by setting your own password and logging in. 
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td class="email-content-main mobile-expand " style="padding: 0px; border-collapse: collapse; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 0; border-bottom: 0; padding: 0 15px 0 16px; background-color: #fff"> 
+                                <table id="actions-pattern" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; mso-line-height-rule: exactly; mso-text-raise: 1px"> 
+                                    <tr> 
+                                        <td id="actions-pattern-container" valign="middle" style="padding: 0px; border-collapse: collapse; padding: 10px 0 10px 24px; vertical-align: middle; padding-left: 0"> 
+                                            <table cellspacing="0" cellpadding="0" border="0" class="aui-button-email-container" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background: #3068a2; border-radius: 3px"> 
+                                                <tr> 
+                                                    <td class="aui-button-email" style="background: #3068a2; background: -moz-linear-gradient(top, #4687ce 0%, #3068a2 100%); background: -webkit-linear-gradient(top, #4687ce 0%,#3068a2 100%); background: -o-linear-gradient(top, #4687ce 0%,#3068a2 100%); background: -ms-linear-gradient(top, #4687ce 0%,#3068a2 100%); background: linear-gradient(top, #4687ce 0%,#3068a2 100%); -moz-box-sizing: border-box; -webkit-font-smoothing: antialiased;; padding: 0px; border-collapse: collapse; border-radius: 3px; padding: 5px; margin: 0px"> <a href="https://jira.belatrixsf.com/secure/ResetPassword!default.jspa?os_username=legalrequests&amp;token=163631ae47f452606548af7c2b7083e2ef991f30" class="aui-button-email-link" style="color: #3b73af; text-decoration: none; color: #fff; font-weight: bold; padding: 6px; font-size: 14px; line-height: 1.429; font-family: Arial, sans-serif">Set my password</a> 
+                                                    </td> 
+                                                </tr> 
+                                            </table> 
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td class="email-content-main mobile-expand " style="padding: 0px; border-collapse: collapse; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 0; border-bottom: 0; padding: 0 15px 0 16px; background-color: #fff"> 
+                                <table class="text-paragraph-pattern" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; mso-line-height-rule: exactly; mso-text-raise: 2px"> 
+                                    <tr> 
+                                        <td class="text-paragraph-pattern-container mobile-resize-text " style="padding: 0px; border-collapse: collapse; padding: 0 0 10px 0">
+                                             This password reset request is valid for the <strong>next 24 hours</strong>. 
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td class="email-content-main mobile-expand " style="padding: 0px; border-collapse: collapse; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 0; border-bottom: 0; padding: 0 15px 0 16px; background-color: #fff"> 
+                                <table class="text-paragraph-pattern" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; mso-line-height-rule: exactly; mso-text-raise: 2px"> 
+                                    <tr> 
+                                        <td class="text-paragraph-pattern-container mobile-resize-text " style="padding: 0px; border-collapse: collapse; padding: 0 0 10px 0">
+                                             Don't worry. You can always ask for a new password using the following link: <br /><a href="https://jira.belatrixsf.com/secure/ForgotLoginDetails.jspa?username=legalrequests" style="color: #3b73af; text-decoration: none">https://jira.belatrixsf.com/secure/ForgotLoginDetails.jspa?username=legalrequests</a> 
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                        <!-- there needs to be content in the cell for it to render in some clients --> 
+                        <tr> 
+                            <td class="email-content-rounded-bottom mobile-expand" style="padding: 0px; border-collapse: collapse; color: #fff; padding: 0 15px 0 16px; height: 5px; line-height: 5px; background-color: #fff; border-top: 0; border-left: 1px solid #ccc; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; mso-line-height-rule: exactly">
+                                &nbsp;
+                            </td> 
+                        </tr> 
+                    </table> 
+                </td> 
+            </tr> 
+            <tr> 
+                <td id="footer-pattern" style="padding: 0px; border-collapse: collapse; padding: 12px 20px"> 
+                    <table id="footer-pattern-container" cellspacing="0" cellpadding="0" border="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt"> 
+                        <tr> 
+                            <td id="footer-pattern-text" class="mobile-resize-text" width="100%" style="padding: 0px; border-collapse: collapse; color: #999; font-size: 12px; line-height: 18px; font-family: Arial, sans-serif; mso-line-height-rule: exactly; mso-text-raise: 2px">
+                                 This message was sent by Atlassian JIRA <span id="footer-build-information">(v6.4.5#64020-<span title="78acd6c502bd8e526a3f0032b770e55d6f3a3b0f" data-commit-id="78acd6c502bd8e526a3f0032b770e55d6f3a3b0f}">sha1:78acd6c</span>)</span> 
+                            </td> 
+                            <td id="footer-pattern-logo-desktop-container" valign="top" style="padding: 0px; border-collapse: collapse; padding-left: 20px; vertical-align: top"> 
+                                <table style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt"> 
+                                    <tr> 
+                                        <td id="footer-pattern-logo-desktop-padding" style="padding: 0px; border-collapse: collapse; padding-top: 3px"> <img id="footer-pattern-logo-desktop" src="cid:jira-generated-image-static-footer-desktop-logo-708f995d-e3a6-4981-8906-a2cafad6d350" alt="Atlassian logo" title="Atlassian logo" width="169" height="36" class="image_fix" /> 
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                    </table> 
+                </td> 
+            </tr> 
+        </table>   
+    </body>
+</html>
+2017-06-06 10:24:42 INFO  MailApplicationService:55 - 1 Issues were created and are ready to be sent via Email
+2017-06-06 10:24:42 INFO  MailApplicationService:74 - No Issue created 
+2017-06-06 10:24:43 ERROR SendEMailService:64 - 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials f124sm8408743qkj.57 - gsmtp
+
+javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials f124sm8408743qkj.57 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:843)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:765)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:687)
+	at javax.mail.Service.connect(Service.java:367)
+	at javax.mail.Service.connect(Service.java:226)
+	at javax.mail.Service.connect(Service.java:175)
+	at javax.mail.Transport.send0(Transport.java:253)
+	at javax.mail.Transport.send(Transport.java:124)
+	at com.belatrix.legal.mailfinder.services.SendEMailService.sendEmail(SendEMailService.java:59)
+	at com.belatrix.legal.mailfinder.facade.SendMailService.sendEmail(SendMailService.java:8)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.sendEmailIssues(MailApplicationService.java:75)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:56)
+2017-06-06 10:48:23 INFO  Main:23 - ...Starting application...
+2017-06-06 10:48:23 INFO  Main:30 - Timer started
+2017-06-06 10:48:33 INFO  TimerThread:16 - Thread started
+2017-06-06 10:48:33 INFO  MailApplicationService:39 - In run Method: currentThread() isThread[Thread-1,5,main]
+2017-06-06 10:48:33 INFO  EmailService:36 - Fetching Messages
+2017-06-06 10:48:35 INFO  EmailService:44 - Messages were fetched
+2017-06-06 10:48:35 INFO  MailApplicationService:51 - 1 Messages found in Inbox Folder
+2017-06-06 10:48:35 INFO  EmailService:100 - BodyPartMultiPartCount: 2
+2017-06-06 10:48:36 INFO  EmailService:65 - ---------------------------------
+2017-06-06 10:48:36 INFO  EmailService:66 - Email Number 1
+2017-06-06 10:48:36 INFO  EmailService:67 - Subject: [JIRA] Account created
+2017-06-06 10:48:36 INFO  EmailService:68 - From: jira@belatrixsf.com
+2017-06-06 10:48:36 INFO  EmailService:69 - Description: null
+2017-06-06 10:48:36 INFO  EmailService:100 - BodyPartMultiPartCount: 2
+2017-06-06 10:48:38 INFO  EmailService:70 - Text: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+    <head> 
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" /> <base href="https://jira.belatrixsf.com" /> 
+        <title>Message Title</title> 
+    </head> 
+    <body class="jira" style="color: #333; font-family: Arial, sans-serif; font-size: 14px; line-height: 1.429"> 
+        <table id="background-table" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f5f5f5; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt"> 
+            <!-- header here --> 
+            <tr> 
+                <td id="header-pattern-container" style="padding: 0px; border-collapse: collapse; padding: 10px 20px"> 
+                    <table id="header-pattern" cellspacing="0" cellpadding="0" border="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt"> 
+                        <tr> 
+                            <td id="header-avatar-image-container" valign="top" style="padding: 0px; border-collapse: collapse; vertical-align: top; width: 32px; padding-right: 8px"> <img id="header-avatar-image" class="image_fix" src="cid:jira-generated-image-avatar-e5f728c4-9952-4821-8d00-788e99fd1ee1" height="32" width="32" border="0" style="border-radius: 3px; vertical-align: top" /> 
+                            </td> 
+                            <td id="header-text-container" valign="middle" style="padding: 0px; border-collapse: collapse; vertical-align: middle; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; mso-line-height-rule: exactly; mso-text-raise: 1px"> <a class="user-hover" rel="jbarrionuevo" id="email_jbarrionuevo" href="https://jira.belatrixsf.com/secure/ViewProfile.jspa?name=jbarrionuevo" style="color: #3b73af; text-decoration: none">Julieta Barrionuevo</a> <strong>created for you</strong> a JIRA account 
+                            </td> 
+                        </tr> 
+                    </table> 
+                </td> 
+            </tr> 
+            <tr> 
+                <td id="email-content-container" style="padding: 0px; border-collapse: collapse; padding: 0 20px"> 
+                    <table id="email-content-table" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0; border-collapse: separate"> 
+                        <tr> 
+                            <!-- there needs to be content in the cell for it to render in some clients --> 
+                            <td class="email-content-rounded-top mobile-expand" style="padding: 0px; border-collapse: collapse; color: #fff; padding: 0 15px 0 16px; height: 15px; background-color: #fff; border-left: 1px solid #ccc; border-top: 1px solid #ccc; border-right: 1px solid #ccc; border-bottom: 0; border-top-right-radius: 5px; border-top-left-radius: 5px; height: 10px; line-height: 10px; padding: 0 15px 0 16px; mso-line-height-rule: exactly">
+                                &nbsp;
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td class="email-content-main mobile-expand " style="padding: 0px; border-collapse: collapse; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 0; border-bottom: 0; padding: 0 15px 0 16px; background-color: #fff"> 
+                                <table class="page-title-pattern" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt"> 
+                                    <tr> 
+                                        <td style="vertical-align: top;; padding: 0px; border-collapse: collapse; padding-right: 5px; font-size: 20px; line-height: 30px; mso-line-height-rule: exactly" class="page-title-pattern-header-container"> <span class="page-title-pattern-header" style="font-family: Arial, sans-serif; padding: 0; font-size: 20px; line-height: 30px; mso-text-raise: 2px; mso-line-height-rule: exactly; vertical-align: middle"> <a href="https://jira.belatrixsf.com" style="color: #3b73af; text-decoration: none">Belatrix Software Factory</a> </span> 
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td class="email-content-main mobile-expand " style="padding: 0px; border-collapse: collapse; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 0; border-bottom: 0; padding: 0 15px 0 16px; background-color: #fff"> 
+                                <table class="text-paragraph-pattern" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; mso-line-height-rule: exactly; mso-text-raise: 2px"> 
+                                    <tr> 
+                                        <td class="text-paragraph-pattern-container mobile-resize-text " style="padding: 0px; border-collapse: collapse; padding: 0 0 10px 0">
+                                             JIRA is the project tracker for teams building great software. Log in now to track your issues and tasks, collaborate with your team, and stay on top of project activity. 
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td class="email-content-main mobile-expand " style="padding: 0px; border-collapse: collapse; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 0; border-bottom: 0; padding: 0 15px 0 16px; background-color: #fff"> 
+                                <table class="keyvalue-table" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt"> 
+                                    <tr> 
+                                        <th style="color: #707070; font: normal 14px/20px Arial, sans-serif; text-align: left; vertical-align: top; padding: 2px 0">
+                                            Username:
+                                        </th> 
+                                        <td style="padding: 0px; border-collapse: collapse; font: normal 14px/20px Arial, sans-serif; padding: 2px 0 2px 5px; vertical-align: top">
+                                            legalrequests
+                                        </td> 
+                                    </tr> 
+                                    <tr> 
+                                        <th style="color: #707070; font: normal 14px/20px Arial, sans-serif; text-align: left; vertical-align: top; padding: 2px 0">
+                                            Email:
+                                        </th> 
+                                        <td style="padding: 0px; border-collapse: collapse; font: normal 14px/20px Arial, sans-serif; padding: 2px 0 2px 5px; vertical-align: top">
+                                            legalrequests@belatrixsf.com
+                                        </td> 
+                                    </tr> 
+                                    <tr> 
+                                        <th style="color: #707070; font: normal 14px/20px Arial, sans-serif; text-align: left; vertical-align: top; padding: 2px 0">
+                                            Full Name:
+                                        </th> 
+                                        <td style="padding: 0px; border-collapse: collapse; font: normal 14px/20px Arial, sans-serif; padding: 2px 0 2px 5px; vertical-align: top">
+                                            legal requests
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td class="email-content-main mobile-expand " style="padding: 0px; border-collapse: collapse; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 0; border-bottom: 0; padding: 0 15px 0 16px; background-color: #fff"> 
+                                <table class="text-paragraph-pattern" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; mso-line-height-rule: exactly; mso-text-raise: 2px"> 
+                                    <tr> 
+                                        <td class="text-paragraph-pattern-container mobile-resize-text " style="padding: 0px; border-collapse: collapse; padding: 0 0 10px 0">
+                                             Get started by setting your own password and logging in. 
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td class="email-content-main mobile-expand " style="padding: 0px; border-collapse: collapse; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 0; border-bottom: 0; padding: 0 15px 0 16px; background-color: #fff"> 
+                                <table id="actions-pattern" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; mso-line-height-rule: exactly; mso-text-raise: 1px"> 
+                                    <tr> 
+                                        <td id="actions-pattern-container" valign="middle" style="padding: 0px; border-collapse: collapse; padding: 10px 0 10px 24px; vertical-align: middle; padding-left: 0"> 
+                                            <table cellspacing="0" cellpadding="0" border="0" class="aui-button-email-container" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background: #3068a2; border-radius: 3px"> 
+                                                <tr> 
+                                                    <td class="aui-button-email" style="background: #3068a2; background: -moz-linear-gradient(top, #4687ce 0%, #3068a2 100%); background: -webkit-linear-gradient(top, #4687ce 0%,#3068a2 100%); background: -o-linear-gradient(top, #4687ce 0%,#3068a2 100%); background: -ms-linear-gradient(top, #4687ce 0%,#3068a2 100%); background: linear-gradient(top, #4687ce 0%,#3068a2 100%); -moz-box-sizing: border-box; -webkit-font-smoothing: antialiased;; padding: 0px; border-collapse: collapse; border-radius: 3px; padding: 5px; margin: 0px"> <a href="https://jira.belatrixsf.com/secure/ResetPassword!default.jspa?os_username=legalrequests&amp;token=163631ae47f452606548af7c2b7083e2ef991f30" class="aui-button-email-link" style="color: #3b73af; text-decoration: none; color: #fff; font-weight: bold; padding: 6px; font-size: 14px; line-height: 1.429; font-family: Arial, sans-serif">Set my password</a> 
+                                                    </td> 
+                                                </tr> 
+                                            </table> 
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td class="email-content-main mobile-expand " style="padding: 0px; border-collapse: collapse; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 0; border-bottom: 0; padding: 0 15px 0 16px; background-color: #fff"> 
+                                <table class="text-paragraph-pattern" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; mso-line-height-rule: exactly; mso-text-raise: 2px"> 
+                                    <tr> 
+                                        <td class="text-paragraph-pattern-container mobile-resize-text " style="padding: 0px; border-collapse: collapse; padding: 0 0 10px 0">
+                                             This password reset request is valid for the <strong>next 24 hours</strong>. 
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td class="email-content-main mobile-expand " style="padding: 0px; border-collapse: collapse; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 0; border-bottom: 0; padding: 0 15px 0 16px; background-color: #fff"> 
+                                <table class="text-paragraph-pattern" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; mso-line-height-rule: exactly; mso-text-raise: 2px"> 
+                                    <tr> 
+                                        <td class="text-paragraph-pattern-container mobile-resize-text " style="padding: 0px; border-collapse: collapse; padding: 0 0 10px 0">
+                                             Don't worry. You can always ask for a new password using the following link: <br /><a href="https://jira.belatrixsf.com/secure/ForgotLoginDetails.jspa?username=legalrequests" style="color: #3b73af; text-decoration: none">https://jira.belatrixsf.com/secure/ForgotLoginDetails.jspa?username=legalrequests</a> 
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                        <!-- there needs to be content in the cell for it to render in some clients --> 
+                        <tr> 
+                            <td class="email-content-rounded-bottom mobile-expand" style="padding: 0px; border-collapse: collapse; color: #fff; padding: 0 15px 0 16px; height: 5px; line-height: 5px; background-color: #fff; border-top: 0; border-left: 1px solid #ccc; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; mso-line-height-rule: exactly">
+                                &nbsp;
+                            </td> 
+                        </tr> 
+                    </table> 
+                </td> 
+            </tr> 
+            <tr> 
+                <td id="footer-pattern" style="padding: 0px; border-collapse: collapse; padding: 12px 20px"> 
+                    <table id="footer-pattern-container" cellspacing="0" cellpadding="0" border="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt"> 
+                        <tr> 
+                            <td id="footer-pattern-text" class="mobile-resize-text" width="100%" style="padding: 0px; border-collapse: collapse; color: #999; font-size: 12px; line-height: 18px; font-family: Arial, sans-serif; mso-line-height-rule: exactly; mso-text-raise: 2px">
+                                 This message was sent by Atlassian JIRA <span id="footer-build-information">(v6.4.5#64020-<span title="78acd6c502bd8e526a3f0032b770e55d6f3a3b0f" data-commit-id="78acd6c502bd8e526a3f0032b770e55d6f3a3b0f}">sha1:78acd6c</span>)</span> 
+                            </td> 
+                            <td id="footer-pattern-logo-desktop-container" valign="top" style="padding: 0px; border-collapse: collapse; padding-left: 20px; vertical-align: top"> 
+                                <table style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt"> 
+                                    <tr> 
+                                        <td id="footer-pattern-logo-desktop-padding" style="padding: 0px; border-collapse: collapse; padding-top: 3px"> <img id="footer-pattern-logo-desktop" src="cid:jira-generated-image-static-footer-desktop-logo-708f995d-e3a6-4981-8906-a2cafad6d350" alt="Atlassian logo" title="Atlassian logo" width="169" height="36" class="image_fix" /> 
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                    </table> 
+                </td> 
+            </tr> 
+        </table>   
+    </body>
+</html>
+2017-06-06 10:48:38 INFO  MailApplicationService:58 - 0 Issues created. There are no Issues to be sent
+2017-06-06 10:48:53 INFO  TimerThread:16 - Thread started
+2017-06-06 10:48:53 INFO  MailApplicationService:39 - In run Method: currentThread() isThread[Thread-3,5,main]
+2017-06-06 10:48:53 INFO  EmailService:36 - Fetching Messages
+2017-06-06 10:48:53 INFO  EmailService:44 - Messages were fetched
+2017-06-06 10:52:22 INFO  Main:23 - ...Starting application...
+2017-06-06 10:52:22 INFO  Main:30 - Timer started
+2017-06-06 10:52:57 INFO  Main:23 - ...Starting application...
+2017-06-06 10:52:57 INFO  Main:30 - Timer started
+2017-06-06 10:53:07 INFO  TimerThread:16 - Thread started
+2017-06-06 10:53:07 INFO  MailApplicationService:39 - In run Method: currentThread() isThread[Thread-1,5,main]
+2017-06-06 10:53:07 INFO  EmailService:36 - Fetching Messages
+2017-06-06 10:53:09 INFO  EmailService:44 - Messages were fetched
+2017-06-06 10:53:09 INFO  MailApplicationService:51 - 1 Messages found in Inbox Folder
+2017-06-06 10:53:09 INFO  EmailService:108 - BodyPartMultiPartCount: 2
+2017-06-06 10:53:10 INFO  EmailService:65 - ---------------------------------
+2017-06-06 10:53:10 INFO  EmailService:66 - Email Number 1
+2017-06-06 10:53:10 INFO  EmailService:67 - Subject: [JIRA] Account created
+2017-06-06 10:53:10 INFO  EmailService:68 - From: jira@belatrixsf.com
+2017-06-06 10:53:10 INFO  EmailService:69 - Description: null
+2017-06-06 10:53:10 INFO  EmailService:108 - BodyPartMultiPartCount: 2
+2017-06-06 10:53:11 INFO  EmailService:70 - Text: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+    <head> 
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" /> <base href="https://jira.belatrixsf.com" /> 
+        <title>Message Title</title> 
+    </head> 
+    <body class="jira" style="color: #333; font-family: Arial, sans-serif; font-size: 14px; line-height: 1.429"> 
+        <table id="background-table" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f5f5f5; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt"> 
+            <!-- header here --> 
+            <tr> 
+                <td id="header-pattern-container" style="padding: 0px; border-collapse: collapse; padding: 10px 20px"> 
+                    <table id="header-pattern" cellspacing="0" cellpadding="0" border="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt"> 
+                        <tr> 
+                            <td id="header-avatar-image-container" valign="top" style="padding: 0px; border-collapse: collapse; vertical-align: top; width: 32px; padding-right: 8px"> <img id="header-avatar-image" class="image_fix" src="cid:jira-generated-image-avatar-e5f728c4-9952-4821-8d00-788e99fd1ee1" height="32" width="32" border="0" style="border-radius: 3px; vertical-align: top" /> 
+                            </td> 
+                            <td id="header-text-container" valign="middle" style="padding: 0px; border-collapse: collapse; vertical-align: middle; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; mso-line-height-rule: exactly; mso-text-raise: 1px"> <a class="user-hover" rel="jbarrionuevo" id="email_jbarrionuevo" href="https://jira.belatrixsf.com/secure/ViewProfile.jspa?name=jbarrionuevo" style="color: #3b73af; text-decoration: none">Julieta Barrionuevo</a> <strong>created for you</strong> a JIRA account 
+                            </td> 
+                        </tr> 
+                    </table> 
+                </td> 
+            </tr> 
+            <tr> 
+                <td id="email-content-container" style="padding: 0px; border-collapse: collapse; padding: 0 20px"> 
+                    <table id="email-content-table" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0; border-collapse: separate"> 
+                        <tr> 
+                            <!-- there needs to be content in the cell for it to render in some clients --> 
+                            <td class="email-content-rounded-top mobile-expand" style="padding: 0px; border-collapse: collapse; color: #fff; padding: 0 15px 0 16px; height: 15px; background-color: #fff; border-left: 1px solid #ccc; border-top: 1px solid #ccc; border-right: 1px solid #ccc; border-bottom: 0; border-top-right-radius: 5px; border-top-left-radius: 5px; height: 10px; line-height: 10px; padding: 0 15px 0 16px; mso-line-height-rule: exactly">
+                                &nbsp;
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td class="email-content-main mobile-expand " style="padding: 0px; border-collapse: collapse; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 0; border-bottom: 0; padding: 0 15px 0 16px; background-color: #fff"> 
+                                <table class="page-title-pattern" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt"> 
+                                    <tr> 
+                                        <td style="vertical-align: top;; padding: 0px; border-collapse: collapse; padding-right: 5px; font-size: 20px; line-height: 30px; mso-line-height-rule: exactly" class="page-title-pattern-header-container"> <span class="page-title-pattern-header" style="font-family: Arial, sans-serif; padding: 0; font-size: 20px; line-height: 30px; mso-text-raise: 2px; mso-line-height-rule: exactly; vertical-align: middle"> <a href="https://jira.belatrixsf.com" style="color: #3b73af; text-decoration: none">Belatrix Software Factory</a> </span> 
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td class="email-content-main mobile-expand " style="padding: 0px; border-collapse: collapse; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 0; border-bottom: 0; padding: 0 15px 0 16px; background-color: #fff"> 
+                                <table class="text-paragraph-pattern" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; mso-line-height-rule: exactly; mso-text-raise: 2px"> 
+                                    <tr> 
+                                        <td class="text-paragraph-pattern-container mobile-resize-text " style="padding: 0px; border-collapse: collapse; padding: 0 0 10px 0">
+                                             JIRA is the project tracker for teams building great software. Log in now to track your issues and tasks, collaborate with your team, and stay on top of project activity. 
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td class="email-content-main mobile-expand " style="padding: 0px; border-collapse: collapse; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 0; border-bottom: 0; padding: 0 15px 0 16px; background-color: #fff"> 
+                                <table class="keyvalue-table" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt"> 
+                                    <tr> 
+                                        <th style="color: #707070; font: normal 14px/20px Arial, sans-serif; text-align: left; vertical-align: top; padding: 2px 0">
+                                            Username:
+                                        </th> 
+                                        <td style="padding: 0px; border-collapse: collapse; font: normal 14px/20px Arial, sans-serif; padding: 2px 0 2px 5px; vertical-align: top">
+                                            legalrequests
+                                        </td> 
+                                    </tr> 
+                                    <tr> 
+                                        <th style="color: #707070; font: normal 14px/20px Arial, sans-serif; text-align: left; vertical-align: top; padding: 2px 0">
+                                            Email:
+                                        </th> 
+                                        <td style="padding: 0px; border-collapse: collapse; font: normal 14px/20px Arial, sans-serif; padding: 2px 0 2px 5px; vertical-align: top">
+                                            legalrequests@belatrixsf.com
+                                        </td> 
+                                    </tr> 
+                                    <tr> 
+                                        <th style="color: #707070; font: normal 14px/20px Arial, sans-serif; text-align: left; vertical-align: top; padding: 2px 0">
+                                            Full Name:
+                                        </th> 
+                                        <td style="padding: 0px; border-collapse: collapse; font: normal 14px/20px Arial, sans-serif; padding: 2px 0 2px 5px; vertical-align: top">
+                                            legal requests
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td class="email-content-main mobile-expand " style="padding: 0px; border-collapse: collapse; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 0; border-bottom: 0; padding: 0 15px 0 16px; background-color: #fff"> 
+                                <table class="text-paragraph-pattern" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; mso-line-height-rule: exactly; mso-text-raise: 2px"> 
+                                    <tr> 
+                                        <td class="text-paragraph-pattern-container mobile-resize-text " style="padding: 0px; border-collapse: collapse; padding: 0 0 10px 0">
+                                             Get started by setting your own password and logging in. 
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td class="email-content-main mobile-expand " style="padding: 0px; border-collapse: collapse; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 0; border-bottom: 0; padding: 0 15px 0 16px; background-color: #fff"> 
+                                <table id="actions-pattern" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; mso-line-height-rule: exactly; mso-text-raise: 1px"> 
+                                    <tr> 
+                                        <td id="actions-pattern-container" valign="middle" style="padding: 0px; border-collapse: collapse; padding: 10px 0 10px 24px; vertical-align: middle; padding-left: 0"> 
+                                            <table cellspacing="0" cellpadding="0" border="0" class="aui-button-email-container" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background: #3068a2; border-radius: 3px"> 
+                                                <tr> 
+                                                    <td class="aui-button-email" style="background: #3068a2; background: -moz-linear-gradient(top, #4687ce 0%, #3068a2 100%); background: -webkit-linear-gradient(top, #4687ce 0%,#3068a2 100%); background: -o-linear-gradient(top, #4687ce 0%,#3068a2 100%); background: -ms-linear-gradient(top, #4687ce 0%,#3068a2 100%); background: linear-gradient(top, #4687ce 0%,#3068a2 100%); -moz-box-sizing: border-box; -webkit-font-smoothing: antialiased;; padding: 0px; border-collapse: collapse; border-radius: 3px; padding: 5px; margin: 0px"> <a href="https://jira.belatrixsf.com/secure/ResetPassword!default.jspa?os_username=legalrequests&amp;token=163631ae47f452606548af7c2b7083e2ef991f30" class="aui-button-email-link" style="color: #3b73af; text-decoration: none; color: #fff; font-weight: bold; padding: 6px; font-size: 14px; line-height: 1.429; font-family: Arial, sans-serif">Set my password</a> 
+                                                    </td> 
+                                                </tr> 
+                                            </table> 
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td class="email-content-main mobile-expand " style="padding: 0px; border-collapse: collapse; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 0; border-bottom: 0; padding: 0 15px 0 16px; background-color: #fff"> 
+                                <table class="text-paragraph-pattern" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; mso-line-height-rule: exactly; mso-text-raise: 2px"> 
+                                    <tr> 
+                                        <td class="text-paragraph-pattern-container mobile-resize-text " style="padding: 0px; border-collapse: collapse; padding: 0 0 10px 0">
+                                             This password reset request is valid for the <strong>next 24 hours</strong>. 
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td class="email-content-main mobile-expand " style="padding: 0px; border-collapse: collapse; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 0; border-bottom: 0; padding: 0 15px 0 16px; background-color: #fff"> 
+                                <table class="text-paragraph-pattern" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; mso-line-height-rule: exactly; mso-text-raise: 2px"> 
+                                    <tr> 
+                                        <td class="text-paragraph-pattern-container mobile-resize-text " style="padding: 0px; border-collapse: collapse; padding: 0 0 10px 0">
+                                             Don't worry. You can always ask for a new password using the following link: <br /><a href="https://jira.belatrixsf.com/secure/ForgotLoginDetails.jspa?username=legalrequests" style="color: #3b73af; text-decoration: none">https://jira.belatrixsf.com/secure/ForgotLoginDetails.jspa?username=legalrequests</a> 
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                        <!-- there needs to be content in the cell for it to render in some clients --> 
+                        <tr> 
+                            <td class="email-content-rounded-bottom mobile-expand" style="padding: 0px; border-collapse: collapse; color: #fff; padding: 0 15px 0 16px; height: 5px; line-height: 5px; background-color: #fff; border-top: 0; border-left: 1px solid #ccc; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; mso-line-height-rule: exactly">
+                                &nbsp;
+                            </td> 
+                        </tr> 
+                    </table> 
+                </td> 
+            </tr> 
+            <tr> 
+                <td id="footer-pattern" style="padding: 0px; border-collapse: collapse; padding: 12px 20px"> 
+                    <table id="footer-pattern-container" cellspacing="0" cellpadding="0" border="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt"> 
+                        <tr> 
+                            <td id="footer-pattern-text" class="mobile-resize-text" width="100%" style="padding: 0px; border-collapse: collapse; color: #999; font-size: 12px; line-height: 18px; font-family: Arial, sans-serif; mso-line-height-rule: exactly; mso-text-raise: 2px">
+                                 This message was sent by Atlassian JIRA <span id="footer-build-information">(v6.4.5#64020-<span title="78acd6c502bd8e526a3f0032b770e55d6f3a3b0f" data-commit-id="78acd6c502bd8e526a3f0032b770e55d6f3a3b0f}">sha1:78acd6c</span>)</span> 
+                            </td> 
+                            <td id="footer-pattern-logo-desktop-container" valign="top" style="padding: 0px; border-collapse: collapse; padding-left: 20px; vertical-align: top"> 
+                                <table style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt"> 
+                                    <tr> 
+                                        <td id="footer-pattern-logo-desktop-padding" style="padding: 0px; border-collapse: collapse; padding-top: 3px"> <img id="footer-pattern-logo-desktop" src="cid:jira-generated-image-static-footer-desktop-logo-708f995d-e3a6-4981-8906-a2cafad6d350" alt="Atlassian logo" title="Atlassian logo" width="169" height="36" class="image_fix" /> 
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                    </table> 
+                </td> 
+            </tr> 
+        </table>   
+    </body>
+</html>
+2017-06-06 10:53:11 INFO  MailApplicationService:55 - 1 Issues were created and are ready to be sent via Email
+2017-06-06 10:53:11 INFO  MailApplicationService:74 - No Issue created 
+2017-06-06 10:53:12 ERROR SendEMailService:64 - 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials r28sm15911756qki.53 - gsmtp
+
+javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials r28sm15911756qki.53 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:843)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:765)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:687)
+	at javax.mail.Service.connect(Service.java:367)
+	at javax.mail.Service.connect(Service.java:226)
+	at javax.mail.Service.connect(Service.java:175)
+	at javax.mail.Transport.send0(Transport.java:253)
+	at javax.mail.Transport.send(Transport.java:124)
+	at com.belatrix.legal.mailfinder.services.SendEMailService.sendEmail(SendEMailService.java:59)
+	at com.belatrix.legal.mailfinder.facade.SendMailService.sendEmail(SendMailService.java:8)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.sendEmailIssues(MailApplicationService.java:75)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:56)
+2017-06-06 11:14:31 INFO  Main:23 - ...Starting application...
+2017-06-06 11:14:31 INFO  Main:30 - Timer started
+2017-06-06 11:14:41 INFO  TimerThread:16 - Thread started
+2017-06-06 11:14:41 INFO  MailApplicationService:39 - In run Method: currentThread() isThread[Thread-1,5,main]
+2017-06-06 11:14:41 INFO  EmailService:36 - Fetching Messages
+2017-06-06 11:14:43 INFO  EmailService:44 - Messages were fetched
+2017-06-06 11:14:43 INFO  MailApplicationService:51 - 1 Messages found in Inbox Folder
+2017-06-06 11:14:43 INFO  EmailService:108 - BodyPartMultiPartCount: 2
+2017-06-06 11:14:44 INFO  EmailService:65 - ---------------------------------
+2017-06-06 11:14:44 INFO  EmailService:66 - Email Number 1
+2017-06-06 11:14:44 INFO  EmailService:67 - Subject: [JIRA] Account created
+2017-06-06 11:14:44 INFO  EmailService:68 - From: jira@belatrixsf.com
+2017-06-06 11:14:44 INFO  EmailService:69 - Description: null
+2017-06-06 11:14:44 INFO  EmailService:108 - BodyPartMultiPartCount: 2
+2017-06-06 11:14:45 INFO  EmailService:70 - Text: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+    <head> 
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" /> <base href="https://jira.belatrixsf.com" /> 
+        <title>Message Title</title> 
+    </head> 
+    <body class="jira" style="color: #333; font-family: Arial, sans-serif; font-size: 14px; line-height: 1.429"> 
+        <table id="background-table" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f5f5f5; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt"> 
+            <!-- header here --> 
+            <tr> 
+                <td id="header-pattern-container" style="padding: 0px; border-collapse: collapse; padding: 10px 20px"> 
+                    <table id="header-pattern" cellspacing="0" cellpadding="0" border="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt"> 
+                        <tr> 
+                            <td id="header-avatar-image-container" valign="top" style="padding: 0px; border-collapse: collapse; vertical-align: top; width: 32px; padding-right: 8px"> <img id="header-avatar-image" class="image_fix" src="cid:jira-generated-image-avatar-e5f728c4-9952-4821-8d00-788e99fd1ee1" height="32" width="32" border="0" style="border-radius: 3px; vertical-align: top" /> 
+                            </td> 
+                            <td id="header-text-container" valign="middle" style="padding: 0px; border-collapse: collapse; vertical-align: middle; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; mso-line-height-rule: exactly; mso-text-raise: 1px"> <a class="user-hover" rel="jbarrionuevo" id="email_jbarrionuevo" href="https://jira.belatrixsf.com/secure/ViewProfile.jspa?name=jbarrionuevo" style="color: #3b73af; text-decoration: none">Julieta Barrionuevo</a> <strong>created for you</strong> a JIRA account 
+                            </td> 
+                        </tr> 
+                    </table> 
+                </td> 
+            </tr> 
+            <tr> 
+                <td id="email-content-container" style="padding: 0px; border-collapse: collapse; padding: 0 20px"> 
+                    <table id="email-content-table" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0; border-collapse: separate"> 
+                        <tr> 
+                            <!-- there needs to be content in the cell for it to render in some clients --> 
+                            <td class="email-content-rounded-top mobile-expand" style="padding: 0px; border-collapse: collapse; color: #fff; padding: 0 15px 0 16px; height: 15px; background-color: #fff; border-left: 1px solid #ccc; border-top: 1px solid #ccc; border-right: 1px solid #ccc; border-bottom: 0; border-top-right-radius: 5px; border-top-left-radius: 5px; height: 10px; line-height: 10px; padding: 0 15px 0 16px; mso-line-height-rule: exactly">
+                                &nbsp;
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td class="email-content-main mobile-expand " style="padding: 0px; border-collapse: collapse; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 0; border-bottom: 0; padding: 0 15px 0 16px; background-color: #fff"> 
+                                <table class="page-title-pattern" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt"> 
+                                    <tr> 
+                                        <td style="vertical-align: top;; padding: 0px; border-collapse: collapse; padding-right: 5px; font-size: 20px; line-height: 30px; mso-line-height-rule: exactly" class="page-title-pattern-header-container"> <span class="page-title-pattern-header" style="font-family: Arial, sans-serif; padding: 0; font-size: 20px; line-height: 30px; mso-text-raise: 2px; mso-line-height-rule: exactly; vertical-align: middle"> <a href="https://jira.belatrixsf.com" style="color: #3b73af; text-decoration: none">Belatrix Software Factory</a> </span> 
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td class="email-content-main mobile-expand " style="padding: 0px; border-collapse: collapse; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 0; border-bottom: 0; padding: 0 15px 0 16px; background-color: #fff"> 
+                                <table class="text-paragraph-pattern" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; mso-line-height-rule: exactly; mso-text-raise: 2px"> 
+                                    <tr> 
+                                        <td class="text-paragraph-pattern-container mobile-resize-text " style="padding: 0px; border-collapse: collapse; padding: 0 0 10px 0">
+                                             JIRA is the project tracker for teams building great software. Log in now to track your issues and tasks, collaborate with your team, and stay on top of project activity. 
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td class="email-content-main mobile-expand " style="padding: 0px; border-collapse: collapse; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 0; border-bottom: 0; padding: 0 15px 0 16px; background-color: #fff"> 
+                                <table class="keyvalue-table" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt"> 
+                                    <tr> 
+                                        <th style="color: #707070; font: normal 14px/20px Arial, sans-serif; text-align: left; vertical-align: top; padding: 2px 0">
+                                            Username:
+                                        </th> 
+                                        <td style="padding: 0px; border-collapse: collapse; font: normal 14px/20px Arial, sans-serif; padding: 2px 0 2px 5px; vertical-align: top">
+                                            legalrequests
+                                        </td> 
+                                    </tr> 
+                                    <tr> 
+                                        <th style="color: #707070; font: normal 14px/20px Arial, sans-serif; text-align: left; vertical-align: top; padding: 2px 0">
+                                            Email:
+                                        </th> 
+                                        <td style="padding: 0px; border-collapse: collapse; font: normal 14px/20px Arial, sans-serif; padding: 2px 0 2px 5px; vertical-align: top">
+                                            legalrequests@belatrixsf.com
+                                        </td> 
+                                    </tr> 
+                                    <tr> 
+                                        <th style="color: #707070; font: normal 14px/20px Arial, sans-serif; text-align: left; vertical-align: top; padding: 2px 0">
+                                            Full Name:
+                                        </th> 
+                                        <td style="padding: 0px; border-collapse: collapse; font: normal 14px/20px Arial, sans-serif; padding: 2px 0 2px 5px; vertical-align: top">
+                                            legal requests
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td class="email-content-main mobile-expand " style="padding: 0px; border-collapse: collapse; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 0; border-bottom: 0; padding: 0 15px 0 16px; background-color: #fff"> 
+                                <table class="text-paragraph-pattern" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; mso-line-height-rule: exactly; mso-text-raise: 2px"> 
+                                    <tr> 
+                                        <td class="text-paragraph-pattern-container mobile-resize-text " style="padding: 0px; border-collapse: collapse; padding: 0 0 10px 0">
+                                             Get started by setting your own password and logging in. 
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td class="email-content-main mobile-expand " style="padding: 0px; border-collapse: collapse; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 0; border-bottom: 0; padding: 0 15px 0 16px; background-color: #fff"> 
+                                <table id="actions-pattern" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; mso-line-height-rule: exactly; mso-text-raise: 1px"> 
+                                    <tr> 
+                                        <td id="actions-pattern-container" valign="middle" style="padding: 0px; border-collapse: collapse; padding: 10px 0 10px 24px; vertical-align: middle; padding-left: 0"> 
+                                            <table cellspacing="0" cellpadding="0" border="0" class="aui-button-email-container" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background: #3068a2; border-radius: 3px"> 
+                                                <tr> 
+                                                    <td class="aui-button-email" style="background: #3068a2; background: -moz-linear-gradient(top, #4687ce 0%, #3068a2 100%); background: -webkit-linear-gradient(top, #4687ce 0%,#3068a2 100%); background: -o-linear-gradient(top, #4687ce 0%,#3068a2 100%); background: -ms-linear-gradient(top, #4687ce 0%,#3068a2 100%); background: linear-gradient(top, #4687ce 0%,#3068a2 100%); -moz-box-sizing: border-box; -webkit-font-smoothing: antialiased;; padding: 0px; border-collapse: collapse; border-radius: 3px; padding: 5px; margin: 0px"> <a href="https://jira.belatrixsf.com/secure/ResetPassword!default.jspa?os_username=legalrequests&amp;token=163631ae47f452606548af7c2b7083e2ef991f30" class="aui-button-email-link" style="color: #3b73af; text-decoration: none; color: #fff; font-weight: bold; padding: 6px; font-size: 14px; line-height: 1.429; font-family: Arial, sans-serif">Set my password</a> 
+                                                    </td> 
+                                                </tr> 
+                                            </table> 
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td class="email-content-main mobile-expand " style="padding: 0px; border-collapse: collapse; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 0; border-bottom: 0; padding: 0 15px 0 16px; background-color: #fff"> 
+                                <table class="text-paragraph-pattern" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; mso-line-height-rule: exactly; mso-text-raise: 2px"> 
+                                    <tr> 
+                                        <td class="text-paragraph-pattern-container mobile-resize-text " style="padding: 0px; border-collapse: collapse; padding: 0 0 10px 0">
+                                             This password reset request is valid for the <strong>next 24 hours</strong>. 
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td class="email-content-main mobile-expand " style="padding: 0px; border-collapse: collapse; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 0; border-bottom: 0; padding: 0 15px 0 16px; background-color: #fff"> 
+                                <table class="text-paragraph-pattern" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; mso-line-height-rule: exactly; mso-text-raise: 2px"> 
+                                    <tr> 
+                                        <td class="text-paragraph-pattern-container mobile-resize-text " style="padding: 0px; border-collapse: collapse; padding: 0 0 10px 0">
+                                             Don't worry. You can always ask for a new password using the following link: <br /><a href="https://jira.belatrixsf.com/secure/ForgotLoginDetails.jspa?username=legalrequests" style="color: #3b73af; text-decoration: none">https://jira.belatrixsf.com/secure/ForgotLoginDetails.jspa?username=legalrequests</a> 
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                        <!-- there needs to be content in the cell for it to render in some clients --> 
+                        <tr> 
+                            <td class="email-content-rounded-bottom mobile-expand" style="padding: 0px; border-collapse: collapse; color: #fff; padding: 0 15px 0 16px; height: 5px; line-height: 5px; background-color: #fff; border-top: 0; border-left: 1px solid #ccc; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; mso-line-height-rule: exactly">
+                                &nbsp;
+                            </td> 
+                        </tr> 
+                    </table> 
+                </td> 
+            </tr> 
+            <tr> 
+                <td id="footer-pattern" style="padding: 0px; border-collapse: collapse; padding: 12px 20px"> 
+                    <table id="footer-pattern-container" cellspacing="0" cellpadding="0" border="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt"> 
+                        <tr> 
+                            <td id="footer-pattern-text" class="mobile-resize-text" width="100%" style="padding: 0px; border-collapse: collapse; color: #999; font-size: 12px; line-height: 18px; font-family: Arial, sans-serif; mso-line-height-rule: exactly; mso-text-raise: 2px">
+                                 This message was sent by Atlassian JIRA <span id="footer-build-information">(v6.4.5#64020-<span title="78acd6c502bd8e526a3f0032b770e55d6f3a3b0f" data-commit-id="78acd6c502bd8e526a3f0032b770e55d6f3a3b0f}">sha1:78acd6c</span>)</span> 
+                            </td> 
+                            <td id="footer-pattern-logo-desktop-container" valign="top" style="padding: 0px; border-collapse: collapse; padding-left: 20px; vertical-align: top"> 
+                                <table style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt"> 
+                                    <tr> 
+                                        <td id="footer-pattern-logo-desktop-padding" style="padding: 0px; border-collapse: collapse; padding-top: 3px"> <img id="footer-pattern-logo-desktop" src="cid:jira-generated-image-static-footer-desktop-logo-708f995d-e3a6-4981-8906-a2cafad6d350" alt="Atlassian logo" title="Atlassian logo" width="169" height="36" class="image_fix" /> 
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                    </table> 
+                </td> 
+            </tr> 
+        </table>   
+    </body>
+</html>
+2017-06-06 11:14:45 INFO  MailApplicationService:55 - 1 Issues were created and are ready to be sent via Email
+2017-06-06 11:14:45 INFO  MailApplicationService:74 - No Issue created 
+2017-06-06 11:14:48 ERROR SendEMailService:64 - 535 5.7.8 Error: authentication failed: UGFzc3dvcmQ6
+
+javax.mail.AuthenticationFailedException: 535 5.7.8 Error: authentication failed: UGFzc3dvcmQ6
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:843)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:765)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:687)
+	at javax.mail.Service.connect(Service.java:367)
+	at javax.mail.Service.connect(Service.java:226)
+	at javax.mail.Service.connect(Service.java:175)
+	at javax.mail.Transport.send0(Transport.java:253)
+	at javax.mail.Transport.send(Transport.java:124)
+	at com.belatrix.legal.mailfinder.services.SendEMailService.sendEmail(SendEMailService.java:59)
+	at com.belatrix.legal.mailfinder.facade.SendMailService.sendEmail(SendMailService.java:8)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.sendEmailIssues(MailApplicationService.java:75)
+	at com.belatrix.legal.mailfinder.facade.MailApplicationService.run(MailApplicationService.java:56)
+2017-06-06 11:17:56 INFO  Main:23 - ...Starting application...
+2017-06-06 11:17:56 INFO  Main:30 - Timer started
+2017-06-06 11:18:06 INFO  TimerThread:16 - Thread started
+2017-06-06 11:18:06 INFO  MailApplicationService:39 - In run Method: currentThread() isThread[Thread-1,5,main]
+2017-06-06 11:18:06 INFO  EmailService:36 - Fetching Messages
+2017-06-06 11:18:08 INFO  EmailService:44 - Messages were fetched
+2017-06-06 11:18:08 INFO  MailApplicationService:51 - 1 Messages found in Inbox Folder
+2017-06-06 11:18:08 INFO  EmailService:108 - BodyPartMultiPartCount: 2
+2017-06-06 11:18:09 INFO  EmailService:65 - ---------------------------------
+2017-06-06 11:18:09 INFO  EmailService:66 - Email Number 1
+2017-06-06 11:18:09 INFO  EmailService:67 - Subject: [JIRA] Account created
+2017-06-06 11:18:09 INFO  EmailService:68 - From: jira@belatrixsf.com
+2017-06-06 11:18:09 INFO  EmailService:69 - Description: null
+2017-06-06 11:18:09 INFO  EmailService:108 - BodyPartMultiPartCount: 2
+2017-06-06 11:18:09 INFO  EmailService:70 - Text: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+    <head> 
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" /> <base href="https://jira.belatrixsf.com" /> 
+        <title>Message Title</title> 
+    </head> 
+    <body class="jira" style="color: #333; font-family: Arial, sans-serif; font-size: 14px; line-height: 1.429"> 
+        <table id="background-table" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f5f5f5; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt"> 
+            <!-- header here --> 
+            <tr> 
+                <td id="header-pattern-container" style="padding: 0px; border-collapse: collapse; padding: 10px 20px"> 
+                    <table id="header-pattern" cellspacing="0" cellpadding="0" border="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt"> 
+                        <tr> 
+                            <td id="header-avatar-image-container" valign="top" style="padding: 0px; border-collapse: collapse; vertical-align: top; width: 32px; padding-right: 8px"> <img id="header-avatar-image" class="image_fix" src="cid:jira-generated-image-avatar-e5f728c4-9952-4821-8d00-788e99fd1ee1" height="32" width="32" border="0" style="border-radius: 3px; vertical-align: top" /> 
+                            </td> 
+                            <td id="header-text-container" valign="middle" style="padding: 0px; border-collapse: collapse; vertical-align: middle; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; mso-line-height-rule: exactly; mso-text-raise: 1px"> <a class="user-hover" rel="jbarrionuevo" id="email_jbarrionuevo" href="https://jira.belatrixsf.com/secure/ViewProfile.jspa?name=jbarrionuevo" style="color: #3b73af; text-decoration: none">Julieta Barrionuevo</a> <strong>created for you</strong> a JIRA account 
+                            </td> 
+                        </tr> 
+                    </table> 
+                </td> 
+            </tr> 
+            <tr> 
+                <td id="email-content-container" style="padding: 0px; border-collapse: collapse; padding: 0 20px"> 
+                    <table id="email-content-table" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0; border-collapse: separate"> 
+                        <tr> 
+                            <!-- there needs to be content in the cell for it to render in some clients --> 
+                            <td class="email-content-rounded-top mobile-expand" style="padding: 0px; border-collapse: collapse; color: #fff; padding: 0 15px 0 16px; height: 15px; background-color: #fff; border-left: 1px solid #ccc; border-top: 1px solid #ccc; border-right: 1px solid #ccc; border-bottom: 0; border-top-right-radius: 5px; border-top-left-radius: 5px; height: 10px; line-height: 10px; padding: 0 15px 0 16px; mso-line-height-rule: exactly">
+                                &nbsp;
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td class="email-content-main mobile-expand " style="padding: 0px; border-collapse: collapse; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 0; border-bottom: 0; padding: 0 15px 0 16px; background-color: #fff"> 
+                                <table class="page-title-pattern" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt"> 
+                                    <tr> 
+                                        <td style="vertical-align: top;; padding: 0px; border-collapse: collapse; padding-right: 5px; font-size: 20px; line-height: 30px; mso-line-height-rule: exactly" class="page-title-pattern-header-container"> <span class="page-title-pattern-header" style="font-family: Arial, sans-serif; padding: 0; font-size: 20px; line-height: 30px; mso-text-raise: 2px; mso-line-height-rule: exactly; vertical-align: middle"> <a href="https://jira.belatrixsf.com" style="color: #3b73af; text-decoration: none">Belatrix Software Factory</a> </span> 
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td class="email-content-main mobile-expand " style="padding: 0px; border-collapse: collapse; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 0; border-bottom: 0; padding: 0 15px 0 16px; background-color: #fff"> 
+                                <table class="text-paragraph-pattern" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; mso-line-height-rule: exactly; mso-text-raise: 2px"> 
+                                    <tr> 
+                                        <td class="text-paragraph-pattern-container mobile-resize-text " style="padding: 0px; border-collapse: collapse; padding: 0 0 10px 0">
+                                             JIRA is the project tracker for teams building great software. Log in now to track your issues and tasks, collaborate with your team, and stay on top of project activity. 
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td class="email-content-main mobile-expand " style="padding: 0px; border-collapse: collapse; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 0; border-bottom: 0; padding: 0 15px 0 16px; background-color: #fff"> 
+                                <table class="keyvalue-table" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt"> 
+                                    <tr> 
+                                        <th style="color: #707070; font: normal 14px/20px Arial, sans-serif; text-align: left; vertical-align: top; padding: 2px 0">
+                                            Username:
+                                        </th> 
+                                        <td style="padding: 0px; border-collapse: collapse; font: normal 14px/20px Arial, sans-serif; padding: 2px 0 2px 5px; vertical-align: top">
+                                            legalrequests
+                                        </td> 
+                                    </tr> 
+                                    <tr> 
+                                        <th style="color: #707070; font: normal 14px/20px Arial, sans-serif; text-align: left; vertical-align: top; padding: 2px 0">
+                                            Email:
+                                        </th> 
+                                        <td style="padding: 0px; border-collapse: collapse; font: normal 14px/20px Arial, sans-serif; padding: 2px 0 2px 5px; vertical-align: top">
+                                            legalrequests@belatrixsf.com
+                                        </td> 
+                                    </tr> 
+                                    <tr> 
+                                        <th style="color: #707070; font: normal 14px/20px Arial, sans-serif; text-align: left; vertical-align: top; padding: 2px 0">
+                                            Full Name:
+                                        </th> 
+                                        <td style="padding: 0px; border-collapse: collapse; font: normal 14px/20px Arial, sans-serif; padding: 2px 0 2px 5px; vertical-align: top">
+                                            legal requests
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td class="email-content-main mobile-expand " style="padding: 0px; border-collapse: collapse; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 0; border-bottom: 0; padding: 0 15px 0 16px; background-color: #fff"> 
+                                <table class="text-paragraph-pattern" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; mso-line-height-rule: exactly; mso-text-raise: 2px"> 
+                                    <tr> 
+                                        <td class="text-paragraph-pattern-container mobile-resize-text " style="padding: 0px; border-collapse: collapse; padding: 0 0 10px 0">
+                                             Get started by setting your own password and logging in. 
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td class="email-content-main mobile-expand " style="padding: 0px; border-collapse: collapse; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 0; border-bottom: 0; padding: 0 15px 0 16px; background-color: #fff"> 
+                                <table id="actions-pattern" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; mso-line-height-rule: exactly; mso-text-raise: 1px"> 
+                                    <tr> 
+                                        <td id="actions-pattern-container" valign="middle" style="padding: 0px; border-collapse: collapse; padding: 10px 0 10px 24px; vertical-align: middle; padding-left: 0"> 
+                                            <table cellspacing="0" cellpadding="0" border="0" class="aui-button-email-container" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background: #3068a2; border-radius: 3px"> 
+                                                <tr> 
+                                                    <td class="aui-button-email" style="background: #3068a2; background: -moz-linear-gradient(top, #4687ce 0%, #3068a2 100%); background: -webkit-linear-gradient(top, #4687ce 0%,#3068a2 100%); background: -o-linear-gradient(top, #4687ce 0%,#3068a2 100%); background: -ms-linear-gradient(top, #4687ce 0%,#3068a2 100%); background: linear-gradient(top, #4687ce 0%,#3068a2 100%); -moz-box-sizing: border-box; -webkit-font-smoothing: antialiased;; padding: 0px; border-collapse: collapse; border-radius: 3px; padding: 5px; margin: 0px"> <a href="https://jira.belatrixsf.com/secure/ResetPassword!default.jspa?os_username=legalrequests&amp;token=163631ae47f452606548af7c2b7083e2ef991f30" class="aui-button-email-link" style="color: #3b73af; text-decoration: none; color: #fff; font-weight: bold; padding: 6px; font-size: 14px; line-height: 1.429; font-family: Arial, sans-serif">Set my password</a> 
+                                                    </td> 
+                                                </tr> 
+                                            </table> 
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td class="email-content-main mobile-expand " style="padding: 0px; border-collapse: collapse; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 0; border-bottom: 0; padding: 0 15px 0 16px; background-color: #fff"> 
+                                <table class="text-paragraph-pattern" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; mso-line-height-rule: exactly; mso-text-raise: 2px"> 
+                                    <tr> 
+                                        <td class="text-paragraph-pattern-container mobile-resize-text " style="padding: 0px; border-collapse: collapse; padding: 0 0 10px 0">
+                                             This password reset request is valid for the <strong>next 24 hours</strong>. 
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td class="email-content-main mobile-expand " style="padding: 0px; border-collapse: collapse; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 0; border-bottom: 0; padding: 0 15px 0 16px; background-color: #fff"> 
+                                <table class="text-paragraph-pattern" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; mso-line-height-rule: exactly; mso-text-raise: 2px"> 
+                                    <tr> 
+                                        <td class="text-paragraph-pattern-container mobile-resize-text " style="padding: 0px; border-collapse: collapse; padding: 0 0 10px 0">
+                                             Don't worry. You can always ask for a new password using the following link: <br /><a href="https://jira.belatrixsf.com/secure/ForgotLoginDetails.jspa?username=legalrequests" style="color: #3b73af; text-decoration: none">https://jira.belatrixsf.com/secure/ForgotLoginDetails.jspa?username=legalrequests</a> 
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                        <!-- there needs to be content in the cell for it to render in some clients --> 
+                        <tr> 
+                            <td class="email-content-rounded-bottom mobile-expand" style="padding: 0px; border-collapse: collapse; color: #fff; padding: 0 15px 0 16px; height: 5px; line-height: 5px; background-color: #fff; border-top: 0; border-left: 1px solid #ccc; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; mso-line-height-rule: exactly">
+                                &nbsp;
+                            </td> 
+                        </tr> 
+                    </table> 
+                </td> 
+            </tr> 
+            <tr> 
+                <td id="footer-pattern" style="padding: 0px; border-collapse: collapse; padding: 12px 20px"> 
+                    <table id="footer-pattern-container" cellspacing="0" cellpadding="0" border="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt"> 
+                        <tr> 
+                            <td id="footer-pattern-text" class="mobile-resize-text" width="100%" style="padding: 0px; border-collapse: collapse; color: #999; font-size: 12px; line-height: 18px; font-family: Arial, sans-serif; mso-line-height-rule: exactly; mso-text-raise: 2px">
+                                 This message was sent by Atlassian JIRA <span id="footer-build-information">(v6.4.5#64020-<span title="78acd6c502bd8e526a3f0032b770e55d6f3a3b0f" data-commit-id="78acd6c502bd8e526a3f0032b770e55d6f3a3b0f}">sha1:78acd6c</span>)</span> 
+                            </td> 
+                            <td id="footer-pattern-logo-desktop-container" valign="top" style="padding: 0px; border-collapse: collapse; padding-left: 20px; vertical-align: top"> 
+                                <table style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt"> 
+                                    <tr> 
+                                        <td id="footer-pattern-logo-desktop-padding" style="padding: 0px; border-collapse: collapse; padding-top: 3px"> <img id="footer-pattern-logo-desktop" src="cid:jira-generated-image-static-footer-desktop-logo-708f995d-e3a6-4981-8906-a2cafad6d350" alt="Atlassian logo" title="Atlassian logo" width="169" height="36" class="image_fix" /> 
+                                        </td> 
+                                    </tr> 
+                                </table> 
+                            </td> 
+                        </tr> 
+                    </table> 
+                </td> 
+            </tr> 
+        </table>   
+    </body>
+</html>
+2017-06-06 11:18:09 INFO  MailApplicationService:55 - 1 Issues were created and are ready to be sent via Email
+2017-06-06 11:18:09 INFO  MailApplicationService:74 - No Issue created 
+2017-06-06 11:18:12 INFO  SendEMailService:61 - Done

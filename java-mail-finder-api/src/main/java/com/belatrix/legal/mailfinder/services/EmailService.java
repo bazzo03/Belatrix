@@ -80,11 +80,11 @@ public class EmailService {
 					} else {
 						LOGGER.warn(String.format("Error in Jira Client with Txid: ", issue.getTransactionId()));
 					}
+					
+					issuesList.add(issue);
 				} 
 			} catch (Exception e) {
 				LOGGER.error(String.format("Error with transaction id: ", issue.getTransactionId(), e));
-			} finally {
-				issuesList.add(issue);
 			}
 		}
 

@@ -4,7 +4,6 @@ import java.util.Properties;
 
 import javax.mail.Folder;
 import javax.mail.MessagingException;
-import javax.mail.NoSuchProviderException;
 import javax.mail.Session;
 import javax.mail.Store;
 
