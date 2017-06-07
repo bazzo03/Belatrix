@@ -4,7 +4,6 @@ import org.apache.log4j.Logger;
 
 import com.belatrix.legal.jiraintegrationservice.Exception.JiraIntegrationServiceException;
 import com.belatrix.legal.jiraintegrationservice.dto.JiraIssueDTO;
-import com.belatrix.legal.jiraintegrationservice.jiraclient.JiraException;
 import com.belatrix.legal.jiraintegrationservice.services.JiraIntegrationAPI;
 
 /**
@@ -25,7 +24,7 @@ public class JiraIntegrationService implements IJiraIntegrationService {
 	 */
 	public String createIssue(JiraIssueDTO issue) throws  JiraIntegrationServiceException {
 		
-		logger.info(String.format("Init createIssue. TxId : %s ",issue.getTransactionId()));
+		logger.trace(String.format("Init createIssue. TxId : %s ",issue.getTransactionId()));
 		 return JiraIntegrationAPI.createIssue(issue);	
 	
 	}

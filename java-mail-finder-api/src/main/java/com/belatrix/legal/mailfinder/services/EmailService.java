@@ -41,7 +41,7 @@ public class EmailService {
 		Flags seen = new Flags(Flags.Flag.SEEN);
 		FlagTerm unseenFlagTerm = new FlagTerm(seen, read);
 
-		LOGGER.info("Messages were fetched");
+		LOGGER.trace("Messages were fetched");
 
 		return emailFolder.search(unseenFlagTerm);
 
@@ -61,18 +61,17 @@ public class EmailService {
 				issue.setDescription(getContentFromEmail(message.getContent()));
 				issue.setTransactionId(UUID.randomUUID().toString());
 				issue.setEmail(message.getFrom()[0].toString());
-				
-				LOGGER.info("---------------------------------");
-				LOGGER.info("Email Number " + (i + 1));
-				LOGGER.info("Subject: " + message.getSubject());
-				LOGGER.info("From: " + message.getFrom()[0]);
-				LOGGER.info("Description: " + message.getDescription());
-				LOGGER.info("Text: " + getContentFromEmail(message.getContent()));
-				
+
+				LOGGER.trace("---------------------------------");
+				LOGGER.trace("Email Number " + (i + 1));
+				LOGGER.trace("Subject: " + message.getSubject());
+				LOGGER.trace("From: " + message.getFrom()[0]);
+				LOGGER.trace("Description: " + message.getDescription());
+				LOGGER.trace("Text: " + getContentFromEmail(message.getContent()));
+
 				if (message.getSubject().contains(SUBJECT)) {
 					LOGGER.info("Obtaining IssueId for TxId:" + issue.getTransactionId());
 					String generatedId = jiraIntegrationService.createIssue(issue);
-					LOGGER.info("GeneratedId id: " + generatedId);
 
 					if (generatedId != null && !generatedId.equals(StringUtils.EMPTY)) {
 						issue.setIssueId(generatedId);
@@ -80,9 +79,9 @@ public class EmailService {
 					} else {
 						LOGGER.warn(String.format("Error in Jira Client with Txid: ", issue.getTransactionId()));
 					}
-					
+
 					issuesList.add(issue);
-				} 
+				}
 			} catch (Exception e) {
 				LOGGER.error(String.format("Error with transaction id: ", issue.getTransactionId(), e));
 			}
@@ -97,17 +96,16 @@ public class EmailService {
 
 		if (msgContent instanceof Multipart) {
 			Multipart multipart = (Multipart) msgContent;
-			LOGGER.info("BodyPart" + "MultiPartCount: " + multipart.getCount());
+			LOGGER.trace("BodyPart" + "MultiPartCount: " + multipart.getCount());
 			for (int j = 0; j < multipart.getCount(); j++) {
 				BodyPart bodyPart = multipart.getBodyPart(0);
 				String disposition = bodyPart.getDisposition();
 				if (disposition != null && (disposition.equalsIgnoreCase("ATTACHMENT"))) {
-					LOGGER.info("Mail have some attachment");
+					LOGGER.trace("Mail have some attachment");
 					DataHandler handler = bodyPart.getDataHandler();
-					LOGGER.info("file name : " + handler.getName());
+					LOGGER.trace("file name : " + handler.getName());
 				} else {
 					content = (String) bodyPart.getContent(); // the F
-
 				}
 			}
 		} else {

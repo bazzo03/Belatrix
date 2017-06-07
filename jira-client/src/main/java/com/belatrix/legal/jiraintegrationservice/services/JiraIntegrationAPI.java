@@ -55,7 +55,7 @@ public class JiraIntegrationAPI {
 	 */
 	public static String createIssue(JiraIssueDTO issue) throws JiraIntegrationServiceException {
 
-		logger.info(String.format(" CreateIssue. Object received : %s ",
+		logger.trace(String.format(" CreateIssue. Object received : %s ",
 				new Gson().toJson(issue, JiraIssueDTO.class)));
 
 		if (!url.isEmpty() && creds != null) {

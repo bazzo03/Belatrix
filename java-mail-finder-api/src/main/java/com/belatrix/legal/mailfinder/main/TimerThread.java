@@ -13,7 +13,7 @@ public class TimerThread extends TimerTask {
 	public void run() {
 		MailApplicationService mailApplication = new MailApplicationService();
         mailApplication.start();
-        LOGGER.info("Thread started");
+        LOGGER.trace("Thread started");
 	}
 
 }

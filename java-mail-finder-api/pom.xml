@@ -42,7 +42,7 @@
 						</manifest>
 						<manifestEntries>
 							<Class-Path>lib/</Class-Path>
-							<Class-Path>./config/</Class-Path>
+							<Class-Path>../config/</Class-Path>
 						</manifestEntries>
 					</archive>
 				</configuration>

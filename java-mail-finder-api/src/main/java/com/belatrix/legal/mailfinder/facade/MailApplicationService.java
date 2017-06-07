@@ -22,9 +22,6 @@ public class MailApplicationService extends Thread {
 			.getProperty(EPropertyMail.MAIL_PASSWORD.getNameProperty());
 	private static final String MAIL_IMAP = LoadMailConfig.getInstance()
 			.getProperty(EPropertyMail.MAIL_IMAP.getNameProperty());
-	private static final String MAIL_FROM = LoadMailConfig.getInstance()
-			.getProperty(EPropertyMail.MAIL_FROM.getNameProperty());
-
 	private static final String MESSAGE_SUCCESS = LoadMailConfig.getInstance()
 			.getProperty(EPropertyMail.MESSAGE_SUCCES.getNameProperty());
 
@@ -36,7 +33,7 @@ public class MailApplicationService extends Thread {
 	public void run() {
 		
 		
-			LOGGER.info("In run Method: currentThread() is" + Thread.currentThread());
+			LOGGER.trace("In run Method: currentThread() is" + Thread.currentThread());
 			
 			ICheckEmailService checkEmailService = new CheckEmailService();
 
@@ -69,17 +66,13 @@ public class MailApplicationService extends Thread {
 			if (dto.getIssueId() != null && !dto.getIssueId().equals(StringUtils.EMPTY)) {
 				sendMailService.sendEmail(
 						String.format(MESSAGE_SUCCESS, dto.getIssueId()),
-						dto.getEmail() /* MAIL_FROM */, MAIL_RECIPIENT, dto.getAction() + " " + dto.getIssueId());
+						dto.getEmail(), MAIL_RECIPIENT, dto.getAction() + " " + dto.getIssueId());
 			} else {
 				LOGGER.info("No Issue created ");
 				sendMailService.sendEmail(String.format(MESSAGE_FAIL),
-						dto.getEmail() /* MAIL_FROM */, MAIL_RECIPIENT, dto.getAction());
+						dto.getEmail(), MAIL_RECIPIENT, dto.getAction());
 			}
 		}
 	}
-
-
-	
-		
 	
 }
