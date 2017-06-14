@@ -1,0 +1,159 @@
+2017-06-14 16:04:39 INFO  ProcessHandler:52 - Init Proccess handler for jira . TxId : test1
+2017-06-14 16:04:39 INFO  ProcessHandler:171 - Send Http request with credentials for jira . TxId : test1
+2017-06-14 16:08:50 INFO  ProcessHandler:52 - Init Proccess handler for jira . TxId : test1
+2017-06-14 16:15:06 INFO  ProcessHandler:52 - Init Proccess handler for jira . TxId : test1
+2017-06-14 16:15:06 INFO  ProcessHandler:168 - Send Http request with credentials for jira . TxId : test1
+2017-06-14 16:17:06 INFO  ProcessHandler:52 - Init Proccess handler for jira . TxId : test1
+2017-06-14 16:17:06 INFO  ProcessHandler:26 - 
+				{
+					"fields": {
+					   "project":
+					   { 
+						  "key": "LEG"
+					   },
+					   "summary": "REST Test client",
+					   "description": "TEST API HANDLER ",
+					   "issuetype": {
+						  "name": "Test"
+					   }
+				   }
+				}
+				
+2017-06-14 16:17:06 INFO  ProcessHandler:168 - Send Http request with credentials for jira . TxId : test1
+2017-06-14 16:25:06 INFO  ProcessHandler:52 - Init Proccess handler for jira . TxId : test1
+2017-06-14 16:25:06 INFO  ProcessHandler:26 - 
+				{
+					"fields": {
+					   "project":
+					   { 
+						  "key": "LEG"
+					   },
+					   "summary": "REST Test client",
+					  
+					   "issuetype": {
+						  "name": "Test api handler "
+					   }
+				   }
+				}
+				
+2017-06-14 16:25:06 INFO  ProcessHandler:168 - Send Http request with credentials for jira . TxId : test1
+2017-06-14 16:31:59 INFO  ProcessHandler:52 - Init Proccess handler for jira . TxId : test1
+2017-06-14 16:31:59 INFO  ProcessHandler:26 - 
+				{
+					\"fields\": {
+					   \"project\":
+					   { 
+						  \"key\": \"LEG\"
+					   },
+					   \"summary\": \"REST Test client\",
+					   \"description\": \"TEST API HANDLER \",
+					   \"issuetype\": {
+						  \"name\": \"Bug\"
+					   }
+				   }
+				}
+				
+2017-06-14 16:31:59 INFO  ProcessHandler:168 - Send Http request with credentials for jira . TxId : test1
+2017-06-14 16:34:35 INFO  ProcessHandler:52 - Init Proccess handler for jira . TxId : test1
+2017-06-14 16:34:35 INFO  ProcessHandler:26 - 
+				{	\"fields\": {
+					   \"project\":
+					   { 
+						  \"key\": \"LEG\"
+					   },
+					   \"summary\": \"REST Test client\",
+					   \"description\": \"TEST API HANDLER \",
+					   \"issuetype\": {
+						  \"name\": \"Bug\"
+					   }
+				   }
+				}
+				
+2017-06-14 16:34:35 INFO  ProcessHandler:168 - Send Http request with credentials for jira . TxId : test1
+2017-06-14 16:38:43 INFO  ProcessHandler:52 - Init Proccess handler for jira . TxId : test1
+2017-06-14 16:38:43 INFO  ProcessHandler:26 - 
+				{	\"fields\": {
+					   \"project\":
+					   { 
+						  \"key\": \"LEG\"
+					   },
+					   \"summary\": \"REST Test client\",
+					   \"description\": \"TEST API HANDLER \",
+					   \"issuetype\": {
+						  \"name\": \"Bug\"
+					   }
+				   }
+				}
+				
+2017-06-14 16:38:43 INFO  ProcessHandler:168 - Send Http request with credentials for jira . TxId : test1
+2017-06-14 16:39:24 INFO  ProcessHandler:52 - Init Proccess handler for jira . TxId : test1
+2017-06-14 16:39:24 INFO  ProcessHandler:26 - {\"fields\":{\"project\":{\"key\": \"LEG\"},\"summary\": \"REST Test client\",\"description\": \"TEST API HANDLER \",\"issuetype\": {\"name\": \"Bug\"}}}
+2017-06-14 16:39:24 INFO  ProcessHandler:168 - Send Http request with credentials for jira . TxId : test1
+2017-06-14 16:41:25 INFO  ProcessHandler:52 - Init Proccess handler for jira . TxId : test1
+2017-06-14 16:41:25 INFO  ProcessHandler:26 - {\"fields\":{\"project\":{\"key\": \"LEG\"},\"summary\": \"REST Test client\",\"issuetype\": {\"name\": \"Test api handler \"}}}
+2017-06-14 16:41:25 INFO  ProcessHandler:168 - Send Http request with credentials for jira . TxId : test1
+2017-06-14 16:43:05 INFO  ProcessHandler:52 - Init Proccess handler for jira . TxId : test1
+2017-06-14 16:43:05 INFO  ProcessHandler:26 - {\"fields\":{\"project\":{\"key\": \"LEG\"},\"summary\": \"REST Test client\",\"description\": \"TEST API HANDLER \",\"issuetype\": {\"name\": \"Bug\"}}}
+2017-06-14 16:43:05 INFO  ProcessHandler:168 - Send Http request with credentials for jira . TxId : test1
+2017-06-14 16:43:37 INFO  ProcessHandler:52 - Init Proccess handler for jira . TxId : test1
+2017-06-14 16:43:37 INFO  ProcessHandler:26 - {\"fields\":{\"project\":{\"key\": \"LEG\"},\"summary\": \"REST Test client\",\"description\": \"TEST API HANDLER \",\"issuetype\": {\"name\": \"Bug\"}}}
+2017-06-14 16:43:37 INFO  ProcessHandler:168 - Send Http request with credentials for jira . TxId : test1
+2017-06-14 16:45:31 INFO  ProcessHandler:52 - Init Proccess handler for jira . TxId : test1
+2017-06-14 16:45:31 INFO  ProcessHandler:26 - {\"fields\":{\"project\":{\"key\": \"LEG\"},\"summary\": \"REST Test client\",\"description\": \"TEST API HANDLER \",\"issuetype\": {\"name\": \"Bug\"}}}
+2017-06-14 16:45:31 INFO  ProcessHandler:168 - Send Http request with credentials for jira . TxId : test1
+2017-06-14 16:46:59 INFO  ProcessHandler:52 - Init Proccess handler for jira . TxId : test1
+2017-06-14 16:46:59 INFO  ProcessHandler:22 - LEG
+2017-06-14 16:46:59 INFO  ProcessHandler:24 - REST Test client
+2017-06-14 16:46:59 INFO  ProcessHandler:26 - Test api handler 
+2017-06-14 16:46:59 INFO  ProcessHandler:28 - Bug
+2017-06-14 16:46:59 INFO  ProcessHandler:30 - {\"fields\":{\"project\":{\"key\": \"LEG\"},\"summary\": \"REST Test client\",\"description\": \"TEST API HANDLER \",\"issuetype\": {\"name\": \"Bug\"}}}
+2017-06-14 16:46:59 INFO  ProcessHandler:168 - Send Http request with credentials for jira . TxId : test1
+2017-06-14 16:54:31 INFO  ProcessHandler:52 - Init Proccess handler for jira . TxId : test1
+2017-06-14 16:54:31 INFO  ProcessHandler:168 - Send Http request with credentials for jira . TxId : test1
+2017-06-14 16:55:34 INFO  ProcessHandler:52 - Init Proccess handler for jira . TxId : test1
+2017-06-14 16:55:34 INFO  ProcessHandler:168 - Send Http request with credentials for jira . TxId : test1
+2017-06-14 16:57:09 INFO  ProcessHandler:52 - Init Proccess handler for jira . TxId : test1
+2017-06-14 16:57:09 INFO  ProcessHandler:167 - Url: https://jira.belatrixsf.com/rest/api/2/issue/
+2017-06-14 16:57:09 INFO  ProcessHandler:169 - Send Http request with credentials for jira . TxId : test1
+2017-06-14 16:59:27 INFO  ProcessHandler:52 - Init Proccess handler for jira . TxId : test1
+2017-06-14 16:59:27 INFO  ProcessHandler:167 - Url: https://jira.belatrixsf.com/rest/api/2/issue/
+2017-06-14 16:59:27 INFO  ProcessHandler:169 - Send Http request with credentials for jira . TxId : test1
+2017-06-14 17:04:01 INFO  ProcessHandler:52 - Init Proccess handler for jira . TxId : test1
+2017-06-14 17:04:01 INFO  ProcessHandler:167 - Url: https://jira.belatrixsf.com/rest/api/2/issue/
+2017-06-14 17:04:01 INFO  ProcessHandler:169 - Send Http request with credentials for jira . TxId : test1
+2017-06-14 17:04:52 INFO  ProcessHandler:52 - Init Proccess handler for jira . TxId : test1
+2017-06-14 17:04:52 INFO  ProcessHandler:167 - Url: https://jira.belatrixsf.com/rest/api/2/issue/
+2017-06-14 17:04:52 INFO  ProcessHandler:169 - Send Http request with credentials for jira . TxId : test1
+2017-06-14 17:06:32 INFO  ProcessHandler:52 - Init Proccess handler for jira . TxId : test1
+2017-06-14 17:06:32 INFO  ProcessHandler:167 - Url: https://jira.belatrixsf.com/rest/api/2/issue/
+2017-06-14 17:06:32 INFO  ProcessHandler:169 - Send Http request with credentials for jira . TxId : test1
+2017-06-14 17:10:26 INFO  ProcessHandler:52 - Init Proccess handler for jira . TxId : test1
+2017-06-14 17:10:26 INFO  ProcessHandler:169 - Url: https://jira.belatrixsf.com/rest/api/2/issue/
+2017-06-14 17:10:26 INFO  ProcessHandler:170 - Cred: bGVnYWxyZXF1ZXN0czpscjEyMzQ1Ng==
+2017-06-14 17:10:26 INFO  ProcessHandler:171 - Send Http request with credentials for jira . TxId : test1
+2017-06-14 17:11:47 INFO  ProcessHandler:52 - Init Proccess handler for jira . TxId : test1
+2017-06-14 17:11:47 INFO  ProcessHandler:169 - Url: https://jira.belatrixsf.com/rest/api/2/issue/
+2017-06-14 17:11:47 INFO  ProcessHandler:170 - Cred: bGVnYWxyZXF1ZXN0czpscjEyMzQ1Ng==
+2017-06-14 17:11:47 INFO  ProcessHandler:171 - Send Http request with credentials for jira . TxId : test1
+2017-06-14 17:13:26 INFO  ProcessHandler:54 - Init Proccess handler for jira . TxId : test1
+2017-06-14 17:13:26 INFO  ProcessHandler:171 - Url: https://jira.belatrixsf.com/rest/api/2/issue/
+2017-06-14 17:13:26 INFO  ProcessHandler:172 - Cred: bGVnYWxyZXF1ZXN0czpscjEyMzQ1Ng==
+2017-06-14 17:13:26 INFO  ProcessHandler:173 - Send Http request with credentials for jira . TxId : test1
+2017-06-14 17:14:44 INFO  ProcessHandler:52 - Init Proccess handler for jira . TxId : test1
+2017-06-14 17:14:44 INFO  ProcessHandler:169 - Url: https://jira.belatrixsf.com/rest/api/2/issue/
+2017-06-14 17:14:44 INFO  ProcessHandler:170 - Cred: bGVnYWxyZXF1ZXN0czpscjEyMzQ1Ng==
+2017-06-14 17:14:44 INFO  ProcessHandler:171 - Send Http request with credentials for jira . TxId : test1
+2017-06-14 17:15:54 INFO  ProcessHandler:52 - Init Proccess handler for jira . TxId : test1
+2017-06-14 17:15:54 INFO  ProcessHandler:170 - Send Http request with credentials for jira . TxId : test1
+2017-06-14 17:15:54 INFO  ProcessHandler:173 - json: {\"fields\":{\"project\":{\"key\": \"LEG\"},\"summary\": \"REST Test client\",\"description\": \"TEST API HANDLER \",\"issuetype\": {\"name\": \"Bug\"}}}
+2017-06-14 17:15:54 INFO  ProcessHandler:174 - json: {"fields":{"project":{"key":"LEG"},"summary":"REST Test client","description": "TEST API HANDLER ","issuetype":{"name":"Bug"}}}
+2017-06-14 17:17:16 INFO  ProcessHandler:52 - Init Proccess handler for jira . TxId : test1
+2017-06-14 17:17:16 INFO  ProcessHandler:170 - Send Http request with credentials for jira . TxId : test1
+2017-06-14 17:17:16 INFO  ProcessHandler:173 - json: {"fields":{"project":{"key": "LEG"},"summary": "REST Test client","description": "TEST API HANDLER ","issuetype": {"name": "Bug"}}}
+2017-06-14 17:17:16 INFO  ProcessHandler:174 - json: {"fields":{"project":{"key":"LEG"},"summary":"REST Test client","description": "TEST API HANDLER ","issuetype":{"name":"Bug"}}}
+2017-06-14 17:17:46 INFO  ProcessHandler:52 - Init Proccess handler for jira . TxId : test1
+2017-06-14 17:17:46 INFO  ProcessHandler:170 - Send Http request with credentials for jira . TxId : test1
+2017-06-14 17:17:46 INFO  ProcessHandler:173 - json: {"fields":{"project":{"key": "LEG"},"summary": "REST Test client","description": "TEST API HANDLER ","issuetype": {"name": "Bug"}}}
+2017-06-14 17:17:46 INFO  ProcessHandler:174 - json: {"fields":{"project":{"key":"LEG"},"summary":"REST Test client","description": "TEST API HANDLER ","issuetype":{"name":"Bug"}}}
+2017-06-14 17:19:00 INFO  ProcessHandler:52 - Init Proccess handler for jira . TxId : test1
+2017-06-14 17:19:00 INFO  ProcessHandler:169 - Send Http request with credentials for jira . TxId : test1
