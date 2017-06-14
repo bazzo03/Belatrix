@@ -1,6 +1,6 @@
 package com.belatrix.legal.jiraintegrationservice.dto;
 
-public class JiraIssueDTO {
+public class GeneralIssueDTO {
 	
 	private String action;
 	private String project;

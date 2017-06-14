@@ -8,7 +8,7 @@ import javax.mail.Message;
 import org.apache.commons.lang.StringUtils;
 import org.apache.log4j.Logger;
 
-import com.belatrix.legal.jiraintegrationservice.dto.JiraIssueDTO;
+import com.belatrix.legal.jiraintegrationservice.dto.GeneralIssueDTO;
 import com.belatrix.legal.mailfinder.config.EPropertyMail;
 import com.belatrix.legal.mailfinder.config.LoadMailConfig;
 
@@ -38,7 +38,7 @@ public class MailApplicationService extends Thread {
 			ICheckEmailService checkEmailService = new CheckEmailService();
 
 			Message[] messages = null;
-			List<JiraIssueDTO> issues = new ArrayList<>();
+			List<GeneralIssueDTO> issues = new ArrayList<>();
 			try {
 				messages = checkEmailService.fetchMessages(MAIL_IMAP, MAIL_RECIPIENT, MAIL_PASSWORD, false);
 			} catch (Exception e) {
@@ -58,11 +58,11 @@ public class MailApplicationService extends Thread {
 
 	}
 
-	private void sendEmailIssues(List<JiraIssueDTO> issues) {
+	private void sendEmailIssues(List<GeneralIssueDTO> issues) {
 
 		ISendMailService sendMailService = new SendMailService();
 
-		for (JiraIssueDTO dto : issues) {
+		for (GeneralIssueDTO dto : issues) {
 			if (dto.getIssueId() != null && !dto.getIssueId().equals(StringUtils.EMPTY)) {
 				sendMailService.sendEmail(
 						String.format(MESSAGE_SUCCESS, dto.getIssueId()),

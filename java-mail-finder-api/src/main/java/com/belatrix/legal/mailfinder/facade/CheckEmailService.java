@@ -5,7 +5,7 @@ import java.util.List;
 import javax.mail.Message;
 import javax.mail.MessagingException;
 
-import com.belatrix.legal.jiraintegrationservice.dto.JiraIssueDTO;
+import com.belatrix.legal.jiraintegrationservice.dto.GeneralIssueDTO;
 import com.belatrix.legal.mailfinder.services.EmailService;
 
 public class CheckEmailService implements ICheckEmailService {
@@ -14,7 +14,7 @@ public class CheckEmailService implements ICheckEmailService {
 		return EmailService.fetchMessages(host, user, password, read);
 	}
 
-	public List<JiraIssueDTO> createIssues(Message[] messages) {
+	public List<GeneralIssueDTO> createIssues(Message[] messages) {
 		return EmailService.createIssues(messages);
 	}
 

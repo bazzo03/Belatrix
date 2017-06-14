@@ -17,11 +17,12 @@ import javax.mail.search.FlagTerm;
 import org.apache.commons.lang.StringUtils;
 import org.apache.log4j.Logger;
 
-import com.belatrix.legal.jiraintegrationservice.dto.JiraIssueDTO;
+import com.belatrix.legal.jiraintegrationservice.dto.GeneralIssueDTO;
 import com.belatrix.legal.jiraintegrationservice.facade.IJiraIntegrationService;
 import com.belatrix.legal.jiraintegrationservice.facade.JiraIntegrationService;
 import com.belatrix.legal.mailfinder.config.EPropertyMail;
 import com.belatrix.legal.mailfinder.config.LoadMailConfig;
+import com.belatrix.legal.mailfinder.factory.MailFactory;
 
 public class EmailService {
 
@@ -47,16 +48,17 @@ public class EmailService {
 
 	}
 
-	public static List<JiraIssueDTO> createIssues(Message[] messages) {
+	public static List<GeneralIssueDTO> createIssues(Message[] messages) {
 
-		List<JiraIssueDTO> issuesList = new ArrayList<>();
+		List<GeneralIssueDTO> issuesList = new ArrayList<>();
 
 		for (int i = 0, n = messages.length; i < n; i++) {
 			Message message = messages[i];
-			JiraIssueDTO issue = new JiraIssueDTO();
+			GeneralIssueDTO issue = new GeneralIssueDTO();
 			try {
 				message.setFlags(new Flags(Flags.Flag.SEEN), true);
-				IJiraIntegrationService jiraIntegrationService = new JiraIntegrationService();
+//				IJiraIntegrationService jiraIntegrationService = new JiraIntegrationService();
+				
 				issue.setAction(message.getSubject());
 				issue.setDescription(getContentFromEmail(message.getContent()));
 				issue.setTransactionId(UUID.randomUUID().toString());
@@ -71,14 +73,16 @@ public class EmailService {
 
 				if (message.getSubject().contains(SUBJECT)) {
 					LOGGER.info("Obtaining IssueId for TxId:" + issue.getTransactionId());
-					String generatedId = jiraIntegrationService.createIssue(issue);
+//					String generatedId = jiraIntegrationService.createIssue(issue);
+					MailFactory.mailProcess(issue);
 
-					if (generatedId != null && !generatedId.equals(StringUtils.EMPTY)) {
+					/*if (generatedId != null && !generatedId.equals(StringUtils.EMPTY)) {
 						issue.setIssueId(generatedId);
 						LOGGER.info("Jira Ticket Created - Id: " + generatedId);
 					} else {
 						LOGGER.warn(String.format("Error in Jira Client with Txid: ", issue.getTransactionId()));
-					}
+					}*/
+					//TODO generatedId will not be returned and email must be sent from mail sender
 
 					issuesList.add(issue);
 				}
