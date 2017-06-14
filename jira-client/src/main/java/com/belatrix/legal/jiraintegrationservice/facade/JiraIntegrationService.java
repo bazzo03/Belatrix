@@ -3,7 +3,7 @@ package com.belatrix.legal.jiraintegrationservice.facade;
 import org.apache.log4j.Logger;
 
 import com.belatrix.legal.jiraintegrationservice.Exception.JiraIntegrationServiceException;
-import com.belatrix.legal.jiraintegrationservice.dto.JiraIssueDTO;
+import com.belatrix.legal.jiraintegrationservice.dto.GeneralIssueDTO;
 import com.belatrix.legal.jiraintegrationservice.services.JiraIntegrationAPI;
 
 /**
@@ -22,7 +22,7 @@ public class JiraIntegrationService implements IJiraIntegrationService {
 	 * Method that receive the information of mails to create Jira Issues
 	 * @throws JiraIntegrationServiceException 
 	 */
-	public String createIssue(JiraIssueDTO issue) throws  JiraIntegrationServiceException {
+	public String createIssue(GeneralIssueDTO issue) throws  JiraIntegrationServiceException {
 		
 		logger.trace(String.format("Init createIssue. TxId : %s ",issue.getTransactionId()));
 		 return JiraIntegrationAPI.createIssue(issue);	

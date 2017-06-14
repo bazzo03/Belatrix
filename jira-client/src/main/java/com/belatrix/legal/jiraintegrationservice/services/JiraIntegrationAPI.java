@@ -6,7 +6,7 @@ import com.belatrix.legal.jiraintegrationservice.Exception.JiraIntegrationServic
 import com.belatrix.legal.jiraintegrationservice.config.EPropertyJira;
 import com.belatrix.legal.jiraintegrationservice.config.LoadConfig;
 import com.belatrix.legal.jiraintegrationservice.constants.EIssueType;
-import com.belatrix.legal.jiraintegrationservice.dto.JiraIssueDTO;
+import com.belatrix.legal.jiraintegrationservice.dto.GeneralIssueDTO;
 import com.belatrix.legal.jiraintegrationservice.jiraclient.BasicCredentials;
 import com.belatrix.legal.jiraintegrationservice.jiraclient.Field;
 import com.belatrix.legal.jiraintegrationservice.jiraclient.Issue;
@@ -53,10 +53,10 @@ public class JiraIntegrationAPI {
 	 * @param issueType
 	 * @throws JiraException
 	 */
-	public static String createIssue(JiraIssueDTO issue) throws JiraIntegrationServiceException {
+	public static String createIssue(GeneralIssueDTO issue) throws JiraIntegrationServiceException {
 
 		logger.trace(String.format(" CreateIssue. Object received : %s ",
-				new Gson().toJson(issue, JiraIssueDTO.class)));
+				new Gson().toJson(issue, GeneralIssueDTO.class)));
 
 		if (!url.isEmpty() && creds != null) {
 			
