@@ -1,7 +1,7 @@
-package com.belatrix.legal.mailfinder.factory;
+package com.belatrix.legal.mailintegrator.factory;
 
-import com.belatrix.legal.mailfinder.config.EPropertyFactory;
-import com.belatrix.legal.mailfinder.config.LoadFactoryConfig;
+import com.belatrix.legal.mailintegrator.config.EPropertyFactory;
+import com.belatrix.legal.mailintegrator.config.LoadFactoryConfig;
 import com.belatrix.legal.mailintegrator.constant.EIssueProcess;
 import com.belatrix.legal.mailintegrator.dto.GeneralIssueDTO;
 import com.belatrix.legal.mailintegrator.facade.IProcessIssueService;

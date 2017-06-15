@@ -18,8 +18,8 @@ import org.apache.log4j.Logger;
 
 import com.belatrix.legal.mailfinder.config.EPropertyMail;
 import com.belatrix.legal.mailfinder.config.LoadMailConfig;
-import com.belatrix.legal.mailfinder.factory.MailFactory;
 import com.belatrix.legal.mailintegrator.dto.GeneralIssueDTO;
+import com.belatrix.legal.mailintegrator.factory.MailFactory;
 
 public class EmailService {
 
