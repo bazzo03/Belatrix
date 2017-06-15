@@ -14,15 +14,12 @@ import javax.mail.MessagingException;
 import javax.mail.Multipart;
 import javax.mail.search.FlagTerm;
 
-import org.apache.commons.lang.StringUtils;
 import org.apache.log4j.Logger;
 
-import com.belatrix.legal.jiraintegrationservice.dto.GeneralIssueDTO;
-import com.belatrix.legal.jiraintegrationservice.facade.IJiraIntegrationService;
-import com.belatrix.legal.jiraintegrationservice.facade.JiraIntegrationService;
 import com.belatrix.legal.mailfinder.config.EPropertyMail;
 import com.belatrix.legal.mailfinder.config.LoadMailConfig;
 import com.belatrix.legal.mailfinder.factory.MailFactory;
+import com.belatrix.legal.mailintegrator.dto.GeneralIssueDTO;
 
 public class EmailService {
 
@@ -74,7 +71,7 @@ public class EmailService {
 				if (message.getSubject().contains(SUBJECT)) {
 					LOGGER.info("Obtaining IssueId for TxId:" + issue.getTransactionId());
 //					String generatedId = jiraIntegrationService.createIssue(issue);
-					MailFactory.mailProcess(issue);
+					MailFactory.processMail(issue);
 
 					/*if (generatedId != null && !generatedId.equals(StringUtils.EMPTY)) {
 						issue.setIssueId(generatedId);
