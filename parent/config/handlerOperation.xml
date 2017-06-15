@@ -1,0 +1,46 @@
+<apps>
+	<app name="jira" >
+	
+			<operation name="CreateIssue" >
+				<![CDATA[
+				{
+					"fields": {
+					   "project":
+					   { 
+						  "key": "%S"
+					   },
+					   "summary": "%s",
+					   "description": "%S",
+					   "issuetype": {
+						  "name": "%s"
+					   }
+				   }
+				}
+				]]>
+			</operation>
+			<operation  name="EditIssue">
+				<![CDATA[
+				{ "name":" %s ", "type": %S , "date":null }
+				]]>
+			</operation>
+		
+	</app>	
+	<app name="salesforce" >
+		
+			<operation  name="EditLead">
+				<![CDATA[
+				{ "name":" %s ", "type": %S , "date":null }
+				]]>
+			</operation>		
+		
+	</app>
+	<app name="trello" >
+		
+			<operation name="CreateCard">
+				<![CDATA[
+				{ "name":" %s ", "type": %S , "date":null }
+				]]>
+			</operation>
+		
+	</app>
+</apps>

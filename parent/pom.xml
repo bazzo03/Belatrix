@@ -10,11 +10,9 @@
 		<module>../jira-client</module>
 		<module>../java-mail-finder-api</module>
 		<module>../mail-persistence</module>
-<!-- 		<module>../rest-client</module> -->
 		<module>../mail-integrator</module>
+		<module>../rest-client</module>
+		<module>../api-handler</module>
 	</modules>
-
-	
-
 
 </project>
