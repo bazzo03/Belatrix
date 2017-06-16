@@ -1,11 +1,11 @@
 package com.belatrix.legal.mailintegrator.services.salesforce;
 
 import com.belatrix.legal.mailintegrator.constant.EIssueProcess;
-import com.belatrix.legal.mailintegrator.dto.GeneralIssueDTO;
+import com.belatrix.legal.mailintegrator.dto.MailDTO;
 
 public class ProcessTrelloIssueService {
 
-	public static void processIssue(GeneralIssueDTO issue, EIssueProcess process) {
+	public static void processIssue(MailDTO issue, EIssueProcess process) {
 		
 		switch (process) {
 		case CREATION:
@@ -20,11 +20,11 @@ public class ProcessTrelloIssueService {
 
 	}
 
-	private static void createIssue(GeneralIssueDTO issue) {
+	private static void createIssue(MailDTO issue) {
 
 	}
 
-	private static void modifyIssue(GeneralIssueDTO issue) {
+	private static void modifyIssue(MailDTO issue) {
 
 	}
 

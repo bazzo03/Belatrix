@@ -1,8 +1,8 @@
 package com.belatrix.legal.mailintegrator.dto;
 
-public class GeneralIssueDTO {
+public class MailDTO {
 	
-	private String action;
+	private String subject;
 	private String project;
 	private String issueType;
 	private String description;
@@ -10,11 +10,11 @@ public class GeneralIssueDTO {
 	private String issueId;
 	private String email;
 	
-	public String getAction() {
-		return action;
+	public String getSubject() {
+		return subject;
 	}
-	public void setAction(String action) {
-		this.action = action;
+	public void setSubject(String action) {
+		this.subject = action;
 	}
 	public String getProject() {
 		return project;

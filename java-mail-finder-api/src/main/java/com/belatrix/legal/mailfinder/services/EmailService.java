@@ -18,7 +18,7 @@ import org.apache.log4j.Logger;
 
 import com.belatrix.legal.mailfinder.config.EPropertyMail;
 import com.belatrix.legal.mailfinder.config.LoadMailConfig;
-import com.belatrix.legal.mailintegrator.dto.GeneralIssueDTO;
+import com.belatrix.legal.mailintegrator.dto.MailDTO;
 import com.belatrix.legal.mailintegrator.factory.MailFactory;
 
 public class EmailService {
@@ -45,21 +45,22 @@ public class EmailService {
 
 	}
 
-	public static List<GeneralIssueDTO> createIssues(Message[] messages) {
+	public static List<MailDTO> createIssues(Message[] messages) {
 
-		List<GeneralIssueDTO> issuesList = new ArrayList<>();
+		List<MailDTO> issuesList = new ArrayList<>();
 
 		for (int i = 0, n = messages.length; i < n; i++) {
 			Message message = messages[i];
-			GeneralIssueDTO issue = new GeneralIssueDTO();
+			MailDTO mailDto = new MailDTO();
 			try {
 				message.setFlags(new Flags(Flags.Flag.SEEN), true);
-//				IJiraIntegrationService jiraIntegrationService = new JiraIntegrationService();
-				
-				issue.setAction(message.getSubject());
-				issue.setDescription(getContentFromEmail(message.getContent()));
-				issue.setTransactionId(UUID.randomUUID().toString());
-				issue.setEmail(message.getFrom()[0].toString());
+				// IJiraIntegrationService jiraIntegrationService = new
+				// JiraIntegrationService();
+
+				mailDto.setSubject(message.getSubject());
+				mailDto.setDescription(getContentFromEmail(message.getContent()));
+				mailDto.setTransactionId(UUID.randomUUID().toString());
+				mailDto.setEmail(message.getFrom()[0].toString());
 
 				LOGGER.trace("---------------------------------");
 				LOGGER.trace("Email Number " + (i + 1));
@@ -68,23 +69,29 @@ public class EmailService {
 				LOGGER.trace("Description: " + message.getDescription());
 				LOGGER.trace("Text: " + getContentFromEmail(message.getContent()));
 
-				if (message.getSubject().contains(SUBJECT)) {
-					LOGGER.info("Obtaining IssueId for TxId:" + issue.getTransactionId());
-//					String generatedId = jiraIntegrationService.createIssue(issue);
-					MailFactory.processMail(issue);
+				// if (message.getSubject().contains(SUBJECT)) {
+				// LOGGER.info("Obtaining IssueId for TxId:" +
+				// mailDto.getTransactionId());
+				// String generatedId =
+				// jiraIntegrationService.createIssue(issue);
+				MailFactory.processMail(mailDto);
 
-					/*if (generatedId != null && !generatedId.equals(StringUtils.EMPTY)) {
-						issue.setIssueId(generatedId);
-						LOGGER.info("Jira Ticket Created - Id: " + generatedId);
-					} else {
-						LOGGER.warn(String.format("Error in Jira Client with Txid: ", issue.getTransactionId()));
-					}*/
-					//TODO generatedId will not be returned and email must be sent from mail sender
+				/*
+				 * if (generatedId != null &&
+				 * !generatedId.equals(StringUtils.EMPTY)) {
+				 * issue.setIssueId(generatedId);
+				 * LOGGER.info("Jira Ticket Created - Id: " + generatedId); }
+				 * else {
+				 * LOGGER.warn(String.format("Error in Jira Client with Txid: ",
+				 * issue.getTransactionId())); }
+				 */
+				// TODO generatedId will not be returned and email must be sent
+				// from mail sender
 
-					issuesList.add(issue);
-				}
+				issuesList.add(mailDto);
+				// }
 			} catch (Exception e) {
-				LOGGER.error(String.format("Error with transaction id: ", issue.getTransactionId(), e));
+				LOGGER.error(String.format("Error with transaction id: ", mailDto.getTransactionId(), e));
 			}
 		}
 

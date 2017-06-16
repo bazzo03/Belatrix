@@ -10,7 +10,7 @@ import org.apache.log4j.Logger;
 
 import com.belatrix.legal.mailfinder.config.EPropertyMail;
 import com.belatrix.legal.mailfinder.config.LoadMailConfig;
-import com.belatrix.legal.mailintegrator.dto.GeneralIssueDTO;
+import com.belatrix.legal.mailintegrator.dto.MailDTO;
 
 public class MailApplicationService extends Thread {
 
@@ -38,7 +38,7 @@ public class MailApplicationService extends Thread {
 			ICheckEmailService checkEmailService = new CheckEmailService();
 
 			Message[] messages = null;
-			List<GeneralIssueDTO> issues = new ArrayList<>();
+			List<MailDTO> issues = new ArrayList<>();
 			try {
 				messages = checkEmailService.fetchMessages(MAIL_IMAP, MAIL_RECIPIENT, MAIL_PASSWORD, false);
 			} catch (Exception e) {
@@ -58,19 +58,19 @@ public class MailApplicationService extends Thread {
 
 	}
 
-	private void sendEmailIssues(List<GeneralIssueDTO> issues) {
+	private void sendEmailIssues(List<MailDTO> issues) {
 
 		ISendMailService sendMailService = new SendMailService();
 
-		for (GeneralIssueDTO dto : issues) {
+		for (MailDTO dto : issues) {
 			if (dto.getIssueId() != null && !dto.getIssueId().equals(StringUtils.EMPTY)) {
 				sendMailService.sendEmail(
 						String.format(MESSAGE_SUCCESS, dto.getIssueId()),
-						dto.getEmail(), MAIL_RECIPIENT, dto.getAction() + " " + dto.getIssueId());
+						dto.getEmail(), MAIL_RECIPIENT, dto.getSubject() + " " + dto.getIssueId());
 			} else {
 				LOGGER.info("No Issue created ");
 				sendMailService.sendEmail(String.format(MESSAGE_FAIL),
-						dto.getEmail(), MAIL_RECIPIENT, dto.getAction());
+						dto.getEmail(), MAIL_RECIPIENT, dto.getSubject());
 			}
 		}
 	}
