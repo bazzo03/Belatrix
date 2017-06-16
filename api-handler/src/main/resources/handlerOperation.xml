@@ -1,16 +1,16 @@
 <apps>
 	<app name="jira">
-		<operation name="CreateIssue">
+		<operation name="CreateIssue" type="POST" path="issue/">
 				<![CDATA[{"fields":{"project":{"key": "%S"},"summary": "%s","description": "%S","issuetype": {"name": "%s"}}}]]>
 		</operation>
-		<operation name="EditIssue">
+		<operation name="EditIssue" type="POST" path="issue/">
 				<![CDATA[
 				{ "name":" %s ", "type": %S , "date":null }
 				]]>
 		</operation>
 	</app>
 	<app name="salesforce">
-		<operation name="EditLead">
+		<operation name="EditLead" type="POST" path="issue/">
 				<![CDATA[
 				{ "name":" %s ", "type": %S , "date":null }
 				]]>
@@ -18,7 +18,12 @@
 	</app>
 	<app name="trello">
 
-		<operation name="CreateCard">
+		<operation name="CreateCard" type="POST" path="issue/">
+				<![CDATA[
+				{ "name":" %s ", "type": %S , "date":null }
+				]]>
+		</operation>
+		<operation name="UpdateCard" type="POST" path="issue/">
 				<![CDATA[
 				{ "name":" %s ", "type": %S , "date":null }
 				]]>

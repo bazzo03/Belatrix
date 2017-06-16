@@ -1,3 +1,4 @@
+
 package com.belatrix.legal.apihandler.process.jira;
 
 import org.json.JSONException;
@@ -37,5 +38,7 @@ public class CreateIssue extends ProcessHandler {
 		}
 		return key;
 	}
+	
+	
 
 }

@@ -157,3 +157,152 @@
 2017-06-14 17:17:46 INFO  ProcessHandler:174 - json: {"fields":{"project":{"key":"LEG"},"summary":"REST Test client","description": "TEST API HANDLER ","issuetype":{"name":"Bug"}}}
 2017-06-14 17:19:00 INFO  ProcessHandler:52 - Init Proccess handler for jira . TxId : test1
 2017-06-14 17:19:00 INFO  ProcessHandler:169 - Send Http request with credentials for jira . TxId : test1
+2017-06-16 09:06:44 INFO  ProcessHandler:52 - Init Proccess handler for jira . TxId : test1
+2017-06-16 09:06:44 INFO  ProcessHandler:190 - Send Http request with credentials for jira . TxId : test1
+2017-06-16 09:33:33 INFO  ProcessHandler:52 - Init Proccess handler for jira . TxId : test1
+2017-06-16 09:34:12 INFO  ProcessHandler:190 - Send Http request with credentials for jira . TxId : test1
+2017-06-16 09:35:03 INFO  ProcessHandler:52 - Init Proccess handler for jira . TxId : test1
+2017-06-16 09:35:45 INFO  ProcessHandler:52 - Init Proccess handler for jira . TxId : test1
+2017-06-16 09:35:45 INFO  ProcessHandler:190 - Send Http request with credentials for jira . TxId : test1
+2017-06-16 09:36:05 INFO  ProcessHandler:52 - Init Proccess handler for jira . TxId : test1
+2017-06-16 09:36:05 INFO  ProcessHandler:190 - Send Http request with credentials for jira . TxId : test1
+2017-06-16 09:36:16 INFO  ProcessHandler:52 - Init Proccess handler for jira . TxId : test1
+2017-06-16 09:36:28 INFO  ProcessHandler:190 - Send Http request with credentials for jira . TxId : test1
+2017-06-16 09:38:09 INFO  ProcessHandler:52 - Init Proccess handler for jira . TxId : test1
+2017-06-16 09:38:09 INFO  ProcessHandler:190 - Send Http request with credentials for jira . TxId : test1
+2017-06-16 10:03:02 INFO  ProcessHandler:52 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 10:03:02 INFO  ProcessHandler:195 - Send Http request for trello . TxId : test1trello1
+2017-06-16 10:03:20 INFO  ProcessHandler:52 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 10:05:13 INFO  ProcessHandler:52 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 10:06:42 INFO  ProcessHandler:52 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 10:06:42 INFO  ProcessHandler:195 - Send Http request for trello . TxId : test1trello1
+2017-06-16 10:09:23 INFO  ProcessHandler:52 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 10:09:23 INFO  ProcessHandler:195 - Send Http request for trello . TxId : test1trello1
+2017-06-16 10:11:30 INFO  ProcessHandler:52 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 10:11:30 INFO  ProcessHandler:195 - Send Http request for trello . TxId : test1trello1
+2017-06-16 11:06:39 INFO  ProcessHandler:52 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 11:06:39 INFO  ProcessHandler:196 - Send Http request for trello . TxId : test1trello1
+2017-06-16 11:07:22 INFO  ProcessHandler:52 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 11:07:22 INFO  ProcessHandler:196 - Send Http request for trello . TxId : test1trello1
+2017-06-16 11:10:05 INFO  ProcessHandler:52 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 11:10:42 INFO  ProcessHandler:52 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 11:10:42 INFO  ProcessHandler:196 - Send Http request for trello . TxId : test1trello1
+2017-06-16 11:12:35 INFO  ProcessHandler:52 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 11:12:35 INFO  ProcessHandler:196 - Send Http request for trello . TxId : test1trello1
+2017-06-16 11:12:57 INFO  ProcessHandler:52 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 11:12:57 INFO  ProcessHandler:196 - Send Http request for trello . TxId : test1trello1
+2017-06-16 11:25:47 INFO  ProcessHandler:52 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 11:25:47 INFO  ProcessHandler:196 - Send Http request for trello . TxId : test1trello1
+2017-06-16 11:26:22 INFO  ProcessHandler:52 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 11:26:22 INFO  ProcessHandler:196 - Send Http request for trello . TxId : test1trello1
+2017-06-16 11:41:07 INFO  ProcessHandler:53 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 11:41:07 INFO  ProcessHandler:197 - Send Http request for trello . TxId : test1trello1
+2017-06-16 11:46:19 INFO  ProcessHandler:53 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 11:46:58 INFO  ProcessHandler:53 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 11:47:24 INFO  ProcessHandler:53 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 11:47:24 INFO  ProcessHandler:197 - Send Http request for trello . TxId : test1trello1
+2017-06-16 11:48:48 INFO  ProcessHandler:53 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 11:48:48 INFO  ProcessHandler:197 - Send Http request for trello . TxId : test1trello1
+2017-06-16 13:55:30 INFO  ProcessHandler:53 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 13:56:01 INFO  ProcessHandler:53 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 13:56:01 INFO  ProcessHandler:197 - Send Http request for trello . TxId : test1trello1
+2017-06-16 14:10:01 INFO  ProcessHandler:53 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 14:10:01 INFO  ProcessHandler:197 - Send Http request for trello . TxId : test1trello1
+2017-06-16 14:11:31 INFO  ProcessHandler:53 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 14:11:31 INFO  ProcessHandler:197 - Send Http request for trello . TxId : test1trello1
+2017-06-16 14:12:27 INFO  ProcessHandler:53 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 14:12:27 INFO  ProcessHandler:197 - Send Http request for trello . TxId : test1trello1
+2017-06-16 14:18:58 INFO  ProcessHandler:53 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 14:21:21 INFO  ProcessHandler:53 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 14:21:21 INFO  ProcessHandler:197 - Send Http request for trello . TxId : test1trello1
+2017-06-16 14:23:18 INFO  ProcessHandler:53 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 14:23:18 INFO  ProcessHandler:197 - Send Http request for trello . TxId : test1trello1
+2017-06-16 14:25:19 INFO  ProcessHandler:53 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 14:25:19 INFO  ProcessHandler:197 - Send Http request for trello . TxId : test1trello1
+2017-06-16 14:25:34 INFO  ProcessHandler:53 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 14:25:34 INFO  ProcessHandler:197 - Send Http request for trello . TxId : test1trello1
+2017-06-16 14:26:13 INFO  ProcessHandler:53 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 14:26:13 INFO  ProcessHandler:197 - Send Http request for trello . TxId : test1trello1
+2017-06-16 14:38:45 INFO  ProcessHandler:53 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 14:38:45 INFO  ProcessHandler:197 - Send Http request for trello . TxId : test1trello1
+2017-06-16 14:40:55 INFO  ProcessHandler:53 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 14:40:55 INFO  ProcessHandler:197 - Send Http request for trello . TxId : test1trello1
+2017-06-16 14:41:22 INFO  ProcessHandler:53 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 14:41:22 INFO  ProcessHandler:197 - Send Http request for trello . TxId : test1trello1
+2017-06-16 14:42:06 INFO  ProcessHandler:53 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 14:42:06 INFO  ProcessHandler:197 - Send Http request for trello . TxId : test1trello1
+2017-06-16 14:42:59 INFO  ProcessHandler:53 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 14:42:59 INFO  ProcessHandler:197 - Send Http request for trello . TxId : test1trello1
+2017-06-16 14:43:45 INFO  ProcessHandler:53 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 14:43:45 INFO  ProcessHandler:197 - Send Http request for trello . TxId : test1trello1
+2017-06-16 14:44:54 INFO  ProcessHandler:53 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 14:44:54 INFO  ProcessHandler:197 - Send Http request for trello . TxId : test1trello1
+2017-06-16 14:45:46 INFO  ProcessHandler:53 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 14:45:46 INFO  ProcessHandler:197 - Send Http request for trello . TxId : test1trello1
+2017-06-16 14:47:29 INFO  ProcessHandler:53 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 14:47:29 INFO  ProcessHandler:197 - Send Http request for trello . TxId : test1trello1
+2017-06-16 14:51:58 INFO  ProcessHandler:53 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 14:51:58 INFO  ProcessHandler:197 - Send Http request for trello . TxId : test1trello1
+2017-06-16 14:53:39 INFO  ProcessHandler:53 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 14:53:39 INFO  ProcessHandler:197 - Send Http request for trello . TxId : test1trello1
+2017-06-16 14:55:47 INFO  ProcessHandler:53 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 14:55:47 INFO  ProcessHandler:197 - Send Http request for trello . TxId : test1trello1
+2017-06-16 14:57:21 INFO  ProcessHandler:53 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 14:57:40 INFO  ProcessHandler:53 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 14:59:22 INFO  ProcessHandler:53 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 15:04:08 INFO  ProcessHandler:53 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 15:06:30 INFO  ProcessHandler:53 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 15:06:30 INFO  ProcessHandler:197 - Send Http request for trello . TxId : test1trello1
+2017-06-16 15:15:42 INFO  ProcessHandler:53 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 15:17:26 INFO  ProcessHandler:53 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 15:18:11 INFO  ProcessHandler:53 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 15:18:55 INFO  ProcessHandler:53 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 15:18:55 INFO  ProcessHandler:197 - Send Http request for trello . TxId : test1trello1
+2017-06-16 15:20:08 INFO  ProcessHandler:53 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 16:32:46 INFO  ProcessHandler:58 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 16:32:46 INFO  ProcessHandler:222 - Send Http request for trello . TxId : test1trello1
+2017-06-16 16:33:45 INFO  ProcessHandler:58 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 16:33:45 INFO  ProcessHandler:222 - Send Http request for trello . TxId : test1trello1
+2017-06-16 16:34:21 INFO  ProcessHandler:58 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 16:34:21 INFO  ProcessHandler:222 - Send Http request for trello . TxId : test1trello1
+2017-06-16 16:34:43 INFO  ProcessHandler:58 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 16:36:42 INFO  ProcessHandler:58 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 16:36:42 INFO  ProcessHandler:222 - Send Http request for trello . TxId : test1trello1
+2017-06-16 16:37:13 INFO  ProcessHandler:58 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 16:37:48 INFO  ProcessHandler:58 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 16:37:49 DEBUG CharsetUtil:1052 - Character sets which support decoding: [ascii, big5, big5_hkscs, big5_solaris, cp037, cp1006, cp1025, cp1026, cp1046, cp1047, cp1097, cp1098, cp1112, cp1122, cp1123, cp1124, cp1140, cp1141, cp1142, cp1143, cp1144, cp1145, cp1146, cp1147, cp1148, cp1149, cp1250, cp1251, cp1252, cp1253, cp1254, cp1255, cp1256, cp1257, cp1258, cp1381, cp1383, cp273, cp277, cp278, cp280, cp284, cp285, cp297, cp33722, cp420, cp424, cp437, cp500, cp737, cp775, cp838, cp850, cp852, cp855, cp856, cp857, cp858, cp860, cp861, cp862, cp863, cp864, cp865, cp866, cp868, cp869, cp870, cp871, cp875, cp918, cp921, cp922, cp930, cp933, cp935, cp937, cp939, cp942, cp942c, cp943, cp943c, cp948, cp949, cp949c, cp950, cp964, cp970, euc_cn, euc_jp, euc_jp_linux, euc_jp_solaris, euc_kr, euc_tw, gb18030, gbk, iscii91, iso2022cn, iso2022jp, iso2022kr, iso8859_1, iso8859_13, iso8859_15, iso8859_2, iso8859_3, iso8859_4, iso8859_5, iso8859_6, iso8859_7, iso8859_8, iso8859_9, jis_x0201, jis_x0212-1990, jisautodetect, koi8_r, macarabic, maccentraleurope, maccroatian, maccyrillic, macdingbat, macgreek, machebrew, maciceland, macroman, macromania, macsymbol, macthai, macturkish, macukraine, ms874, ms932, ms949, ms950, ms950_hkscs, sjis, tis620, unicodebig, unicodebigunmarked, unicodelittle, unicodelittleunmarked, utf-16, utf8, x-iso-8859-11, x-johab]
+2017-06-16 16:37:49 DEBUG CharsetUtil:1054 - Character sets which support encoding: [ascii, big5, big5_hkscs, big5_solaris, cp037, cp1006, cp1025, cp1026, cp1046, cp1047, cp1097, cp1098, cp1112, cp1122, cp1123, cp1124, cp1140, cp1141, cp1142, cp1143, cp1144, cp1145, cp1146, cp1147, cp1148, cp1149, cp1250, cp1251, cp1252, cp1253, cp1254, cp1255, cp1256, cp1257, cp1258, cp1381, cp1383, cp273, cp277, cp278, cp280, cp284, cp285, cp297, cp33722, cp420, cp424, cp437, cp500, cp737, cp775, cp838, cp850, cp852, cp855, cp856, cp857, cp858, cp860, cp861, cp862, cp863, cp864, cp865, cp866, cp868, cp869, cp870, cp871, cp875, cp918, cp921, cp922, cp930, cp933, cp935, cp937, cp939, cp942, cp942c, cp943, cp943c, cp948, cp949, cp949c, cp950, cp964, cp970, euc_cn, euc_jp, euc_jp_linux, euc_jp_solaris, euc_kr, euc_tw, gb18030, gbk, iscii91, iso2022jp, iso2022kr, iso8859_1, iso8859_13, iso8859_15, iso8859_2, iso8859_3, iso8859_4, iso8859_5, iso8859_6, iso8859_7, iso8859_8, iso8859_9, jis_x0201, jis_x0212-1990, koi8_r, macarabic, maccentraleurope, maccroatian, maccyrillic, macdingbat, macgreek, machebrew, maciceland, macroman, macromania, macsymbol, macthai, macturkish, macukraine, ms874, ms932, ms949, ms950, ms950_hkscs, sjis, tis620, unicodebig, unicodebigunmarked, unicodelittle, unicodelittleunmarked, utf-16, utf8, x-iso-8859-11, x-johab]
+2017-06-16 16:38:58 INFO  ProcessHandler:58 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 16:38:59 DEBUG CharsetUtil:1052 - Character sets which support decoding: [ascii, big5, big5_hkscs, big5_solaris, cp037, cp1006, cp1025, cp1026, cp1046, cp1047, cp1097, cp1098, cp1112, cp1122, cp1123, cp1124, cp1140, cp1141, cp1142, cp1143, cp1144, cp1145, cp1146, cp1147, cp1148, cp1149, cp1250, cp1251, cp1252, cp1253, cp1254, cp1255, cp1256, cp1257, cp1258, cp1381, cp1383, cp273, cp277, cp278, cp280, cp284, cp285, cp297, cp33722, cp420, cp424, cp437, cp500, cp737, cp775, cp838, cp850, cp852, cp855, cp856, cp857, cp858, cp860, cp861, cp862, cp863, cp864, cp865, cp866, cp868, cp869, cp870, cp871, cp875, cp918, cp921, cp922, cp930, cp933, cp935, cp937, cp939, cp942, cp942c, cp943, cp943c, cp948, cp949, cp949c, cp950, cp964, cp970, euc_cn, euc_jp, euc_jp_linux, euc_jp_solaris, euc_kr, euc_tw, gb18030, gbk, iscii91, iso2022cn, iso2022jp, iso2022kr, iso8859_1, iso8859_13, iso8859_15, iso8859_2, iso8859_3, iso8859_4, iso8859_5, iso8859_6, iso8859_7, iso8859_8, iso8859_9, jis_x0201, jis_x0212-1990, jisautodetect, koi8_r, macarabic, maccentraleurope, maccroatian, maccyrillic, macdingbat, macgreek, machebrew, maciceland, macroman, macromania, macsymbol, macthai, macturkish, macukraine, ms874, ms932, ms949, ms950, ms950_hkscs, sjis, tis620, unicodebig, unicodebigunmarked, unicodelittle, unicodelittleunmarked, utf-16, utf8, x-iso-8859-11, x-johab]
+2017-06-16 16:38:59 DEBUG CharsetUtil:1054 - Character sets which support encoding: [ascii, big5, big5_hkscs, big5_solaris, cp037, cp1006, cp1025, cp1026, cp1046, cp1047, cp1097, cp1098, cp1112, cp1122, cp1123, cp1124, cp1140, cp1141, cp1142, cp1143, cp1144, cp1145, cp1146, cp1147, cp1148, cp1149, cp1250, cp1251, cp1252, cp1253, cp1254, cp1255, cp1256, cp1257, cp1258, cp1381, cp1383, cp273, cp277, cp278, cp280, cp284, cp285, cp297, cp33722, cp420, cp424, cp437, cp500, cp737, cp775, cp838, cp850, cp852, cp855, cp856, cp857, cp858, cp860, cp861, cp862, cp863, cp864, cp865, cp866, cp868, cp869, cp870, cp871, cp875, cp918, cp921, cp922, cp930, cp933, cp935, cp937, cp939, cp942, cp942c, cp943, cp943c, cp948, cp949, cp949c, cp950, cp964, cp970, euc_cn, euc_jp, euc_jp_linux, euc_jp_solaris, euc_kr, euc_tw, gb18030, gbk, iscii91, iso2022jp, iso2022kr, iso8859_1, iso8859_13, iso8859_15, iso8859_2, iso8859_3, iso8859_4, iso8859_5, iso8859_6, iso8859_7, iso8859_8, iso8859_9, jis_x0201, jis_x0212-1990, koi8_r, macarabic, maccentraleurope, maccroatian, maccyrillic, macdingbat, macgreek, machebrew, maciceland, macroman, macromania, macsymbol, macthai, macturkish, macukraine, ms874, ms932, ms949, ms950, ms950_hkscs, sjis, tis620, unicodebig, unicodebigunmarked, unicodelittle, unicodelittleunmarked, utf-16, utf8, x-iso-8859-11, x-johab]
+2017-06-16 16:44:43 INFO  ProcessHandler:58 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 16:44:43 INFO  ProcessHandler:222 - Send Http request for trello . TxId : test1trello1
+2017-06-16 16:44:55 INFO  ProcessHandler:58 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 16:44:55 INFO  ProcessHandler:222 - Send Http request for trello . TxId : test1trello1
+2017-06-16 16:45:05 INFO  ProcessHandler:58 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 16:45:05 INFO  ProcessHandler:222 - Send Http request for trello . TxId : test1trello1
+2017-06-16 16:45:17 INFO  ProcessHandler:58 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 16:45:17 INFO  ProcessHandler:222 - Send Http request for trello . TxId : test1trello1
+2017-06-16 16:56:56 INFO  ProcessHandler:58 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 16:56:56 INFO  ProcessHandler:222 - Send Http request for trello . TxId : test1trello1
+2017-06-16 16:57:09 INFO  ProcessHandler:58 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 17:00:05 INFO  ProcessHandler:58 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 17:00:06 DEBUG CharsetUtil:1052 - Character sets which support decoding: [ascii, big5, big5_hkscs, big5_solaris, cp037, cp1006, cp1025, cp1026, cp1046, cp1047, cp1097, cp1098, cp1112, cp1122, cp1123, cp1124, cp1140, cp1141, cp1142, cp1143, cp1144, cp1145, cp1146, cp1147, cp1148, cp1149, cp1250, cp1251, cp1252, cp1253, cp1254, cp1255, cp1256, cp1257, cp1258, cp1381, cp1383, cp273, cp277, cp278, cp280, cp284, cp285, cp297, cp33722, cp420, cp424, cp437, cp500, cp737, cp775, cp838, cp850, cp852, cp855, cp856, cp857, cp858, cp860, cp861, cp862, cp863, cp864, cp865, cp866, cp868, cp869, cp870, cp871, cp875, cp918, cp921, cp922, cp930, cp933, cp935, cp937, cp939, cp942, cp942c, cp943, cp943c, cp948, cp949, cp949c, cp950, cp964, cp970, euc_cn, euc_jp, euc_jp_linux, euc_jp_solaris, euc_kr, euc_tw, gb18030, gbk, iscii91, iso2022cn, iso2022jp, iso2022kr, iso8859_1, iso8859_13, iso8859_15, iso8859_2, iso8859_3, iso8859_4, iso8859_5, iso8859_6, iso8859_7, iso8859_8, iso8859_9, jis_x0201, jis_x0212-1990, jisautodetect, koi8_r, macarabic, maccentraleurope, maccroatian, maccyrillic, macdingbat, macgreek, machebrew, maciceland, macroman, macromania, macsymbol, macthai, macturkish, macukraine, ms874, ms932, ms949, ms950, ms950_hkscs, sjis, tis620, unicodebig, unicodebigunmarked, unicodelittle, unicodelittleunmarked, utf-16, utf8, x-iso-8859-11, x-johab]
+2017-06-16 17:00:06 DEBUG CharsetUtil:1054 - Character sets which support encoding: [ascii, big5, big5_hkscs, big5_solaris, cp037, cp1006, cp1025, cp1026, cp1046, cp1047, cp1097, cp1098, cp1112, cp1122, cp1123, cp1124, cp1140, cp1141, cp1142, cp1143, cp1144, cp1145, cp1146, cp1147, cp1148, cp1149, cp1250, cp1251, cp1252, cp1253, cp1254, cp1255, cp1256, cp1257, cp1258, cp1381, cp1383, cp273, cp277, cp278, cp280, cp284, cp285, cp297, cp33722, cp420, cp424, cp437, cp500, cp737, cp775, cp838, cp850, cp852, cp855, cp856, cp857, cp858, cp860, cp861, cp862, cp863, cp864, cp865, cp866, cp868, cp869, cp870, cp871, cp875, cp918, cp921, cp922, cp930, cp933, cp935, cp937, cp939, cp942, cp942c, cp943, cp943c, cp948, cp949, cp949c, cp950, cp964, cp970, euc_cn, euc_jp, euc_jp_linux, euc_jp_solaris, euc_kr, euc_tw, gb18030, gbk, iscii91, iso2022jp, iso2022kr, iso8859_1, iso8859_13, iso8859_15, iso8859_2, iso8859_3, iso8859_4, iso8859_5, iso8859_6, iso8859_7, iso8859_8, iso8859_9, jis_x0201, jis_x0212-1990, koi8_r, macarabic, maccentraleurope, maccroatian, maccyrillic, macdingbat, macgreek, machebrew, maciceland, macroman, macromania, macsymbol, macthai, macturkish, macukraine, ms874, ms932, ms949, ms950, ms950_hkscs, sjis, tis620, unicodebig, unicodebigunmarked, unicodelittle, unicodelittleunmarked, utf-16, utf8, x-iso-8859-11, x-johab]
+2017-06-16 17:00:35 INFO  ProcessHandler:58 - Init Proccess handler for trello . TxId : test1trello1
+2017-06-16 17:00:36 DEBUG CharsetUtil:1052 - Character sets which support decoding: [ascii, big5, big5_hkscs, big5_solaris, cp037, cp1006, cp1025, cp1026, cp1046, cp1047, cp1097, cp1098, cp1112, cp1122, cp1123, cp1124, cp1140, cp1141, cp1142, cp1143, cp1144, cp1145, cp1146, cp1147, cp1148, cp1149, cp1250, cp1251, cp1252, cp1253, cp1254, cp1255, cp1256, cp1257, cp1258, cp1381, cp1383, cp273, cp277, cp278, cp280, cp284, cp285, cp297, cp33722, cp420, cp424, cp437, cp500, cp737, cp775, cp838, cp850, cp852, cp855, cp856, cp857, cp858, cp860, cp861, cp862, cp863, cp864, cp865, cp866, cp868, cp869, cp870, cp871, cp875, cp918, cp921, cp922, cp930, cp933, cp935, cp937, cp939, cp942, cp942c, cp943, cp943c, cp948, cp949, cp949c, cp950, cp964, cp970, euc_cn, euc_jp, euc_jp_linux, euc_jp_solaris, euc_kr, euc_tw, gb18030, gbk, iscii91, iso2022cn, iso2022jp, iso2022kr, iso8859_1, iso8859_13, iso8859_15, iso8859_2, iso8859_3, iso8859_4, iso8859_5, iso8859_6, iso8859_7, iso8859_8, iso8859_9, jis_x0201, jis_x0212-1990, jisautodetect, koi8_r, macarabic, maccentraleurope, maccroatian, maccyrillic, macdingbat, macgreek, machebrew, maciceland, macroman, macromania, macsymbol, macthai, macturkish, macukraine, ms874, ms932, ms949, ms950, ms950_hkscs, sjis, tis620, unicodebig, unicodebigunmarked, unicodelittle, unicodelittleunmarked, utf-16, utf8, x-iso-8859-11, x-johab]
+2017-06-16 17:00:36 DEBUG CharsetUtil:1054 - Character sets which support encoding: [ascii, big5, big5_hkscs, big5_solaris, cp037, cp1006, cp1025, cp1026, cp1046, cp1047, cp1097, cp1098, cp1112, cp1122, cp1123, cp1124, cp1140, cp1141, cp1142, cp1143, cp1144, cp1145, cp1146, cp1147, cp1148, cp1149, cp1250, cp1251, cp1252, cp1253, cp1254, cp1255, cp1256, cp1257, cp1258, cp1381, cp1383, cp273, cp277, cp278, cp280, cp284, cp285, cp297, cp33722, cp420, cp424, cp437, cp500, cp737, cp775, cp838, cp850, cp852, cp855, cp856, cp857, cp858, cp860, cp861, cp862, cp863, cp864, cp865, cp866, cp868, cp869, cp870, cp871, cp875, cp918, cp921, cp922, cp930, cp933, cp935, cp937, cp939, cp942, cp942c, cp943, cp943c, cp948, cp949, cp949c, cp950, cp964, cp970, euc_cn, euc_jp, euc_jp_linux, euc_jp_solaris, euc_kr, euc_tw, gb18030, gbk, iscii91, iso2022jp, iso2022kr, iso8859_1, iso8859_13, iso8859_15, iso8859_2, iso8859_3, iso8859_4, iso8859_5, iso8859_6, iso8859_7, iso8859_8, iso8859_9, jis_x0201, jis_x0212-1990, koi8_r, macarabic, maccentraleurope, maccroatian, maccyrillic, macdingbat, macgreek, machebrew, maciceland, macroman, macromania, macsymbol, macthai, macturkish, macukraine, ms874, ms932, ms949, ms950, ms950_hkscs, sjis, tis620, unicodebig, unicodebigunmarked, unicodelittle, unicodelittleunmarked, utf-16, utf8, x-iso-8859-11, x-johab]
+2017-06-16 17:03:31 INFO  ProcessHandler:58 - Init Proccess handler for jira . TxId : test1
+2017-06-16 17:03:31 INFO  ProcessHandler:209 - Send Http request with credentials for jira . TxId : test1
+2017-06-16 17:19:52 INFO  ProcessHandler:58 - Init Proccess handler for jira . TxId : test1
+2017-06-16 17:19:52 INFO  ProcessHandler:209 - Send Http request with credentials for jira . TxId : test1
+2017-06-16 17:20:37 INFO  ProcessHandler:58 - Init Proccess handler for jira . TxId : test1
+2017-06-16 17:21:04 INFO  ProcessHandler:209 - Send Http request with credentials for jira . TxId : test1
+2017-06-16 17:21:38 INFO  ProcessHandler:58 - Init Proccess handler for jira . TxId : test1
+2017-06-16 17:21:38 INFO  ProcessHandler:209 - Send Http request with credentials for jira . TxId : test1
+2017-06-16 17:23:00 INFO  ProcessHandler:58 - Init Proccess handler for jira . TxId : test1
+2017-06-16 17:23:00 INFO  ProcessHandler:209 - Send Http request with credentials for jira . TxId : test1
+2017-06-16 17:23:42 INFO  ProcessHandler:58 - Init Proccess handler for jira . TxId : test1
+2017-06-16 17:23:42 INFO  ProcessHandler:209 - Send Http request with credentials for jira . TxId : test1
+2017-06-16 17:25:54 INFO  ProcessHandler:58 - Init Proccess handler for jira . TxId : test1
+2017-06-16 17:25:54 INFO  ProcessHandler:209 - Send Http request with credentials for jira . TxId : test1
