@@ -5,6 +5,7 @@
 		<groupId>com.belatrix.legal</groupId>
 		<artifactId>parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../parent/pom.xml</relativePath>
 	</parent>
 	<artifactId>mail-integrator</artifactId>
 
@@ -44,4 +45,6 @@
 
 	</dependencies>
 
+	<groupId>com.belatrix.legal</groupId>
+	<version>0.0.1-SNAPSHOT</version>
 </project>

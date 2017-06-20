@@ -6,6 +6,7 @@ package com.belatrix.legal.apihandler.config;
  *
  */
 public enum EProperty {
+	
 	/**
 	 * Url
 	 */
@@ -18,12 +19,12 @@ public enum EProperty {
 	/**
 	 * Password
 	 */
-	TYPE("properties.#app#.type"),
+	TOKEN("properties.#app#.token"),
 	
 	/**
 	 * Project Name
 	 */
-	PROJECT("properties.#app#.project"),;
+	KEY("properties.#app#.apikey");
 
 	/**
 	 * Name property

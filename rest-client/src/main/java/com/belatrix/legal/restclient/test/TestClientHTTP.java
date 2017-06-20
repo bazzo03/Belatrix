@@ -20,7 +20,7 @@ public class TestClientHTTP {
 		System.out.println(credentials);
 		
 
-		String response = ClientHttp.postHttpRestAuth(URL, json, credentials);
+		String response = ClientHttp.httpRest(URL, json,"POST", credentials);
 		
 		System.out.println(response);
 	}

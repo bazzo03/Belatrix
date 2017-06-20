@@ -1,16 +1,17 @@
 <apps>
 	<app name="jira">
-		<operation name="CreateIssue">
+		<operation name="CreateIssue" type="POST" path="issue/">
 				<![CDATA[{"fields":{"project":{"key": "%S"},"summary": "%s","description": "%S","issuetype": {"name": "%s"}}}]]>
 		</operation>
-		<operation name="EditIssue">
-				<![CDATA[
-				{ "name":" %s ", "type": %S , "date":null }
-				]]>
+		<operation name="AddCommentIssue" type="POST" path="issue/%s/comment">
+				<![CDATA[{"body":"%s"}]]>
+		</operation>
+				<operation name="AttachmentIssue" type="POST" path="issue/%s/attachments">
+				<![CDATA[{"body":"%s"}]]>
 		</operation>
 	</app>
 	<app name="salesforce">
-		<operation name="EditLead">
+		<operation name="EditLead" type="POST" path="issue/">
 				<![CDATA[
 				{ "name":" %s ", "type": %S , "date":null }
 				]]>
@@ -18,10 +19,17 @@
 	</app>
 	<app name="trello">
 
-		<operation name="CreateCard">
-				<![CDATA[
-				{ "name":" %s ", "type": %S , "date":null }
-				]]>
+		<operation name="CreateCard" type="POST" path="cards">
+				<![CDATA[{"name":"%s","idList":"5942a9e4465cc1972dfb25c6","desc":"%s","pos": "top"}]]>
+		</operation>
+		<operation name="UpdateCard" type="PUT" path="cards/%s">
+				<![CDATA[{"name":"%s","idList":"5942a9e4465cc1972dfb25c6","desc":"%s","pos": "top"}]]>
+		</operation>
+		<operation name="AddCommentCard" type="POST" path="cards/%s/actions/comments">
+				<![CDATA[{"text":"%s"}]]>
+		</operation>
+				<operation name="AttachmentCard" type="POST" path="cards/%s/attachments">
+				<![CDATA[{"url":"%s","idList":"5942a9e4465cc1972dfb25c6","file": "%s","name":"%s"}]]>
 		</operation>
 
 	</app>

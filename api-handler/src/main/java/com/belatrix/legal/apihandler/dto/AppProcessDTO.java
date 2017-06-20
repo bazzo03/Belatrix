@@ -8,7 +8,9 @@ public class AppProcessDTO {
 	
 	private String credentials;
 	
-	private String type;
+	private String token;
+	
+	private String key;
 	
 	private String name;
 	
@@ -30,14 +32,6 @@ public class AppProcessDTO {
 		this.credentials = credentials;
 	}
 
-	public String getType() {
-		return type;
-	}
-
-	public void setType(String type) {
-		this.type = type;
-	}
-
 	public String getName() {
 		return name;
 	}
@@ -54,10 +48,20 @@ public class AppProcessDTO {
 		this.operations = operations;
 	}
 
+	public String getToken() {
+		return token;
+	}
 
-	
-	
-	
-	
+	public void setToken(String token) {
+		this.token = token;
+	}
+
+	public String getKey() {
+		return key;
+	}
+
+	public void setKey(String key) {
+		this.key = key;
+	}
 
 }

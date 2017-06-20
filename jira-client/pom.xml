@@ -103,4 +103,6 @@
 		</dependency>
 
 	</dependencies>
+	<groupId>com.belatrix.legal</groupId>
+	<version>jira-client</version>
 </project>

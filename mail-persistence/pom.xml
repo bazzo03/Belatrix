@@ -69,4 +69,6 @@
 	</dependencies>
 
 
+	<groupId>com.belatrix.legal</groupId>
+	<version>mail-persistence</version>
 </project>

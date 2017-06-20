@@ -97,4 +97,6 @@
 		<version>0.0.1-SNAPSHOT</version>
 		<relativePath>../parent/pom.xml</relativePath>
 	</parent>
+	<version>0.0.1-SNAPSHOT</version>
+	<groupId>com.belatrix.legal</groupId>
 </project>

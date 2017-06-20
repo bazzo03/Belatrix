@@ -7,8 +7,7 @@
 		<version>0.0.1-SNAPSHOT</version>
 		<relativePath>../parent/pom.xml</relativePath>
 	</parent>
-	<artifactId>rest-client</artifactId>
-	<name>rest-client</name>
+
 
 	<build>
 		<plugins>
@@ -24,6 +23,7 @@
 	</build>
 
 
+
 	<dependencies>
 
 
@@ -32,5 +32,14 @@
 			<artifactId>json</artifactId>
 			<version>20090211</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpmime</artifactId>
+			<version>4.0-alpha3</version>
+		</dependency>
 	</dependencies>
+	<artifactId>rest-client</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<groupId>com.belatrix.legal</groupId>
 </project>
