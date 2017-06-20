@@ -2,6 +2,11 @@ package com.belatrix.legal.apihandler.dto;
 
 import java.util.Map;
 
+/**
+ * 
+ * @author cneira
+ *
+ */
 public class AppProcessDTO {
 	
 	private String url;

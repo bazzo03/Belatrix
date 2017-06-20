@@ -1,11 +1,19 @@
 package com.belatrix.legal.apihandler.constants;
 
+/**
+ * Process that can be used.
+ * @author cneira
+ *
+ */
 public enum ETypeProcess {
 	
+	// Process
 	JIRA("jira"),
 	SALESFORCE("salesforce"),
 	TRELLO("trello"),
 	
+	
+	// Operations
 	CREATE_ISSUE("jira","createIssue"),
 	ADD_COMMENT_ISSUE("jira","addCommentIssue"),
 	ATTACHMENT_ISSUE("jira","attachmentIssue"),
@@ -18,47 +26,51 @@ public enum ETypeProcess {
 	;
 	
 	/**
-	 * Name property
+	 * Process Name
 	 */
 	private String process;
-	
+
 	/**
-	 * Name property
+	 * Value
 	 */
 	private String value;
 
 	/**
 	 * Constructor
 	 * 
-	 * @param nameProperty
-	 *            Name property
+	 * @param process
+	 * 
 	 */
 	private ETypeProcess(String process) {
 		this.process = process;
 	}
-	
+
+	/**
+	 * 
+	 * @param process
+	 * @param value
+	 */
 	private ETypeProcess(String process, String value) {
 		this.process = process;
 		this.value = value;
 	}
 
 	/**
-	 * Gets name property
+	 * Gets process name
 	 * 
-	 * @return Name Porperty
+	 * @return
 	 */
 	public String getProcess() {
 		return this.process;
 	}
 
+	/**
+	 * Gets Value
+	 * 
+	 * @return
+	 */
 	public String getValue() {
 		return value;
 	}
-
-
-	
-	
-	
-	
 
 }

@@ -10,6 +10,7 @@ import com.belatrix.legal.mailintegrator.config.LoadConfig;
 import com.belatrix.legal.mailintegrator.dto.MailDTO;
 import com.belatrix.legal.mailintegrator.facade.IProcessIssueService;
 import com.belatrix.legal.mailintegrator.facade.ProcessIssueService;
+import com.belatrix.legal.mailintegrator.reflection.ReflectionApiHandler;
 
 public class MailFactory {
 
@@ -42,7 +43,7 @@ public class MailFactory {
 	 * service.processIssueSalesForce(issue, EIssueProcess.CREATION); } }
 	 */
 
-	public static void processMail(MailDTO dto) {
+	public static void processMail(MailDTO dto) throws Exception {
 
 		
 		String keywords = LoadConfig.getInstance().getProperty(EProperty.PROPERTY_KEY_LIST.getNameProperty());
@@ -88,7 +89,7 @@ public class MailFactory {
 					System.out.println(" Creacion - keyword:" + keyword);
 				}
 				
-				operateTasks(tasks);
+				operateTasks(tasks,dto);
 				
 				if (dto.toString() == "Tengo adjuntos") {
 					//TODO preguntarAdjuntos
@@ -98,10 +99,11 @@ public class MailFactory {
 		
 	}
 
-	private static void operateTasks(List<String> tasks) {
+	private static void operateTasks(List<String> tasks,MailDTO dto) throws Exception {
 
 		for (String task : tasks) {
-			//TODO llamar a la fachada del handler
+			//crea content json
+			ReflectionApiHandler.execute("", dto.getTransactionId(), task);
 		}
 	}
 

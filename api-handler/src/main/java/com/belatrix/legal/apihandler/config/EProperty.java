@@ -13,16 +13,16 @@ public enum EProperty {
 	URL("properties.#app#.url"),
 	
 	/**
-	 * User
+	 * credentials
 	 */
 	CREDENTIALS("properties.#app#.credentials"),
 	/**
-	 * Password
+	 * token
 	 */
 	TOKEN("properties.#app#.token"),
 	
 	/**
-	 * Project Name
+	 * api key
 	 */
 	KEY("properties.#app#.apikey");
 
