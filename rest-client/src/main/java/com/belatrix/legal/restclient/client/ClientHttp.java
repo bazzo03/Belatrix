@@ -40,6 +40,7 @@ public class ClientHttp {
 			con.setRequestMethod(type);
 			con.setDoOutput(true);
 			if (credentials != null) {
+				con.setRequestProperty("X-Atlassian-Token", "nocheck");
 				con.setRequestProperty("Authorization", "Basic " + credentials);
 			}
 			if (fileBody != null) {
@@ -80,32 +81,19 @@ public class ClientHttp {
 		return response.toString();
 	}
 
+
+
 	/**
 	 * Method receives the url and json params to send request HTTP.
-	 * 
 	 * @param url
 	 * @param json
-	 * @return
-	 */
-	public static String httpRest(String url, String json, String type) {
-		return sendHttp(url, json, type, null, null);
-	}
-
-	/**
-	 * Method receives the url and json params to send request HTTP with auth
-	 * credentials.
-	 * 
-	 * @param url
-	 * @param json
+	 * @param type
 	 * @param credentials
+	 * @param fileBody
 	 * @return
 	 */
-	public static String httpRest(String url, String json, String type, String credentials) {
-		return sendHttp(url, json, type, credentials, null);
-	}
-
-	public static String httpRest(String url, String type, String credentials, FileBody fileBody) {
-		return sendHttp(url, null, type, credentials, fileBody);
+	public static String httpRest(String url, String json, String type, String credentials, FileBody fileBody) {
+		return sendHttp(url, json, type, credentials, fileBody);
 	}
 
 }

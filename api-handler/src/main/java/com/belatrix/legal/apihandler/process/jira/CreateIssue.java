@@ -1,16 +1,19 @@
 
 package com.belatrix.legal.apihandler.process.jira;
 
+import java.io.IOException;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import com.belatrix.legal.apihandler.constants.ETypeProcess;
 import com.belatrix.legal.apihandler.dto.OperationDTO;
 import com.belatrix.legal.apihandler.process.ProcessHandler;
 
 public class CreateIssue extends ProcessHandler {
 
-	public CreateIssue(String processName, String transactionId) {
-		super(processName, transactionId);
+	public CreateIssue(String transactionId) {
+		super(ETypeProcess.JIRA.getProcess(), transactionId);
 		
 	}
 
@@ -32,11 +35,21 @@ public class CreateIssue extends ProcessHandler {
 	protected String getResponse(String result) throws JSONException {
 		String key="";
 		if(result != null){
-		logger.trace(result.trim());
+		logger.info(result.trim());
 		JSONObject jsonContet =  new JSONObject(result);
 		key=jsonContet.get("key").toString();
 		}
 		return key;
+	}
+	
+	@Override
+	protected String getOperationName() {
+		return ETypeProcess.CREATE_ISSUE.getValue();
+	}
+	
+	@Override
+	public String doProcess(String content) throws JSONException, IOException {
+		return  process(content, true, false);
 	}
 	
 	

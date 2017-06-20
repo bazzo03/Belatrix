@@ -1,15 +1,18 @@
 package com.belatrix.legal.apihandler.process.trello;
 
+import java.io.IOException;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import com.belatrix.legal.apihandler.constants.ETypeProcess;
 import com.belatrix.legal.apihandler.dto.OperationDTO;
 import com.belatrix.legal.apihandler.process.ProcessHandler;
 
 public class AddCommentCard extends ProcessHandler {
 
-	public AddCommentCard(String processName, String transactionId) {
-		super(processName, transactionId);
+	public AddCommentCard(String transactionId) {
+		super(ETypeProcess.TRELLO.getProcess(), transactionId);
 	}
 	
 	@Override
@@ -30,6 +33,16 @@ public class AddCommentCard extends ProcessHandler {
 		json = String.format(operationConfig.getJson(),text );
 		logger.trace(json.trim());
 		return json.trim();
+	}
+	
+	@Override
+	protected String getOperationName() {
+		return ETypeProcess.ADD_COMMENT_CARD.getValue();
+	}
+	
+	@Override
+	public String doProcess(String content) throws JSONException, IOException {
+		return  process(content, false, false);
 	}
 
 

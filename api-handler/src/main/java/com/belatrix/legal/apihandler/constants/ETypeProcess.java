@@ -4,12 +4,28 @@ public enum ETypeProcess {
 	
 	JIRA("jira"),
 	SALESFORCE("salesforce"),
-	TRELLO("trello"),;
+	TRELLO("trello"),
+	
+	CREATE_ISSUE("jira","createIssue"),
+	ADD_COMMENT_ISSUE("jira","addCommentIssue"),
+	ATTACHMENT_ISSUE("jira","attachmentIssue"),
+	
+	CREATE_CARD("trello","createCard"),
+	EDIT_CARD("trello","editCard"),
+	ADD_COMMENT_CARD("trello","addCommentCard"),
+	ATTACHMENT_CARD("trello","attachmentCard"),
+	
+	;
 	
 	/**
 	 * Name property
 	 */
-	private String nameProperty;
+	private String process;
+	
+	/**
+	 * Name property
+	 */
+	private String value;
 
 	/**
 	 * Constructor
@@ -17,8 +33,13 @@ public enum ETypeProcess {
 	 * @param nameProperty
 	 *            Name property
 	 */
-	private ETypeProcess(String nameProperty) {
-		this.nameProperty = nameProperty;
+	private ETypeProcess(String process) {
+		this.process = process;
+	}
+	
+	private ETypeProcess(String process, String value) {
+		this.process = process;
+		this.value = value;
 	}
 
 	/**
@@ -26,9 +47,17 @@ public enum ETypeProcess {
 	 * 
 	 * @return Name Porperty
 	 */
-	public String getNameProperty() {
-		return this.nameProperty;
+	public String getProcess() {
+		return this.process;
 	}
+
+	public String getValue() {
+		return value;
+	}
+
+
+	
+	
 	
 	
 

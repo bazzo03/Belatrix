@@ -6,6 +6,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Base64;
+import java.util.EnumSet;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -64,28 +65,29 @@ public abstract class ProcessHandler {
 		if (configProcess == null) {
 			configProcess = new ConcurrentHashMap<String, AppProcessDTO>();
 			logger.trace("Init Load config from Xml File handlerOperation.xml");
-			for (ETypeProcess enumProcess : ETypeProcess.values()) {
-				AppProcessDTO process = new AppProcessDTO();
-				process.setName(enumProcess.getNameProperty());
-				process.setUrl(LoadConfig.getInstance().getProperty(
-						EProperty.URL.getNameProperty().replaceAll("#app#", enumProcess.getNameProperty())));
-				process.setCredentials(LoadConfig.getInstance().getProperty(
-						EProperty.CREDENTIALS.getNameProperty().replaceAll("#app#", enumProcess.getNameProperty())));
-				process.setToken(LoadConfig.getInstance().getProperty(
-						EProperty.TOKEN.getNameProperty().replaceAll("#app#", enumProcess.getNameProperty())));
-				process.setKey(LoadConfig.getInstance().getProperty(
-						EProperty.KEY.getNameProperty().replaceAll("#app#", enumProcess.getNameProperty())));
-				process.setOperations(getXmlOperationsMap(enumProcess.getNameProperty(), process));
-				configProcess.put(enumProcess.getNameProperty(), process);
-			}
-
+			EnumSet.allOf(ETypeProcess.class).forEach(x -> processEnum(x));
 		}
 		logger.trace("Succes load configProcess Map.");
 		return configProcess;
 	}
 
-	private static Map<String, OperationDTO> getXmlOperationsMap(String appName, AppProcessDTO process)
-			throws ParserConfigurationException, SAXException, IOException {
+	private static void processEnum(ETypeProcess processEnum) {
+		String processName = processEnum.getProcess();
+		AppProcessDTO process = new AppProcessDTO();
+		process.setName(processName);
+		process.setUrl(
+				LoadConfig.getInstance().getProperty(EProperty.URL.getNameProperty().replaceAll("#app#", processName)));
+		process.setCredentials(LoadConfig.getInstance()
+				.getProperty(EProperty.CREDENTIALS.getNameProperty().replaceAll("#app#", processName)));
+		process.setToken(LoadConfig.getInstance()
+				.getProperty(EProperty.TOKEN.getNameProperty().replaceAll("#app#", processName)));
+		process.setKey(
+				LoadConfig.getInstance().getProperty(EProperty.KEY.getNameProperty().replaceAll("#app#", processName)));
+		process.setOperations(getXmlOperationsMap(processName, process));
+		configProcess.put(processName, process);
+	}
+
+	private static Map<String, OperationDTO> getXmlOperationsMap(String appName, AppProcessDTO process) {
 
 		Map<String, OperationDTO> mapService = new HashMap<String, OperationDTO>();
 		getXmlFile();
@@ -93,7 +95,6 @@ public abstract class ProcessHandler {
 		xmlFile.getDocumentElement().normalize();
 
 		NodeList nList = xmlFile.getElementsByTagName("app");
-
 		for (int temp = 0; temp < nList.getLength(); temp++) {
 
 			Node nNode = nList.item(temp);
@@ -153,76 +154,56 @@ public abstract class ProcessHandler {
 		return url.toString();
 	}
 
-	private static void getXmlFile() throws ParserConfigurationException, SAXException, IOException {
+	private static void getXmlFile() {
 
 		if (xmlFile == null) {
 			File fXmlFile = new File("handlerOperation.xml");
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-			xmlFile = dBuilder.parse(fXmlFile);
+			DocumentBuilder dBuilder;
+			try {
+				dBuilder = dbFactory.newDocumentBuilder();
+				xmlFile = dBuilder.parse(fXmlFile);
+			} catch (ParserConfigurationException | SAXException | IOException e) {
+				logger.error("Error loading config from Xml File handlerOperation.xml",e);
+			}
 
 		}
 
 	}
 
 	/**
+	 * This method receive configuration's params HTTP
 	 * 
 	 * @param content
+	 *            Json with process information
+	 * @param isAuth
+	 *            isAuth Is true if the HTTP petition has credentials
+	 * @param isAttachment
+	 *            Is true if the HTTP petition has a file to attachment the
+	 *            server.
 	 * @return
 	 * @throws JSONException
-	 * @throws IOException 
+	 * @throws IOException
 	 */
-	public String processCredentials(String content, String operation) throws JSONException, IOException {
-		return process(content, operation, true, false);
-	}
-
-	/**
-	 * 
-	 * @param content
-	 * @return
-	 * @throws JSONException
-	 * @throws IOException 
-	 */
-	public String process(String content, String operation) throws JSONException, IOException {
-		return process(content, operation, false, false);
-	}
-
-	/**
-	 * 
-	 * @param content
-	 * @return
-	 * @throws JSONException
-	 * @throws IOException 
-	 */
-	public String processAttachment(String content, String operation) throws JSONException, IOException {
-		return process(content, operation, false, true);
-	}
-
-	private String process(String content, String operation, Boolean isAuth, Boolean isAttachment) throws JSONException, IOException {
+	protected String process(String content, Boolean isAuth, Boolean isAttachment) throws JSONException, IOException {
 
 		String result = "";
 		AppProcessDTO process = configProcess.get(this.processName);
-		OperationDTO operationConfig = process.getOperations().get(operation);
+		OperationDTO operationConfig = process.getOperations().get(getOperationName());
 		String json = getJson(content, operationConfig);
-		String url = this.getUrl(operationConfig.getUrl(),content);
+		String url = this.getUrl(operationConfig.getUrl(), content);
+		String credentials = null;
+		FileBody file = null;
+
 		if (isAuth) {
-			logger.info(String.format("Send Http request with credentials for %s . TxId : %s", this.processName,
-					this.transactionId));
-		
-			result = ClientHttp.httpRest(url, json, operationConfig.getType(),
-					process.getCredentials());
-		} else if(isAttachment) {	
-			FileBody file = getFileBody( content);
-			result = ClientHttp.httpRest(url, operationConfig.getType(),
-					process.getCredentials(),file);
-			
-			
-		}else {
-		
-			logger.info(String.format("Send Http request for %s . TxId : %s", this.processName, this.transactionId));
-			result = ClientHttp.httpRest(url, json, operationConfig.getType());
+			credentials = process.getCredentials();
 		}
-		
+		if (isAttachment) {
+			file = getFileBody(content);
+		}
+		logger.info(String.format("Send Http request for %s . TxId : %s", this.processName, this.transactionId));
+		result = ClientHttp.httpRest(url, json, operationConfig.getType(), credentials, file);
+
 		return this.getResponse(result);
 	}
 
@@ -234,6 +215,20 @@ public abstract class ProcessHandler {
 	protected abstract String getJson(String content, OperationDTO operationConfig) throws JSONException;
 
 	/**
+	 * @param content
+	 * @return
+	 * @throws JSONException
+	 */
+	protected abstract String getOperationName();
+
+	/**
+	 * @param content
+	 * @return
+	 * @throws JSONException
+	 */
+	public abstract String doProcess(String content) throws JSONException, IOException;
+
+	/**
 	 * @param result
 	 * @return
 	 * @throws JSONException
@@ -241,8 +236,7 @@ public abstract class ProcessHandler {
 	protected String getResponse(String result) throws JSONException {
 		String key = "";
 		if (result != null) {
-			logger.trace(result.trim());
-			System.out.println(result.trim());
+			logger.info(result.trim());
 			JSONObject jsonContet = new JSONObject(result);
 			key = jsonContet.get("id").toString();
 		}
@@ -257,28 +251,26 @@ public abstract class ProcessHandler {
 	protected String getUrl(String url, String content) throws JSONException {
 		return url.trim();
 	}
-	
-	
+
 	/**
 	 * @param result
 	 * @return
 	 * @throws JSONException
-	 * @throws IOException 
+	 * @throws IOException
 	 */
 	protected FileBody getFileBody(String content) throws JSONException, IOException {
-		
 
-		JSONObject jsonContet =  new JSONObject(content);
-		String file =jsonContet.get("file").toString();
-		String name =jsonContet.get("name").toString();
+		JSONObject jsonContet = new JSONObject(content);
+		String file = jsonContet.get("file").toString();
+		String name = jsonContet.get("name").toString();
 		byte[] decodedBytes = Base64.getDecoder().decode(file);
 		File file64 = new File(name);
-        BufferedOutputStream writer = new BufferedOutputStream(new FileOutputStream(file64));
-        writer.write(decodedBytes);
-        writer.flush();
-        writer.close();
-        FileBody fileBody = new FileBody(file64);
-        return fileBody;
+		BufferedOutputStream writer = new BufferedOutputStream(new FileOutputStream(file64));
+		writer.write(decodedBytes);
+		writer.flush();
+		writer.close();
+		FileBody fileBody = new FileBody(file64);
+		return fileBody;
 	}
 
 }
