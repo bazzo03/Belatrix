@@ -7,9 +7,7 @@
 		<version>0.0.1-SNAPSHOT</version>
 		<relativePath>../parent/pom.xml</relativePath>
 	</parent>
-	<groupId>com.belatrix.legal</groupId>
 	<artifactId>mail-persistence</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<name>mail-persistence</name>
 
 	<build>
@@ -71,4 +69,6 @@
 	</dependencies>
 
 
+	<groupId>com.belatrix.legal</groupId>
+	<version>mail-persistence</version>
 </project>

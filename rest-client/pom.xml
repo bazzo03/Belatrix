@@ -7,10 +7,22 @@
 		<version>0.0.1-SNAPSHOT</version>
 		<relativePath>../parent/pom.xml</relativePath>
 	</parent>
-	<groupId>com.belatrix.legal</groupId>
-	<artifactId>rest-client</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>rest-client</name>
+
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+
 
 	<dependencies>
 
@@ -27,4 +39,7 @@
 			<version>4.0-alpha3</version>
 		</dependency>
 	</dependencies>
+	<artifactId>rest-client</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<groupId>com.belatrix.legal</groupId>
 </project>

@@ -8,9 +8,9 @@ import javax.mail.Message;
 import org.apache.commons.lang.StringUtils;
 import org.apache.log4j.Logger;
 
-import com.belatrix.legal.jiraintegrationservice.dto.GeneralIssueDTO;
 import com.belatrix.legal.mailfinder.config.EPropertyMail;
 import com.belatrix.legal.mailfinder.config.LoadMailConfig;
+import com.belatrix.legal.mailintegrator.dto.GeneralIssueDTO;
 
 public class MailApplicationService extends Thread {
 

@@ -5,7 +5,8 @@ import java.util.List;
 import javax.mail.Message;
 import javax.mail.MessagingException;
 
-import com.belatrix.legal.jiraintegrationservice.dto.GeneralIssueDTO;
+import com.belatrix.legal.mailintegrator.dto.GeneralIssueDTO;
+
 
 public interface ICheckEmailService {
 

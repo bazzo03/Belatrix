@@ -29,7 +29,7 @@ import com.belatrix.legal.apihandler.config.LoadConfig;
 import com.belatrix.legal.apihandler.constants.ETypeProcess;
 import com.belatrix.legal.apihandler.dto.AppProcessDTO;
 import com.belatrix.legal.apihandler.dto.OperationDTO;
-import com.belatrix.legal.restclient.client.ClientHttp;
+import com.belatrix.legal.restclient.client.ClientHttp;;
 
 public abstract class ProcessHandler {
 
