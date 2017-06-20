@@ -1,5 +1,8 @@
 package com.belatrix.legal.mailintegrator.factory;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.apache.log4j.Logger;
 
 import com.belatrix.legal.mailintegrator.config.EProperty;
@@ -39,9 +42,8 @@ public class MailFactory {
 	 * service.processIssueSalesForce(issue, EIssueProcess.CREATION); } }
 	 */
 
-	public static String processMail(MailDTO dto) {
+	public static void processMail(MailDTO dto) {
 
-		StringBuilder result = new StringBuilder();
 		
 		String keywords = LoadConfig.getInstance().getProperty(EProperty.PROPERTY_KEY_LIST.getNameProperty());
 
@@ -57,31 +59,33 @@ public class MailFactory {
 						EProperty.PROPERTY_KEY_FORM.getNameProperty().replaceAll("#key#", keyword) + keyType);
 				
 				String[] apps = app.split(",");
-				String[] tasks = new String[apps.length];
+				List<String> tasks = new ArrayList<>();
 
 				if (dto.getSubject().contains("LEG")) {
 					// edicion
 					int i = 0;
 					for (String application : apps) {
-						result.append(" Edicion - apps:" + application);
-						tasks[i] = LoadConfig.getInstance()
-								.getProperty(EProperty.OPERATIONS_APP_UPDATE.getNameProperty().replaceAll("#app#", application));
+						System.out.println(" Edicion - apps:" + application);
+						tasks.add(LoadConfig.getInstance()
+								.getProperty(EProperty.OPERATIONS_APP_UPDATE.getNameProperty().replaceAll("#app#", application)));
+						System.out.println(" Edicion - tasks: " + tasks.get(i));
 						i++;
 					}
 					
-					result.append("Edicion - keyword:" + keyword);
+					System.out.println("Edicion - keyword:" + keyword);
 					
 				} else {
 					// creacion
 					int i = 0;
 					for (String application : apps) {
-						result.append(" Creacion - apps:" + application);
-						tasks[i] = LoadConfig.getInstance()
-								.getProperty(EProperty.OPERATIONS_APP_CREATE.getNameProperty().replaceAll("#app#", application));
+						System.out.println(" Creacion - apps:" + application);
+						tasks.add(LoadConfig.getInstance()
+								.getProperty(EProperty.OPERATIONS_APP_CREATE.getNameProperty().replaceAll("#app#", application)));
+						System.out.println(" Edicion - tasks: " + tasks.get(i));
 						i++;
 					}
 					
-					result.append(" Creacion - keyword:" + keyword);
+					System.out.println(" Creacion - keyword:" + keyword);
 				}
 				
 				operateTasks(tasks);
@@ -92,10 +96,9 @@ public class MailFactory {
 			}
 		}
 		
-		return result.toString();
 	}
 
-	private static void operateTasks(String ...tasks) {
+	private static void operateTasks(List<String> tasks) {
 
 		for (String task : tasks) {
 			//TODO llamar a la fachada del handler

@@ -8,18 +8,18 @@ public class Main {
 	public static void main(String[] args) {
 //		dto.setSubject("NDA LEG something");
 		
-//		dto.setSubject("ATLASSIAN_JIRA LEG something");
+		dto.setSubject("ATLASSIAN_JIRA LEG something");
 		
 //		dto.setSubject("COM LEG something");
 		
-		dto.setSubject("something");
+//		dto.setSubject("something");
 		
 		dto.setDescription("TestMessage");
 		dto.setEmail("testEmail@email.com");
 		dto.setIssueId("324");
 		dto.setProject("N/A");
 		dto.setTransactionId("3329-3294-6574-8932");
-		System.out.println(MailFactory.processMail(dto));
+		MailFactory.processMail(dto);
 	}
 
 }

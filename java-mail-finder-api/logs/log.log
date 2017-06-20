@@ -8084,3 +8084,58 @@ javax.mail.AuthenticationFailedException: 535 5.7.8 Error: authentication failed
 2017-06-06 11:18:09 INFO  MailApplicationService:55 - 1 Issues were created and are ready to be sent via Email
 2017-06-06 11:18:09 INFO  MailApplicationService:74 - No Issue created 
 2017-06-06 11:18:12 INFO  SendEMailService:61 - Done
+2017-06-16 17:06:47 INFO  Main:23 - ...Starting application...
+2017-06-16 17:06:47 INFO  Main:30 - Timer started
+2017-06-16 17:07:07 INFO  EmailService:34 - Fetching Messages
+2017-06-16 17:07:09 INFO  MailApplicationService:48 - 1 Messages found in Inbox Folder
+2017-06-16 17:07:10 ERROR EmailService:94 - Error with transaction id: 
+2017-06-16 17:07:10 INFO  MailApplicationService:55 - 0 Issues created. There are no Issues to be sent
+2017-06-16 17:08:01 INFO  Main:23 - ...Starting application...
+2017-06-16 17:08:01 INFO  Main:30 - Timer started
+2017-06-16 17:08:21 INFO  EmailService:34 - Fetching Messages
+2017-06-16 17:08:23 INFO  MailApplicationService:55 - 0 Issues created. There are no Issues to be sent
+2017-06-16 17:09:21 INFO  EmailService:34 - Fetching Messages
+2017-06-16 17:09:21 INFO  MailApplicationService:55 - 0 Issues created. There are no Issues to be sent
+2017-06-16 17:10:21 INFO  EmailService:34 - Fetching Messages
+2017-06-16 17:11:02 INFO  MailApplicationService:55 - 0 Issues created. There are no Issues to be sent
+2017-06-16 17:11:21 INFO  EmailService:34 - Fetching Messages
+2017-06-16 17:11:25 INFO  MailApplicationService:55 - 0 Issues created. There are no Issues to be sent
+2017-06-16 17:12:21 INFO  EmailService:34 - Fetching Messages
+2017-06-16 17:12:32 INFO  MailApplicationService:48 - 1 Messages found in Inbox Folder
+2017-06-16 17:12:32 ERROR EmailService:94 - Error with transaction id: 
+2017-06-16 17:12:32 INFO  MailApplicationService:55 - 0 Issues created. There are no Issues to be sent
+2017-06-16 17:13:21 INFO  EmailService:34 - Fetching Messages
+2017-06-16 17:13:25 INFO  MailApplicationService:55 - 0 Issues created. There are no Issues to be sent
+2017-06-16 17:14:21 INFO  EmailService:34 - Fetching Messages
+2017-06-16 17:14:24 INFO  MailApplicationService:48 - 1 Messages found in Inbox Folder
+2017-06-16 17:15:02 ERROR EmailService:94 - Error with transaction id: 
+2017-06-16 17:15:21 INFO  EmailService:34 - Fetching Messages
+2017-06-16 17:15:50 INFO  MailApplicationService:55 - 0 Issues created. There are no Issues to be sent
+2017-06-16 17:15:52 INFO  MailApplicationService:55 - 0 Issues created. There are no Issues to be sent
+2017-06-16 17:16:21 INFO  EmailService:34 - Fetching Messages
+2017-06-16 17:16:31 INFO  MailApplicationService:55 - 0 Issues created. There are no Issues to be sent
+2017-06-16 17:17:21 INFO  EmailService:34 - Fetching Messages
+2017-06-16 17:17:36 INFO  MailApplicationService:48 - 1 Messages found in Inbox Folder
+2017-06-16 17:18:21 INFO  EmailService:34 - Fetching Messages
+2017-06-16 17:19:00 ERROR EmailService:94 - Error with transaction id: 
+2017-06-16 17:19:00 INFO  MailApplicationService:55 - 0 Issues created. There are no Issues to be sent
+2017-06-16 17:19:01 INFO  MailApplicationService:55 - 0 Issues created. There are no Issues to be sent
+2017-06-16 17:20:03 INFO  Main:23 - ...Starting application...
+2017-06-16 17:20:03 INFO  Main:30 - Timer started
+2017-06-16 17:20:23 INFO  EmailService:34 - Fetching Messages
+2017-06-16 17:20:36 INFO  MailApplicationService:48 - 1 Messages found in Inbox Folder
+2017-06-16 17:21:23 INFO  EmailService:34 - Fetching Messages
+2017-06-16 17:21:30 ERROR EmailService:94 - Error with transaction id: 
+2017-06-16 17:21:30 INFO  MailApplicationService:55 - 0 Issues created. There are no Issues to be sent
+2017-06-16 17:21:31 INFO  MailApplicationService:55 - 0 Issues created. There are no Issues to be sent
+2017-06-16 17:23:02 INFO  Main:23 - ...Starting application...
+2017-06-16 17:23:02 INFO  Main:30 - Timer started
+2017-06-16 17:23:22 INFO  EmailService:34 - Fetching Messages
+2017-06-16 17:24:22 INFO  EmailService:34 - Fetching Messages
+2017-06-16 17:25:22 INFO  EmailService:34 - Fetching Messages
+2017-06-20 09:05:51 INFO  Main:23 - ...Starting application...
+2017-06-20 09:05:51 INFO  Main:30 - Timer started
+2017-06-20 09:06:11 INFO  EmailService:34 - Fetching Messages
+2017-06-20 09:06:13 INFO  MailApplicationService:48 - 1 Messages found in Inbox Folder
+2017-06-20 09:06:13 ERROR EmailService:94 - Error with transaction id: 
+2017-06-20 09:06:13 INFO  MailApplicationService:55 - 0 Issues created. There are no Issues to be sent
