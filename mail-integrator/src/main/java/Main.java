@@ -8,7 +8,7 @@ public class Main {
 	public static void main(String[] args) {
 //		dto.setSubject("NDA LEG something");
 		
-		dto.setSubject("ATLASSIAN_JIRA LEG something");
+		dto.setSubject("NDA something");
 		
 //		dto.setSubject("COM LEG something");
 		
@@ -19,7 +19,12 @@ public class Main {
 		dto.setIssueId("324");
 		dto.setProject("N/A");
 		dto.setTransactionId("3329-3294-6574-8932");
-		MailFactory.processMail(dto);
+		try {
+			MailFactory.processMail(dto);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 }
