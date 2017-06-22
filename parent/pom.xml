@@ -13,6 +13,7 @@
 		<module>../mail-integrator</module>
 		<module>../rest-client</module>
 		<module>../api-handler</module>
+		<module>../mail-sender</module>
 	</modules>
 
 </project>
